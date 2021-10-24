@@ -128,6 +128,13 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Ignore IDE specific files
-.idea/
-.vscode/
+# User-specific stuff
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/

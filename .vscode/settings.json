@@ -6,6 +6,11 @@
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
     },
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
     "files.exclude": {
         "**/__pycache__": true
     }
