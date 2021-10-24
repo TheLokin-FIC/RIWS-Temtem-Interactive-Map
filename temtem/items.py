@@ -1,11 +1,14 @@
 from scrapy import Field, Item
 
 
-class Locations(Item):
-    routes = Field()
-    islands = Field()
-    rarities = Field()
-    levels = Field()
+class TVField(Field):
+    HP = Field()
+    STA = Field()
+    SPD = Field()
+    ATK = Field()
+    DEF = Field()
+    SPATK = Field()
+    SPDEF = Field()
 
 
 class TemtemItem(Item):
@@ -13,4 +16,21 @@ class TemtemItem(Item):
     name = Field()
     types = Field()
     portrait = Field()
-    locations = Field()
+    genderRatio = Field()
+    catchRate = Field()
+    TVs = TVField()
+
+
+class TypeItem(Item):
+    name = Field()
+    icon = Field()
+
+
+class LocationItem(Item):
+    island = Field()
+    route = Field()
+    area = Field()
+    temtem = Field()
+    frequency = Field()
+    minLevel = Field()
+    maxLevel = Field()
