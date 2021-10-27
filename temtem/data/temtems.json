@@ -31,9 +31,9 @@
     {
         "TVs": {
             "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 1,
+            "DEF": 2,
+            "HP": 2,
+            "SPATK": 0,
             "SPD": 0,
             "SPDEF": 0,
             "STA": 0
@@ -41,91 +41,36 @@
         "genderRatio": 50,
         "locations": [
             {
-                "area": "Area 2",
-                "freeTem": 74,
-                "frequency": 80,
+                "area": "Area 1",
+                "freeTem": 88,
+                "frequency": 95,
                 "island": "Tucma",
-                "maxLevel": 36,
-                "minLevel": 25,
-                "route": "Gardens of Aztlan"
-            },
-            {
-                "area": "Area 4",
-                "freeTem": 90,
-                "frequency": 85,
-                "island": "Tucma",
-                "maxLevel": 36,
-                "minLevel": 32,
-                "route": "Mines of Mictlan"
-            },
-            {
-                "area": "Area 5",
-                "freeTem": 85,
-                "frequency": 70,
-                "island": "Tucma",
-                "maxLevel": 32,
-                "minLevel": 30,
-                "route": "Xolot Reservoir"
+                "maxLevel": 55,
+                "minLevel": 50,
+                "route": "Sons of Crystal"
             },
             {
                 "area": "Area 6",
-                "freeTem": 83,
-                "frequency": 50,
+                "freeTem": 89,
+                "frequency": 95,
                 "island": "Tucma",
-                "maxLevel": 33,
-                "minLevel": 29,
-                "route": "Xolot Reservoir"
-            },
-            {
-                "area": "Area 7",
-                "freeTem": 85,
-                "frequency": 50,
-                "island": "Tucma",
-                "maxLevel": 33,
-                "minLevel": 30,
-                "route": "Xolot Reservoir"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 40,
-                "frequency": 70,
-                "island": "Deniz",
-                "maxLevel": 10,
-                "minLevel": 9,
-                "route": "Gifted Bridges"
-            },
-            {
-                "area": "Area 5",
-                "freeTem": 36,
-                "frequency": 70,
-                "island": "Deniz",
-                "maxLevel": 10,
-                "minLevel": 7,
-                "route": "Gifted Bridges"
-            },
-            {
-                "area": "Area 7",
-                "freeTem": 74,
-                "frequency": 30,
-                "island": "Tucma",
-                "maxLevel": 29,
-                "minLevel": 25,
+                "maxLevel": 56,
+                "minLevel": 51,
                 "route": "Corrupted Badlands"
             }
         ],
-        "name": "Platypet",
-        "number": 7,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/03/Platypet.png/revision/latest",
+        "name": "Zenoreth",
+        "number": 41,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/22/Zenoreth.png/revision/latest",
         "types": [
-            "Water type",
-            "Toxic type"
+            "Crystal type"
         ]
     },
     {
         "TVs": {
             "ATK": 0,
-            "DEF": 0,
-            "HP": 1,
+            "DEF": 3,
+            "HP": 0,
             "SPATK": 0,
             "SPD": 0,
             "SPDEF": 0,
@@ -134,399 +79,20 @@
         "genderRatio": 50,
         "locations": [
             {
-                "area": "Area 2",
-                "freeTem": 26,
-                "frequency": 90,
-                "island": "Deniz",
-                "maxLevel": 6,
-                "minLevel": 4,
-                "route": "Thalassian Cliffs"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 23,
-                "frequency": 35,
-                "island": "Deniz",
-                "maxLevel": 2,
-                "minLevel": 2,
-                "route": "Prasine Coast"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 23,
-                "frequency": 70,
-                "island": "Deniz",
-                "maxLevel": 3,
-                "minLevel": 2,
-                "route": "Prasine Coast"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 30,
-                "frequency": 95,
-                "island": "Deniz",
-                "maxLevel": 8,
-                "minLevel": 7,
-                "route": "Gifted Bridges"
-            },
-            {
-                "area": "Area 5",
-                "freeTem": 25,
-                "frequency": 20,
-                "island": "Deniz",
-                "maxLevel": 5,
-                "minLevel": 3,
-                "route": "Prasine Coast"
-            },
-            {
-                "area": "Area 6",
-                "freeTem": 26,
-                "frequency": 90,
-                "island": "Deniz",
-                "maxLevel": 7,
-                "minLevel": 4,
-                "route": "Prasine Coast"
-            },
-            {
-                "area": "Area 8",
-                "freeTem": 26,
-                "frequency": 50,
-                "island": "Deniz",
-                "maxLevel": 6,
-                "minLevel": 4,
-                "route": "Prasine Coast"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 30,
-                "frequency": 30,
-                "island": "Deniz",
-                "maxLevel": 10,
-                "minLevel": 7,
-                "route": "Gifted Bridges"
-            }
-        ],
-        "name": "Paharo",
-        "number": 16,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1c/Paharo.png/revision/latest",
-        "types": [
-            "Wind type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 1,
-            "SPATK": 0,
-            "SPD": 1,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 50,
-        "locations": [
-            {
-                "area": "Area 5",
-                "freeTem": 120,
-                "frequency": 15,
-                "island": "Cipanku",
-                "maxLevel": 52,
-                "minLevel": 46,
-                "route": "Iwaba"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 107,
-                "frequency": 70,
-                "island": "Kisiwa",
-                "maxLevel": 43,
-                "minLevel": 40,
-                "route": "Kwea Uplands"
-            },
-            {
-                "area": "Area 5",
-                "freeTem": 128,
-                "frequency": 10,
-                "island": "Cipanku",
-                "maxLevel": 60,
-                "minLevel": 50,
-                "route": "Pillars of Highabove"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 68,
-                "frequency": 40,
-                "island": "Kisiwa",
-                "maxLevel": 32,
-                "minLevel": 22,
-                "route": "Jino Gap"
-            },
-            {
-                "area": "Area 6",
-                "freeTem": 128,
-                "frequency": 10,
-                "island": "Cipanku",
-                "maxLevel": 60,
-                "minLevel": 50,
-                "route": "Pillars of Highabove"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 64,
-                "frequency": 20,
-                "island": "Omninesia",
-                "maxLevel": 22,
-                "minLevel": 20,
-                "route": "The Glassyway"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 55,
-                "frequency": 20,
-                "island": "Omninesia",
-                "maxLevel": 18,
-                "minLevel": 16,
-                "route": "The Canopath"
-            },
-            {
-                "area": "Area 4",
-                "freeTem": 59,
-                "frequency": 20,
-                "island": "Omninesia",
-                "maxLevel": 21,
-                "minLevel": 18,
-                "route": "The Flywalk"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 100,
-                "frequency": 50,
-                "island": "Deniz",
-                "maxLevel": 40,
-                "minLevel": 37,
-                "route": "Saipark"
-            },
-            {
-                "area": "Area 4",
-                "freeTem": 107,
-                "frequency": 15,
-                "island": "Deniz",
-                "maxLevel": 45,
-                "minLevel": 40,
-                "route": "Prasine Coast"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 38,
+                "area": "Area 3",
+                "freeTem": 99,
                 "frequency": 5,
-                "island": "Deniz",
-                "maxLevel": 10,
-                "minLevel": 8,
-                "route": "Gifted Bridges"
-            },
-            {
-                "area": "Area 11",
-                "freeTem": 55,
-                "frequency": 20,
-                "island": "Deniz",
-                "maxLevel": 17,
-                "minLevel": 16,
-                "route": "Thalassian Cliffs"
-            },
-            {
-                "area": "Area 4",
-                "freeTem": 85,
-                "frequency": 95,
-                "island": "Deniz",
-                "maxLevel": 40,
-                "minLevel": 30,
-                "route": "Gifted Bridges"
+                "island": "Tucma",
+                "maxLevel": 38,
+                "minLevel": 32,
+                "route": "Mines of Mictlan"
             }
         ],
-        "name": "Paharac",
-        "number": 17,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2c/Paharac.png/revision/latest",
+        "name": "Azuroc",
+        "number": 40,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9a/Azuroc.png/revision/latest",
         "types": [
-            "Wind type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 1,
-            "SPDEF": 0,
-            "STA": 1
-        },
-        "genderRatio": 50,
-        "locations": [
-            {
-                "area": "Area 1",
-                "freeTem": 49,
-                "frequency": 20,
-                "island": "Omninesia",
-                "maxLevel": 20,
-                "minLevel": 15,
-                "route": "The Hangroad"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 57,
-                "frequency": 80,
-                "island": "Omninesia",
-                "maxLevel": 22,
-                "minLevel": 19,
-                "route": "The Glassyway"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 51,
-                "frequency": 20,
-                "island": "Omninesia",
-                "maxLevel": 18,
-                "minLevel": 16,
-                "route": "The Canopath"
-            },
-            {
-                "area": "Area 4",
-                "freeTem": 55,
-                "frequency": 30,
-                "island": "Omninesia",
-                "maxLevel": 20,
-                "minLevel": 18,
-                "route": "The Flywalk"
-            },
-            {
-                "area": "Area 5",
-                "freeTem": 63,
-                "frequency": 50,
-                "island": "Omninesia",
-                "maxLevel": 25,
-                "minLevel": 22,
-                "route": "The Flywalk"
-            },
-            {
-                "area": "Area 4",
-                "freeTem": 51,
-                "frequency": 20,
-                "island": "Omninesia",
-                "maxLevel": 19,
-                "minLevel": 16,
-                "route": "The Canopath"
-            }
-        ],
-        "name": "Loali",
-        "number": 11,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0c/Loali.png/revision/latest",
-        "types": [
-            "Nature type",
-            "Wind type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 1,
-            "SPD": 1,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 50,
-        "locations": [
-            {
-                "area": "Area 5",
-                "freeTem": 123,
-                "frequency": 15,
-                "island": "Deniz",
-                "maxLevel": 45,
-                "minLevel": 40,
-                "route": "Sillaro River"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 116,
-                "frequency": 50,
-                "island": "Deniz",
-                "maxLevel": 40,
-                "minLevel": 37,
-                "route": "Saipark"
-            },
-            {
-                "area": "Area 4",
-                "freeTem": 116,
-                "frequency": 50,
-                "island": "Deniz",
-                "maxLevel": 40,
-                "minLevel": 37,
-                "route": "Saipark"
-            }
-        ],
-        "name": "Platox",
-        "number": 8,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7b/Platox.png/revision/latest",
-        "types": [
-            "Water type",
-            "Toxic type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 1
-        },
-        "genderRatio": 50,
-        "locations": [
-            {
-                "area": "Area 3",
-                "freeTem": 27,
-                "frequency": 30,
-                "island": "Deniz",
-                "maxLevel": 7,
-                "minLevel": 5,
-                "route": "Thalassian Cliffs"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 23,
-                "frequency": 40,
-                "island": "Deniz",
-                "maxLevel": 4,
-                "minLevel": 2,
-                "route": "Prasine Coast"
-            },
-            {
-                "area": "Area 9",
-                "freeTem": 29,
-                "frequency": 20,
-                "island": "Deniz",
-                "maxLevel": 8,
-                "minLevel": 6,
-                "route": "Thalassian Cliffs"
-            },
-            {
-                "area": "Area 5",
-                "freeTem": 25,
-                "frequency": 40,
-                "island": "Deniz",
-                "maxLevel": 5,
-                "minLevel": 3,
-                "route": "Prasine Coast"
-            }
-        ],
-        "name": "Swali",
-        "number": 10,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8a/Swali.png/revision/latest",
-        "types": [
-            "Nature type"
+            "Crystal type"
         ]
     },
     {
@@ -539,176 +105,14 @@
             "SPDEF": 0,
             "STA": 2
         },
-        "genderRatio": 60,
-        "locations": [
-            {
-                "area": "Area 2",
-                "freeTem": 89,
-                "frequency": 20,
-                "island": "Kisiwa",
-                "maxLevel": 44,
-                "minLevel": 42,
-                "route": "Kilima Peaks"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 45,
-                "frequency": 30,
-                "island": "Deniz",
-                "maxLevel": 17,
-                "minLevel": 15,
-                "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 4",
-                "freeTem": 40,
-                "frequency": 20,
-                "island": "Deniz",
-                "maxLevel": 13,
-                "minLevel": 12,
-                "route": "Windward Fort"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 43,
-                "frequency": 30,
-                "island": "Deniz",
-                "maxLevel": 18,
-                "minLevel": 14,
-                "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 4",
-                "freeTem": 43,
-                "frequency": 30,
-                "island": "Deniz",
-                "maxLevel": 17,
-                "minLevel": 14,
-                "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 8",
-                "freeTem": 43,
-                "frequency": 20,
-                "island": "Deniz",
-                "maxLevel": 17,
-                "minLevel": 14,
-                "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 9",
-                "freeTem": 45,
-                "frequency": 20,
-                "island": "Deniz",
-                "maxLevel": 18,
-                "minLevel": 15,
-                "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 27,
-                "frequency": 70,
-                "island": "Deniz",
-                "maxLevel": 6,
-                "minLevel": 4,
-                "route": "Thalassian Cliffs"
-            },
-            {
-                "area": "Area 4",
-                "freeTem": 73,
-                "frequency": 80,
-                "island": "Kisiwa",
-                "maxLevel": 37,
-                "minLevel": 32,
-                "route": "Jino Gap"
-            },
-            {
-                "area": "Area 10",
-                "freeTem": 43,
-                "frequency": 20,
-                "island": "Deniz",
-                "maxLevel": 17,
-                "minLevel": 14,
-                "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 11",
-                "freeTem": 45,
-                "frequency": 30,
-                "island": "Deniz",
-                "maxLevel": 17,
-                "minLevel": 15,
-                "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 12",
-                "freeTem": 52,
-                "frequency": 30,
-                "island": "Deniz",
-                "maxLevel": 20,
-                "minLevel": 19,
-                "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 81,
-                "frequency": 50,
-                "island": "Deniz",
-                "maxLevel": 40,
-                "minLevel": 37,
-                "route": "Saipark"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 24,
-                "frequency": 30,
-                "island": "Deniz",
-                "maxLevel": 2,
-                "minLevel": 2,
-                "route": "Prasine Coast"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 24,
-                "frequency": 30,
-                "island": "Deniz",
-                "maxLevel": 3,
-                "minLevel": 2,
-                "route": "Prasine Coast"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 34,
-                "frequency": 40,
-                "island": "Deniz",
-                "maxLevel": 10,
-                "minLevel": 8,
-                "route": "Gifted Bridges"
-            },
-            {
-                "area": "Area 7",
-                "freeTem": 25,
-                "frequency": 50,
-                "island": "Deniz",
-                "maxLevel": 5,
-                "minLevel": 3,
-                "route": "Prasine Coast"
-            },
-            {
-                "area": "Area 8",
-                "freeTem": 27,
-                "frequency": 50,
-                "island": "Deniz",
-                "maxLevel": 6,
-                "minLevel": 4,
-                "route": "Prasine Coast"
-            }
-        ],
-        "name": "Tateru",
-        "number": 12,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/55/Tateru.png/revision/latest",
+        "genderRatio": 50,
+        "locations": [],
+        "name": "0b10",
+        "number": 47,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e9/0b10.png/revision/latest",
         "types": [
-            "Neutral type"
+            "Digital type",
+            "Electric type"
         ]
     },
     {
@@ -716,38 +120,206 @@
             "ATK": 0,
             "DEF": 0,
             "HP": 0,
-            "SPATK": 2,
-            "SPD": 2,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 1
+        },
+        "genderRatio": 50,
+        "locations": [
+            {
+                "area": "Area 5",
+                "freeTem": 140,
+                "frequency": 70,
+                "island": "Cipanku",
+                "maxLevel": 50,
+                "minLevel": 40,
+                "route": "Pillars of Highabove"
+            },
+            {
+                "area": "Area 6",
+                "freeTem": 140,
+                "frequency": 70,
+                "island": "Cipanku",
+                "maxLevel": 50,
+                "minLevel": 40,
+                "route": "Pillars of Highabove"
+            }
+        ],
+        "name": "0b1",
+        "number": 46,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e5/0b1.png/revision/latest",
+        "types": [
+            "Digital type",
+            "Electric type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 4
+        },
+        "genderRatio": 50,
+        "locations": [
+            {
+                "area": "Area 1",
+                "freeTem": 161,
+                "frequency": 20,
+                "island": "Cipanku",
+                "maxLevel": 53,
+                "minLevel": 47,
+                "route": "Rice Fields"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 161,
+                "frequency": 20,
+                "island": "Cipanku",
+                "maxLevel": 54,
+                "minLevel": 47,
+                "route": "Rice Fields"
+            },
+            {
+                "area": "Area 4",
+                "freeTem": 161,
+                "frequency": 20,
+                "island": "Cipanku",
+                "maxLevel": 53,
+                "minLevel": 47,
+                "route": "Rice Fields"
+            },
+            {
+                "area": "Area 5",
+                "freeTem": 161,
+                "frequency": 20,
+                "island": "Cipanku",
+                "maxLevel": 55,
+                "minLevel": 47,
+                "route": "Rice Fields"
+            },
+            {
+                "area": "Area 5",
+                "freeTem": 116,
+                "frequency": 60,
+                "island": "Kisiwa",
+                "maxLevel": 39,
+                "minLevel": 32,
+                "route": "Mawingu Islets"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 128,
+                "frequency": 20,
+                "island": "Tucma",
+                "maxLevel": 40,
+                "minLevel": 36,
+                "route": "Kakama Cenote"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 74,
+                "frequency": 35,
+                "island": "Omninesia",
+                "maxLevel": 21,
+                "minLevel": 18,
+                "route": "The Hangroad"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 74,
+                "frequency": 30,
+                "island": "Omninesia",
+                "maxLevel": 20,
+                "minLevel": 18,
+                "route": "The Flywalk"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 77,
+                "frequency": 35,
+                "island": "Omninesia",
+                "maxLevel": 21,
+                "minLevel": 19,
+                "route": "The Flywalk"
+            }
+        ],
+        "name": "Babawa",
+        "number": 45,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b9/Babawa.png/revision/latest",
+        "types": [
+            "Nature type",
+            "Water type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 2
+        },
+        "genderRatio": 50,
+        "locations": [],
+        "name": "Bigu",
+        "number": 44,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/09/Bigu.png/revision/latest",
+        "types": [
+            "Nature type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 2,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
             "SPDEF": 0,
             "STA": 0
         },
         "genderRatio": 50,
         "locations": [
             {
-                "area": "Area 1",
-                "freeTem": 115,
-                "frequency": 95,
-                "island": "Deniz",
-                "maxLevel": 70,
-                "minLevel": 70,
-                "route": "Dabmis' Rest"
+                "area": "Area 2",
+                "freeTem": 74,
+                "frequency": 85,
+                "island": "Tucma",
+                "maxLevel": 34,
+                "minLevel": 30,
+                "route": "Mines of Mictlan"
             },
             {
-                "area": "Area 14",
-                "freeTem": 115,
-                "frequency": 95,
-                "island": "Deniz",
-                "maxLevel": 70,
-                "minLevel": 70,
-                "route": "Aguamarina Caves"
+                "area": "Area 3",
+                "freeTem": 76,
+                "frequency": 85,
+                "island": "Tucma",
+                "maxLevel": 35,
+                "minLevel": 31,
+                "route": "Mines of Mictlan"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 56,
+                "frequency": 50,
+                "island": "Tucma",
+                "maxLevel": 30,
+                "minLevel": 20,
+                "route": "Gardens of Aztlan"
             }
         ],
-        "name": "Platimous",
-        "number": 9,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7f/Platimous.png/revision/latest",
+        "name": "Lapinite",
+        "number": 39,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/69/Lapinite.png/revision/latest",
         "types": [
-            "Water type",
-            "Toxic type"
+            "Crystal type"
         ]
     },
     {
@@ -755,54 +327,6 @@
             "ATK": 2,
             "DEF": 0,
             "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 5,
-        "locations": [],
-        "name": "Molgu",
-        "number": 6,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5f/Molgu.png/revision/latest",
-        "types": [
-            "Digital type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 1,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 5,
-        "locations": [
-            {
-                "area": "Area 2",
-                "freeTem": 111,
-                "frequency": 60,
-                "island": "Cipanku",
-                "maxLevel": 50,
-                "minLevel": 42,
-                "route": "Rice Fields"
-            }
-        ],
-        "name": "Halzhi",
-        "number": 5,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/88/Halzhi.png/revision/latest",
-        "types": [
-            "Digital type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
             "SPATK": 2,
             "SPD": 0,
             "SPDEF": 0,
@@ -811,20 +335,172 @@
         "genderRatio": 50,
         "locations": [
             {
-                "area": "Area 7",
-                "freeTem": 172,
-                "frequency": 50,
-                "island": "Cipanku",
-                "maxLevel": 55,
-                "minLevel": 45,
-                "route": "Pillars of Highabove"
+                "area": "Area 3",
+                "freeTem": 123,
+                "frequency": 10,
+                "island": "Tucma",
+                "maxLevel": 40,
+                "minLevel": 36,
+                "route": "Mines of Mictlan"
             }
         ],
-        "name": "Chromeon",
-        "number": 4,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2d/Chromeon.png/revision/latest",
+        "name": "Valash",
+        "number": 50,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/80/Valash.png/revision/latest",
         "types": [
-            "Digital type"
+            "Neutral type",
+            "Crystal type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 1,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 50,
+        "locations": [
+            {
+                "area": "Area 2",
+                "freeTem": 43,
+                "frequency": 75,
+                "island": "Omninesia",
+                "maxLevel": 18,
+                "minLevel": 16,
+                "route": "The Canopath"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 32,
+                "frequency": 30,
+                "island": "Deniz",
+                "maxLevel": 10,
+                "minLevel": 8,
+                "route": "Gifted Bridges"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 23,
+                "frequency": 40,
+                "island": "Deniz",
+                "maxLevel": 4,
+                "minLevel": 2,
+                "route": "Prasine Coast"
+            },
+            {
+                "area": "Area 5",
+                "freeTem": 30,
+                "frequency": 30,
+                "island": "Deniz",
+                "maxLevel": 11,
+                "minLevel": 7,
+                "route": "Gifted Bridges"
+            },
+            {
+                "area": "Area 5",
+                "freeTem": 25,
+                "frequency": 40,
+                "island": "Deniz",
+                "maxLevel": 5,
+                "minLevel": 3,
+                "route": "Prasine Coast"
+            },
+            {
+                "area": "Area 5",
+                "freeTem": 29,
+                "frequency": 95,
+                "island": "Deniz",
+                "maxLevel": 8,
+                "minLevel": 6,
+                "route": "Thalassian Cliffs"
+            },
+            {
+                "area": "Area 4",
+                "freeTem": 46,
+                "frequency": 50,
+                "island": "Omninesia",
+                "maxLevel": 20,
+                "minLevel": 18,
+                "route": "The Flywalk"
+            }
+        ],
+        "name": "Kaku",
+        "number": 48,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4e/Kaku.png/revision/latest",
+        "types": [
+            "Nature type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 2,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 50,
+        "locations": [
+            {
+                "area": "Area 3",
+                "freeTem": 88,
+                "frequency": 40,
+                "island": "Tucma",
+                "maxLevel": 38,
+                "minLevel": 35,
+                "route": "Kupeleleza"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 57,
+                "frequency": 25,
+                "island": "Omninesia",
+                "maxLevel": 22,
+                "minLevel": 19,
+                "route": "The Glassyway"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 51,
+                "frequency": 5,
+                "island": "Omninesia",
+                "maxLevel": 18,
+                "minLevel": 16,
+                "route": "The Canopath"
+            }
+        ],
+        "name": "Saku",
+        "number": 49,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2a/Saku.png/revision/latest",
+        "types": [
+            "Nature type",
+            "Wind type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 3,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 50,
+        "locations": [],
+        "name": "Nagaise",
+        "number": 34,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/82/Nagaise.png/revision/latest",
+        "types": [
+            "Mental type",
+            "Water type"
         ]
     },
     {
@@ -915,21 +591,21 @@
             },
             {
                 "area": "Area 3",
-                "freeTem": 46,
-                "frequency": 65,
-                "island": "Omninesia",
-                "maxLevel": 19,
-                "minLevel": 14,
-                "route": "The Hangroad"
-            },
-            {
-                "area": "Area 3",
                 "freeTem": 56,
                 "frequency": 30,
                 "island": "Omninesia",
                 "maxLevel": 22,
                 "minLevel": 20,
                 "route": "The Glassyway"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 46,
+                "frequency": 65,
+                "island": "Omninesia",
+                "maxLevel": 19,
+                "minLevel": 14,
+                "route": "The Hangroad"
             }
         ],
         "name": "Banapi",
@@ -941,125 +617,79 @@
     },
     {
         "TVs": {
-            "ATK": 1,
+            "ATK": 3,
             "DEF": 0,
             "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 2
-        },
-        "genderRatio": 25,
-        "locations": [],
-        "name": "Zaobian",
-        "number": 3,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/54/Zaobian.png/revision/latest",
-        "types": [
-            "Digital type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 1
-        },
-        "genderRatio": 25,
-        "locations": [
-            {
-                "area": "Area 1",
-                "freeTem": 95,
-                "frequency": 50,
-                "island": "Cipanku",
-                "maxLevel": 50,
-                "minLevel": 40,
-                "route": "Pillars of Highabove"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 91,
-                "frequency": 50,
-                "island": "Cipanku",
-                "maxLevel": 48,
-                "minLevel": 38,
-                "route": "Pillars of Highabove"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 95,
-                "frequency": 60,
-                "island": "Cipanku",
-                "maxLevel": 50,
-                "minLevel": 40,
-                "route": "Rice Fields"
-            }
-        ],
-        "name": "Oree",
-        "number": 2,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/99/Oree.png/revision/latest",
-        "types": [
-            "Digital type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 1,
-            "HP": 1,
             "SPATK": 0,
             "SPD": 0,
             "SPDEF": 0,
             "STA": 0
         },
-        "genderRatio": 60,
+        "genderRatio": 50,
+        "locations": [],
+        "name": "Nidrasil",
+        "number": 36,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5b/Nidrasil.png/revision/latest",
+        "types": [
+            "Nature type",
+            "Toxic type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 2,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 50,
         "locations": [
             {
-                "area": "Area 1",
-                "freeTem": 110,
-                "frequency": 25,
-                "island": "Omninesia",
-                "maxLevel": 38,
-                "minLevel": 33,
-                "route": "Anak Caldera"
-            },
-            {
-                "area": "Area 5",
-                "freeTem": 131,
-                "frequency": 25,
-                "island": "Omninesia",
-                "maxLevel": 51,
-                "minLevel": 41,
-                "route": "Anak Volcano"
-            },
-            {
-                "area": "Area 6",
-                "freeTem": 128,
-                "frequency": 35,
-                "island": "Omninesia",
-                "maxLevel": 50,
-                "minLevel": 40,
-                "route": "Anak Volcano"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 110,
-                "frequency": 25,
+                "area": "Area 2",
+                "freeTem": 83,
+                "frequency": 50,
                 "island": "Tucma",
-                "maxLevel": 35,
-                "minLevel": 33,
-                "route": "Mines of Mictlan"
+                "maxLevel": 30,
+                "minLevel": 28,
+                "route": "Xolot Reservoir"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 77,
+                "frequency": 45,
+                "island": "Tucma",
+                "maxLevel": 27,
+                "minLevel": 25,
+                "route": "Corrupted Badlands"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 77,
+                "frequency": 20,
+                "island": "Tucma",
+                "maxLevel": 28,
+                "minLevel": 25,
+                "route": "Corrupted Badlands"
+            },
+            {
+                "area": "Area 4",
+                "freeTem": 77,
+                "frequency": 75,
+                "island": "Tucma",
+                "maxLevel": 28,
+                "minLevel": 25,
+                "route": "Corrupted Badlands"
             }
         ],
-        "name": "Vulor",
-        "number": 139,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/61/Vulor.png/revision/latest",
+        "name": "Orphyll",
+        "number": 35,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b3/Orphyll.png/revision/latest",
         "types": [
-            "Fire type",
-            "Earth type"
+            "Nature type",
+            "Toxic type"
         ]
     },
     {
@@ -1354,13 +984,22 @@
                 "route": "Thalassian Cliffs"
             },
             {
-                "area": "Area 2",
-                "freeTem": 96,
-                "frequency": 50,
+                "area": "Area 6",
+                "freeTem": 36,
+                "frequency": 85,
                 "island": "Deniz",
-                "maxLevel": 41,
-                "minLevel": 38,
-                "route": "Saipark"
+                "maxLevel": 10,
+                "minLevel": 8,
+                "route": "Gifted Bridges"
+            },
+            {
+                "area": "Area 6",
+                "freeTem": 28,
+                "frequency": 5,
+                "island": "Deniz",
+                "maxLevel": 6,
+                "minLevel": 4,
+                "route": "Prasine Coast"
             },
             {
                 "area": "Area 8",
@@ -1381,22 +1020,13 @@
                 "route": "Thalassian Cliffs"
             },
             {
-                "area": "Area 6",
-                "freeTem": 28,
-                "frequency": 5,
+                "area": "Area 2",
+                "freeTem": 96,
+                "frequency": 50,
                 "island": "Deniz",
-                "maxLevel": 6,
-                "minLevel": 4,
-                "route": "Prasine Coast"
-            },
-            {
-                "area": "Area 6",
-                "freeTem": 36,
-                "frequency": 85,
-                "island": "Deniz",
-                "maxLevel": 10,
-                "minLevel": 8,
-                "route": "Gifted Bridges"
+                "maxLevel": 41,
+                "minLevel": 38,
+                "route": "Saipark"
             }
         ],
         "name": "Pigepic",
@@ -1421,6 +1051,63 @@
         "name": "Vulcrane",
         "number": 140,
         "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b3/Vulcrane.png/revision/latest",
+        "types": [
+            "Fire type",
+            "Earth type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 1,
+            "HP": 1,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 60,
+        "locations": [
+            {
+                "area": "Area 1",
+                "freeTem": 110,
+                "frequency": 25,
+                "island": "Tucma",
+                "maxLevel": 35,
+                "minLevel": 33,
+                "route": "Mines of Mictlan"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 110,
+                "frequency": 25,
+                "island": "Omninesia",
+                "maxLevel": 38,
+                "minLevel": 33,
+                "route": "Anak Caldera"
+            },
+            {
+                "area": "Area 5",
+                "freeTem": 131,
+                "frequency": 25,
+                "island": "Omninesia",
+                "maxLevel": 51,
+                "minLevel": 41,
+                "route": "Anak Volcano"
+            },
+            {
+                "area": "Area 6",
+                "freeTem": 128,
+                "frequency": 35,
+                "island": "Omninesia",
+                "maxLevel": 50,
+                "minLevel": 40,
+                "route": "Anak Volcano"
+            }
+        ],
+        "name": "Vulor",
+        "number": 139,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/61/Vulor.png/revision/latest",
         "types": [
             "Fire type",
             "Earth type"
@@ -1602,10 +1289,10 @@
                 "area": "Area 1",
                 "freeTem": 34,
                 "frequency": 5,
-                "island": "Deniz",
+                "island": "Tucma",
                 "maxLevel": 10,
                 "minLevel": 5,
-                "route": "Dabmis' Rest"
+                "route": "Sons of Crystal"
             },
             {
                 "area": "Area 7",
@@ -1615,15 +1302,6 @@
                 "maxLevel": 10,
                 "minLevel": 5,
                 "route": "Anak Volcano"
-            },
-            {
-                "area": "Area 14",
-                "freeTem": 34,
-                "frequency": 5,
-                "island": "Deniz",
-                "maxLevel": 10,
-                "minLevel": 5,
-                "route": "Aguamarina Caves"
             },
             {
                 "area": "Area 6",
@@ -1665,10 +1343,19 @@
                 "area": "Area 1",
                 "freeTem": 34,
                 "frequency": 5,
-                "island": "Tucma",
+                "island": "Deniz",
                 "maxLevel": 10,
                 "minLevel": 5,
-                "route": "Sons of Crystal"
+                "route": "Dabmis' Rest"
+            },
+            {
+                "area": "Area 14",
+                "freeTem": 34,
+                "frequency": 5,
+                "island": "Deniz",
+                "maxLevel": 10,
+                "minLevel": 5,
+                "route": "Aguamarina Caves"
             },
             {
                 "area": "Area 5",
@@ -1730,15 +1417,6 @@
         "genderRatio": 50,
         "locations": [
             {
-                "area": "Area 2",
-                "freeTem": 85,
-                "frequency": 10,
-                "island": "Tucma",
-                "maxLevel": 35,
-                "minLevel": 30,
-                "route": "Gardens of Aztlan"
-            },
-            {
                 "area": "Area 6",
                 "freeTem": 85,
                 "frequency": 10,
@@ -1755,6 +1433,15 @@
                 "maxLevel": 34,
                 "minLevel": 30,
                 "route": "Xolot Reservoir"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 85,
+                "frequency": 10,
+                "island": "Tucma",
+                "maxLevel": 35,
+                "minLevel": 30,
+                "route": "Gardens of Aztlan"
             }
         ],
         "name": "Kalabyss",
@@ -1778,13 +1465,40 @@
         "genderRatio": 50,
         "locations": [
             {
-                "area": "Area 2",
-                "freeTem": 46,
+                "area": "Area 6",
+                "freeTem": 76,
                 "frequency": 40,
+                "island": "Tucma",
+                "maxLevel": 33,
+                "minLevel": 29,
+                "route": "Xolot Reservoir"
+            },
+            {
+                "area": "Area 7",
+                "freeTem": 74,
+                "frequency": 70,
+                "island": "Tucma",
+                "maxLevel": 30,
+                "minLevel": 28,
+                "route": "Corrupted Badlands"
+            },
+            {
+                "area": "Area 12",
+                "freeTem": 55,
+                "frequency": 50,
                 "island": "Deniz",
-                "maxLevel": 15,
-                "minLevel": 13,
-                "route": "Sillaro River"
+                "maxLevel": 20,
+                "minLevel": 18,
+                "route": "Thalassian Cliffs"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 49,
+                "frequency": 65,
+                "island": "Deniz",
+                "maxLevel": 18,
+                "minLevel": 15,
+                "route": "Arissola Dojo"
             },
             {
                 "area": "Area 2",
@@ -1796,6 +1510,15 @@
                 "route": "Aguamarina Caves"
             },
             {
+                "area": "Area 2",
+                "freeTem": 46,
+                "frequency": 40,
+                "island": "Deniz",
+                "maxLevel": 15,
+                "minLevel": 13,
+                "route": "Sillaro River"
+            },
+            {
                 "area": "Area 5",
                 "freeTem": 49,
                 "frequency": 65,
@@ -1803,15 +1526,6 @@
                 "maxLevel": 18,
                 "minLevel": 15,
                 "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 8",
-                "freeTem": 46,
-                "frequency": 40,
-                "island": "Deniz",
-                "maxLevel": 15,
-                "minLevel": 13,
-                "route": "Sillaro River"
             },
             {
                 "area": "Area 6",
@@ -1832,6 +1546,15 @@
                 "route": "Aguamarina Caves"
             },
             {
+                "area": "Area 8",
+                "freeTem": 46,
+                "frequency": 40,
+                "island": "Deniz",
+                "maxLevel": 15,
+                "minLevel": 13,
+                "route": "Sillaro River"
+            },
+            {
                 "area": "Area 13",
                 "freeTem": 57,
                 "frequency": 95,
@@ -1839,42 +1562,6 @@
                 "maxLevel": 22,
                 "minLevel": 19,
                 "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 6",
-                "freeTem": 76,
-                "frequency": 40,
-                "island": "Tucma",
-                "maxLevel": 33,
-                "minLevel": 29,
-                "route": "Xolot Reservoir"
-            },
-            {
-                "area": "Area 12",
-                "freeTem": 55,
-                "frequency": 50,
-                "island": "Deniz",
-                "maxLevel": 20,
-                "minLevel": 18,
-                "route": "Thalassian Cliffs"
-            },
-            {
-                "area": "Area 7",
-                "freeTem": 74,
-                "frequency": 70,
-                "island": "Tucma",
-                "maxLevel": 30,
-                "minLevel": 28,
-                "route": "Corrupted Badlands"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 49,
-                "frequency": 65,
-                "island": "Deniz",
-                "maxLevel": 18,
-                "minLevel": 15,
-                "route": "Arissola Dojo"
             }
         ],
         "name": "Kalazu",
@@ -1947,13 +1634,13 @@
         "genderRatio": 70,
         "locations": [
             {
-                "area": "Area 4",
-                "freeTem": 79,
-                "frequency": 10,
-                "island": "Deniz",
-                "maxLevel": 16,
-                "minLevel": 14,
-                "route": "Sillaro River"
+                "area": "Area 1",
+                "freeTem": 249,
+                "frequency": 40,
+                "island": "Cipanku",
+                "maxLevel": 65,
+                "minLevel": 55,
+                "route": "Sacred Lake"
             },
             {
                 "area": "Area 1",
@@ -1983,6 +1670,15 @@
                 "route": "Rice Fields"
             },
             {
+                "area": "Area 6",
+                "freeTem": 91,
+                "frequency": 10,
+                "island": "Deniz",
+                "maxLevel": 18,
+                "minLevel": 17,
+                "route": "Thalassian Cliffs"
+            },
+            {
                 "area": "Area 4",
                 "freeTem": 212,
                 "frequency": 20,
@@ -1990,15 +1686,6 @@
                 "maxLevel": 53,
                 "minLevel": 46,
                 "route": "Rice Fields"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 249,
-                "frequency": 40,
-                "island": "Cipanku",
-                "maxLevel": 65,
-                "minLevel": 55,
-                "route": "Sacred Lake"
             },
             {
                 "area": "Area 5",
@@ -2010,13 +1697,13 @@
                 "route": "Rice Fields"
             },
             {
-                "area": "Area 6",
-                "freeTem": 91,
+                "area": "Area 4",
+                "freeTem": 79,
                 "frequency": 10,
                 "island": "Deniz",
-                "maxLevel": 18,
-                "minLevel": 17,
-                "route": "Thalassian Cliffs"
+                "maxLevel": 16,
+                "minLevel": 14,
+                "route": "Sillaro River"
             }
         ],
         "name": "Nessla",
@@ -2064,120 +1751,6 @@
         "types": [
             "Crystal type",
             "Water type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 2,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 50,
-        "locations": [
-            {
-                "area": "Area 1",
-                "freeTem": 233,
-                "frequency": 20,
-                "island": "Cipanku",
-                "maxLevel": 65,
-                "minLevel": 55,
-                "route": "The Highbelow?"
-            }
-        ],
-        "name": "Garyo",
-        "number": 118,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a4/Garyo.png/revision/latest",
-        "types": [
-            "Water type",
-            "Earth type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 1,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 50,
-        "locations": [
-            {
-                "area": "Area 2",
-                "freeTem": 67,
-                "frequency": 10,
-                "island": "Tucma",
-                "maxLevel": 34,
-                "minLevel": 24,
-                "route": "Gardens of Aztlan"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 101,
-                "frequency": 75,
-                "island": "Kisiwa",
-                "maxLevel": 45,
-                "minLevel": 42,
-                "route": "Moyo Lake"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 101,
-                "frequency": 50,
-                "island": "Kisiwa",
-                "maxLevel": 44,
-                "minLevel": 42,
-                "route": "Matope Road"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 92,
-                "frequency": 20,
-                "island": "Kisiwa",
-                "maxLevel": 42,
-                "minLevel": 37,
-                "route": "Juu Tunnel"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 101,
-                "frequency": 100,
-                "island": "Kisiwa",
-                "maxLevel": 47,
-                "minLevel": 42,
-                "route": "Juu Tunnel"
-            },
-            {
-                "area": "Area 4",
-                "freeTem": 86,
-                "frequency": 20,
-                "island": "Kisiwa",
-                "maxLevel": 39,
-                "minLevel": 34,
-                "route": "Mawingu Islets"
-            },
-            {
-                "area": "Area 5",
-                "freeTem": 82,
-                "frequency": 40,
-                "island": "Kisiwa",
-                "maxLevel": 39,
-                "minLevel": 32,
-                "route": "Mawingu Islets"
-            }
-        ],
-        "name": "Droply",
-        "number": 117,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d7/Droply.png/revision/latest",
-        "types": [
-            "Water type",
-            "Earth type"
         ]
     },
     {
@@ -2315,6 +1888,36 @@
     },
     {
         "TVs": {
+            "ATK": 2,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 50,
+        "locations": [
+            {
+                "area": "Area 1",
+                "freeTem": 233,
+                "frequency": 20,
+                "island": "Cipanku",
+                "maxLevel": 65,
+                "minLevel": 55,
+                "route": "The Highbelow?"
+            }
+        ],
+        "name": "Garyo",
+        "number": 118,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a4/Garyo.png/revision/latest",
+        "types": [
+            "Water type",
+            "Earth type"
+        ]
+    },
+    {
+        "TVs": {
             "ATK": 1,
             "DEF": 0,
             "HP": 0,
@@ -2326,66 +1929,75 @@
         "genderRatio": 50,
         "locations": [
             {
-                "area": "Area 7",
-                "freeTem": 47,
-                "frequency": 20,
-                "island": "Deniz",
-                "maxLevel": 13,
-                "minLevel": 12,
-                "route": "Windward Fort"
+                "area": "Area 2",
+                "freeTem": 67,
+                "frequency": 10,
+                "island": "Tucma",
+                "maxLevel": 34,
+                "minLevel": 24,
+                "route": "Gardens of Aztlan"
             },
             {
-                "area": "Area 9",
-                "freeTem": 43,
-                "frequency": 50,
-                "island": "Deniz",
-                "maxLevel": 12,
-                "minLevel": 10,
-                "route": "Windward Fort"
-            },
-            {
-                "area": "Area 10",
-                "freeTem": 47,
-                "frequency": 95,
-                "island": "Deniz",
-                "maxLevel": 14,
-                "minLevel": 12,
-                "route": "Windward Fort"
+                "area": "Area 1",
+                "freeTem": 101,
+                "frequency": 75,
+                "island": "Kisiwa",
+                "maxLevel": 45,
+                "minLevel": 42,
+                "route": "Moyo Lake"
             },
             {
                 "area": "Area 4",
-                "freeTem": 32,
-                "frequency": 100,
-                "island": "Deniz",
-                "maxLevel": 7,
-                "minLevel": 5,
-                "route": "Thalassian Cliffs"
+                "freeTem": 86,
+                "frequency": 20,
+                "island": "Kisiwa",
+                "maxLevel": 39,
+                "minLevel": 34,
+                "route": "Mawingu Islets"
             },
             {
-                "area": "Area 7",
-                "freeTem": 34,
-                "frequency": 100,
-                "island": "Deniz",
-                "maxLevel": 8,
-                "minLevel": 6,
-                "route": "Thalassian Cliffs"
+                "area": "Area 5",
+                "freeTem": 82,
+                "frequency": 40,
+                "island": "Kisiwa",
+                "maxLevel": 39,
+                "minLevel": 32,
+                "route": "Mawingu Islets"
             },
             {
-                "area": "Area 11",
-                "freeTem": 50,
-                "frequency": 80,
-                "island": "Deniz",
-                "maxLevel": 16,
-                "minLevel": 13,
-                "route": "Thalassian Cliffs"
+                "area": "Area 1",
+                "freeTem": 101,
+                "frequency": 50,
+                "island": "Kisiwa",
+                "maxLevel": 44,
+                "minLevel": 42,
+                "route": "Matope Road"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 92,
+                "frequency": 20,
+                "island": "Kisiwa",
+                "maxLevel": 42,
+                "minLevel": 37,
+                "route": "Juu Tunnel"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 101,
+                "frequency": 100,
+                "island": "Kisiwa",
+                "maxLevel": 47,
+                "minLevel": 42,
+                "route": "Juu Tunnel"
             }
         ],
-        "name": "Ganki",
-        "number": 113,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/bc/Ganki.png/revision/latest",
+        "name": "Droply",
+        "number": 117,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d7/Droply.png/revision/latest",
         "types": [
-            "Electric type",
-            "Wind type"
+            "Water type",
+            "Earth type"
         ]
     },
     {
@@ -2416,6 +2028,81 @@
         "types": [
             "Earth type",
             "Electric type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 1,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 50,
+        "locations": [
+            {
+                "area": "Area 4",
+                "freeTem": 32,
+                "frequency": 100,
+                "island": "Deniz",
+                "maxLevel": 7,
+                "minLevel": 5,
+                "route": "Thalassian Cliffs"
+            },
+            {
+                "area": "Area 7",
+                "freeTem": 34,
+                "frequency": 100,
+                "island": "Deniz",
+                "maxLevel": 8,
+                "minLevel": 6,
+                "route": "Thalassian Cliffs"
+            },
+            {
+                "area": "Area 11",
+                "freeTem": 50,
+                "frequency": 80,
+                "island": "Deniz",
+                "maxLevel": 16,
+                "minLevel": 13,
+                "route": "Thalassian Cliffs"
+            },
+            {
+                "area": "Area 7",
+                "freeTem": 47,
+                "frequency": 20,
+                "island": "Deniz",
+                "maxLevel": 13,
+                "minLevel": 12,
+                "route": "Windward Fort"
+            },
+            {
+                "area": "Area 9",
+                "freeTem": 43,
+                "frequency": 50,
+                "island": "Deniz",
+                "maxLevel": 12,
+                "minLevel": 10,
+                "route": "Windward Fort"
+            },
+            {
+                "area": "Area 10",
+                "freeTem": 47,
+                "frequency": 95,
+                "island": "Deniz",
+                "maxLevel": 14,
+                "minLevel": 12,
+                "route": "Windward Fort"
+            }
+        ],
+        "name": "Ganki",
+        "number": 113,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/bc/Ganki.png/revision/latest",
+        "types": [
+            "Electric type",
+            "Wind type"
         ]
     },
     {
@@ -2506,12 +2193,12 @@
         "locations": [
             {
                 "area": "Area 4",
-                "freeTem": 136,
-                "frequency": 30,
-                "island": "Kisiwa",
-                "maxLevel": 44,
-                "minLevel": 42,
-                "route": "Kilima Peaks"
+                "freeTem": 125,
+                "frequency": 5,
+                "island": "Tucma",
+                "maxLevel": 40,
+                "minLevel": 38,
+                "route": "Kupeleleza"
             },
             {
                 "area": "Area 3",
@@ -2524,12 +2211,12 @@
             },
             {
                 "area": "Area 4",
-                "freeTem": 125,
-                "frequency": 5,
-                "island": "Tucma",
-                "maxLevel": 40,
-                "minLevel": 38,
-                "route": "Kupeleleza"
+                "freeTem": 136,
+                "frequency": 30,
+                "island": "Kisiwa",
+                "maxLevel": 44,
+                "minLevel": 42,
+                "route": "Kilima Peaks"
             }
         ],
         "name": "Volarend",
@@ -2552,60 +2239,6 @@
         },
         "genderRatio": 50,
         "locations": [
-            {
-                "area": "Area 2",
-                "freeTem": 76,
-                "frequency": 20,
-                "island": "Kisiwa",
-                "maxLevel": 39,
-                "minLevel": 34,
-                "route": "Jino Gap"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 78,
-                "frequency": 50,
-                "island": "Tucma",
-                "maxLevel": 45,
-                "minLevel": 35,
-                "route": "Gardens of Aztlan"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 61,
-                "frequency": 60,
-                "island": "Tucma",
-                "maxLevel": 29,
-                "minLevel": 25,
-                "route": "Corrupted Badlands"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 61,
-                "frequency": 60,
-                "island": "Tucma",
-                "maxLevel": 29,
-                "minLevel": 25,
-                "route": "Corrupted Badlands"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 76,
-                "frequency": 50,
-                "island": "Kisiwa",
-                "maxLevel": 40,
-                "minLevel": 34,
-                "route": "Mawingu Islets"
-            },
-            {
-                "area": "Area 4",
-                "freeTem": 74,
-                "frequency": 50,
-                "island": "Kisiwa",
-                "maxLevel": 37,
-                "minLevel": 33,
-                "route": "Mawingu Islets"
-            },
             {
                 "area": "Area 1",
                 "freeTem": 71,
@@ -2641,6 +2274,60 @@
                 "maxLevel": 38,
                 "minLevel": 36,
                 "route": "Kupeleleza"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 61,
+                "frequency": 60,
+                "island": "Tucma",
+                "maxLevel": 29,
+                "minLevel": 25,
+                "route": "Corrupted Badlands"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 61,
+                "frequency": 60,
+                "island": "Tucma",
+                "maxLevel": 29,
+                "minLevel": 25,
+                "route": "Corrupted Badlands"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 78,
+                "frequency": 50,
+                "island": "Tucma",
+                "maxLevel": 45,
+                "minLevel": 35,
+                "route": "Gardens of Aztlan"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 76,
+                "frequency": 20,
+                "island": "Kisiwa",
+                "maxLevel": 39,
+                "minLevel": 34,
+                "route": "Jino Gap"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 76,
+                "frequency": 50,
+                "island": "Kisiwa",
+                "maxLevel": 40,
+                "minLevel": 34,
+                "route": "Mawingu Islets"
+            },
+            {
+                "area": "Area 4",
+                "freeTem": 74,
+                "frequency": 50,
+                "island": "Kisiwa",
+                "maxLevel": 37,
+                "minLevel": 33,
+                "route": "Mawingu Islets"
             }
         ],
         "name": "Zephyruff",
@@ -2720,6 +2407,25 @@
     {
         "TVs": {
             "ATK": 0,
+            "DEF": 2,
+            "HP": 2,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 50,
+        "locations": [],
+        "name": "Cerneaf",
+        "number": 104,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/fa/Cerneaf.png/revision/latest",
+        "types": [
+            "Nature type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
             "DEF": 0,
             "HP": 0,
             "SPATK": 2,
@@ -2786,7 +2492,7 @@
     {
         "TVs": {
             "ATK": 0,
-            "DEF": 2,
+            "DEF": 1,
             "HP": 2,
             "SPATK": 0,
             "SPD": 0,
@@ -2794,10 +2500,148 @@
             "STA": 0
         },
         "genderRatio": 50,
-        "locations": [],
-        "name": "Cerneaf",
-        "number": 104,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/fa/Cerneaf.png/revision/latest",
+        "locations": [
+            {
+                "area": "Area 3",
+                "freeTem": 57,
+                "frequency": 5,
+                "island": "Omninesia",
+                "maxLevel": 20,
+                "minLevel": 17,
+                "route": "The Canopath"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 55,
+                "frequency": 5,
+                "island": "Omninesia",
+                "maxLevel": 22,
+                "minLevel": 16,
+                "route": "The Hangroad"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 62,
+                "frequency": 5,
+                "island": "Omninesia",
+                "maxLevel": 20,
+                "minLevel": 19,
+                "route": "The Flywalk"
+            },
+            {
+                "area": "Area 5",
+                "freeTem": 66,
+                "frequency": 50,
+                "island": "Omninesia",
+                "maxLevel": 24,
+                "minLevel": 21,
+                "route": "The Flywalk"
+            }
+        ],
+        "name": "Deendre",
+        "number": 103,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/42/Deendre.png/revision/latest",
+        "types": [
+            "Nature type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 1,
+            "HP": 1,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 50,
+        "locations": [
+            {
+                "area": "Area 3",
+                "freeTem": 50,
+                "frequency": 40,
+                "island": "Omninesia",
+                "maxLevel": 23,
+                "minLevel": 20,
+                "route": "The Glassyway"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 41,
+                "frequency": 40,
+                "island": "Omninesia",
+                "maxLevel": 17,
+                "minLevel": 14,
+                "route": "The Canopath"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 41,
+                "frequency": 95,
+                "island": "Omninesia",
+                "maxLevel": 17,
+                "minLevel": 14,
+                "route": "The Canopath"
+            },
+            {
+                "area": "Area 4",
+                "freeTem": 41,
+                "frequency": 40,
+                "island": "Omninesia",
+                "maxLevel": 17,
+                "minLevel": 14,
+                "route": "The Canopath"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 41,
+                "frequency": 80,
+                "island": "Omninesia",
+                "maxLevel": 19,
+                "minLevel": 14,
+                "route": "The Hangroad"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 46,
+                "frequency": 70,
+                "island": "Omninesia",
+                "maxLevel": 19,
+                "minLevel": 17,
+                "route": "The Flywalk"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 44,
+                "frequency": 30,
+                "island": "Omninesia",
+                "maxLevel": 22,
+                "minLevel": 16,
+                "route": "The Hangroad"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 44,
+                "frequency": 95,
+                "island": "Omninesia",
+                "maxLevel": 18,
+                "minLevel": 16,
+                "route": "The Flywalk"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 55,
+                "frequency": 55,
+                "island": "Omninesia",
+                "maxLevel": 26,
+                "minLevel": 23,
+                "route": "Giant Banyan"
+            }
+        ],
+        "name": "Spriole",
+        "number": 102,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/80/Spriole.png/revision/latest",
         "types": [
             "Nature type"
         ]
@@ -2827,187 +2671,12 @@
             "DEF": 0,
             "HP": 0,
             "SPATK": 0,
-            "SPD": 3,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 10,
-        "locations": [
-            {
-                "area": "Area 1",
-                "freeTem": 136,
-                "frequency": 50,
-                "island": "Kisiwa",
-                "maxLevel": 48,
-                "minLevel": 42,
-                "route": "Kilima Peaks"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 136,
-                "frequency": 20,
-                "island": "Kisiwa",
-                "maxLevel": 48,
-                "minLevel": 42,
-                "route": "Kilima Peaks"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 136,
-                "frequency": 30,
-                "island": "Kisiwa",
-                "maxLevel": 47,
-                "minLevel": 42,
-                "route": "Kilima Peaks"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 136,
-                "frequency": 5,
-                "island": "Kisiwa",
-                "maxLevel": 47,
-                "minLevel": 42,
-                "route": "Barafu Glacier"
-            }
-        ],
-        "name": "Momo",
-        "number": 99,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d2/Momo.png/revision/latest",
-        "types": [
-            "Neutral type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 1,
-            "HP": 1,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 50,
-        "locations": [
-            {
-                "area": "Area 1",
-                "freeTem": 41,
-                "frequency": 80,
-                "island": "Omninesia",
-                "maxLevel": 19,
-                "minLevel": 14,
-                "route": "The Hangroad"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 44,
-                "frequency": 30,
-                "island": "Omninesia",
-                "maxLevel": 22,
-                "minLevel": 16,
-                "route": "The Hangroad"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 46,
-                "frequency": 70,
-                "island": "Omninesia",
-                "maxLevel": 19,
-                "minLevel": 17,
-                "route": "The Flywalk"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 44,
-                "frequency": 95,
-                "island": "Omninesia",
-                "maxLevel": 18,
-                "minLevel": 16,
-                "route": "The Flywalk"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 41,
-                "frequency": 40,
-                "island": "Omninesia",
-                "maxLevel": 17,
-                "minLevel": 14,
-                "route": "The Canopath"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 50,
-                "frequency": 40,
-                "island": "Omninesia",
-                "maxLevel": 23,
-                "minLevel": 20,
-                "route": "The Glassyway"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 41,
-                "frequency": 95,
-                "island": "Omninesia",
-                "maxLevel": 17,
-                "minLevel": 14,
-                "route": "The Canopath"
-            },
-            {
-                "area": "Area 4",
-                "freeTem": 41,
-                "frequency": 40,
-                "island": "Omninesia",
-                "maxLevel": 17,
-                "minLevel": 14,
-                "route": "The Canopath"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 55,
-                "frequency": 55,
-                "island": "Omninesia",
-                "maxLevel": 26,
-                "minLevel": 23,
-                "route": "Giant Banyan"
-            }
-        ],
-        "name": "Spriole",
-        "number": 102,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/80/Spriole.png/revision/latest",
-        "types": [
-            "Nature type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
             "SPD": 0,
             "SPDEF": 0,
             "STA": 1
         },
         "genderRatio": 50,
         "locations": [
-            {
-                "area": "Area 1",
-                "freeTem": 104,
-                "frequency": 80,
-                "island": "Kisiwa",
-                "maxLevel": 44,
-                "minLevel": 40,
-                "route": "Kwea Uplands"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 104,
-                "frequency": 20,
-                "island": "Kisiwa",
-                "maxLevel": 44,
-                "minLevel": 40,
-                "route": "Kwea Uplands"
-            },
             {
                 "area": "Area 1",
                 "freeTem": 93,
@@ -3025,6 +2694,15 @@
                 "maxLevel": 38,
                 "minLevel": 37,
                 "route": "Jino Gap"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 89,
+                "frequency": 50,
+                "island": "Kisiwa",
+                "maxLevel": 39,
+                "minLevel": 33,
+                "route": "Mawingu Islets"
             },
             {
                 "area": "Area 1",
@@ -3046,12 +2724,21 @@
             },
             {
                 "area": "Area 1",
-                "freeTem": 89,
-                "frequency": 50,
+                "freeTem": 104,
+                "frequency": 80,
                 "island": "Kisiwa",
-                "maxLevel": 39,
-                "minLevel": 33,
-                "route": "Mawingu Islets"
+                "maxLevel": 44,
+                "minLevel": 40,
+                "route": "Kwea Uplands"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 104,
+                "frequency": 20,
+                "island": "Kisiwa",
+                "maxLevel": 44,
+                "minLevel": 40,
+                "route": "Kwea Uplands"
             }
         ],
         "name": "Kuri",
@@ -3064,57 +2751,57 @@
     {
         "TVs": {
             "ATK": 0,
-            "DEF": 1,
-            "HP": 2,
+            "DEF": 0,
+            "HP": 0,
             "SPATK": 0,
-            "SPD": 0,
+            "SPD": 3,
             "SPDEF": 0,
             "STA": 0
         },
-        "genderRatio": 50,
+        "genderRatio": 10,
         "locations": [
             {
-                "area": "Area 3",
-                "freeTem": 55,
+                "area": "Area 1",
+                "freeTem": 136,
                 "frequency": 5,
-                "island": "Omninesia",
-                "maxLevel": 22,
-                "minLevel": 16,
-                "route": "The Hangroad"
+                "island": "Kisiwa",
+                "maxLevel": 47,
+                "minLevel": 42,
+                "route": "Barafu Glacier"
             },
             {
-                "area": "Area 3",
-                "freeTem": 62,
-                "frequency": 5,
-                "island": "Omninesia",
-                "maxLevel": 20,
-                "minLevel": 19,
-                "route": "The Flywalk"
-            },
-            {
-                "area": "Area 5",
-                "freeTem": 66,
+                "area": "Area 1",
+                "freeTem": 136,
                 "frequency": 50,
-                "island": "Omninesia",
-                "maxLevel": 24,
-                "minLevel": 21,
-                "route": "The Flywalk"
+                "island": "Kisiwa",
+                "maxLevel": 48,
+                "minLevel": 42,
+                "route": "Kilima Peaks"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 136,
+                "frequency": 20,
+                "island": "Kisiwa",
+                "maxLevel": 48,
+                "minLevel": 42,
+                "route": "Kilima Peaks"
             },
             {
                 "area": "Area 3",
-                "freeTem": 57,
-                "frequency": 5,
-                "island": "Omninesia",
-                "maxLevel": 20,
-                "minLevel": 17,
-                "route": "The Canopath"
+                "freeTem": 136,
+                "frequency": 30,
+                "island": "Kisiwa",
+                "maxLevel": 47,
+                "minLevel": 42,
+                "route": "Kilima Peaks"
             }
         ],
-        "name": "Deendre",
-        "number": 103,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/42/Deendre.png/revision/latest",
+        "name": "Momo",
+        "number": 99,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d2/Momo.png/revision/latest",
         "types": [
-            "Nature type"
+            "Neutral type"
         ]
     },
     {
@@ -3129,33 +2816,6 @@
         },
         "genderRatio": 50,
         "locations": [
-            {
-                "area": "Area 2",
-                "freeTem": 179,
-                "frequency": 20,
-                "island": "Kisiwa",
-                "maxLevel": 50,
-                "minLevel": 44,
-                "route": "Kilima Peaks"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 179,
-                "frequency": 35,
-                "island": "Kisiwa",
-                "maxLevel": 50,
-                "minLevel": 44,
-                "route": "Kilima Peaks"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 172,
-                "frequency": 30,
-                "island": "Kisiwa",
-                "maxLevel": 47,
-                "minLevel": 42,
-                "route": "Kwea Uplands"
-            },
             {
                 "area": "Area 1",
                 "freeTem": 150,
@@ -3202,6 +2862,24 @@
                 "route": "Juu Tunnel"
             },
             {
+                "area": "Area 2",
+                "freeTem": 179,
+                "frequency": 20,
+                "island": "Kisiwa",
+                "maxLevel": 50,
+                "minLevel": 44,
+                "route": "Kilima Peaks"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 179,
+                "frequency": 35,
+                "island": "Kisiwa",
+                "maxLevel": 50,
+                "minLevel": 44,
+                "route": "Kilima Peaks"
+            },
+            {
                 "area": "Area 1",
                 "freeTem": 175,
                 "frequency": 15,
@@ -3236,6 +2914,15 @@
                 "maxLevel": 48,
                 "minLevel": 43,
                 "route": "Chini Grotto"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 172,
+                "frequency": 30,
+                "island": "Kisiwa",
+                "maxLevel": 47,
+                "minLevel": 42,
+                "route": "Kwea Uplands"
             }
         ],
         "name": "Zizare",
@@ -3286,91 +2973,6 @@
     },
     {
         "TVs": {
-            "ATK": 2,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 65,
-        "locations": [],
-        "name": "Smazee",
-        "number": 92,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f7/Smazee.png/revision/latest",
-        "types": [
-            "Melee type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 2,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 50,
-        "locations": [],
-        "name": "Raignet",
-        "number": 91,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/50/Raignet.png/revision/latest",
-        "types": [
-            "Electric type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 2,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 50,
-        "locations": [
-            {
-                "area": "Area 3",
-                "freeTem": 92,
-                "frequency": 20,
-                "island": "Cipanku",
-                "maxLevel": 50,
-                "minLevel": 40,
-                "route": "Iwaba"
-            },
-            {
-                "area": "Area 4",
-                "freeTem": 96,
-                "frequency": 20,
-                "island": "Cipanku",
-                "maxLevel": 48,
-                "minLevel": 42,
-                "route": "Iwaba"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 92,
-                "frequency": 30,
-                "island": "Cipanku",
-                "maxLevel": 50,
-                "minLevel": 40,
-                "route": "Pillars of Highabove"
-            }
-        ],
-        "name": "Galvanid",
-        "number": 90,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1a/Galvanid.png/revision/latest",
-        "types": [
-            "Electric type"
-        ]
-    },
-    {
-        "TVs": {
             "ATK": 0,
             "DEF": 0,
             "HP": 0,
@@ -3411,24 +3013,6 @@
         "genderRatio": 50,
         "locations": [
             {
-                "area": "Area 2",
-                "freeTem": 59,
-                "frequency": 30,
-                "island": "Deniz",
-                "maxLevel": 15,
-                "minLevel": 13,
-                "route": "Sillaro River"
-            },
-            {
-                "area": "Area 8",
-                "freeTem": 59,
-                "frequency": 30,
-                "island": "Deniz",
-                "maxLevel": 15,
-                "minLevel": 13,
-                "route": "Sillaro River"
-            },
-            {
                 "area": "Area 6",
                 "freeTem": 71,
                 "frequency": 90,
@@ -3445,6 +3029,24 @@
                 "maxLevel": 20,
                 "minLevel": 18,
                 "route": "Thalassian Cliffs"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 59,
+                "frequency": 30,
+                "island": "Deniz",
+                "maxLevel": 15,
+                "minLevel": 13,
+                "route": "Sillaro River"
+            },
+            {
+                "area": "Area 8",
+                "freeTem": 59,
+                "frequency": 30,
+                "island": "Deniz",
+                "maxLevel": 15,
+                "minLevel": 13,
+                "route": "Sillaro River"
             }
         ],
         "name": "Umishi",
@@ -3561,6 +3163,178 @@
     },
     {
         "TVs": {
+            "ATK": 2,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 65,
+        "locations": [],
+        "name": "Smazee",
+        "number": 92,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f7/Smazee.png/revision/latest",
+        "types": [
+            "Melee type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 2,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 50,
+        "locations": [],
+        "name": "Raignet",
+        "number": 91,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/50/Raignet.png/revision/latest",
+        "types": [
+            "Electric type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 2,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 50,
+        "locations": [
+            {
+                "area": "Area 3",
+                "freeTem": 92,
+                "frequency": 20,
+                "island": "Cipanku",
+                "maxLevel": 50,
+                "minLevel": 40,
+                "route": "Iwaba"
+            },
+            {
+                "area": "Area 4",
+                "freeTem": 96,
+                "frequency": 20,
+                "island": "Cipanku",
+                "maxLevel": 48,
+                "minLevel": 42,
+                "route": "Iwaba"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 92,
+                "frequency": 30,
+                "island": "Cipanku",
+                "maxLevel": 50,
+                "minLevel": 40,
+                "route": "Pillars of Highabove"
+            }
+        ],
+        "name": "Galvanid",
+        "number": 90,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1a/Galvanid.png/revision/latest",
+        "types": [
+            "Electric type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 2,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 20,
+        "locations": [
+            {
+                "area": "Area 1",
+                "freeTem": 185,
+                "frequency": 60,
+                "island": "Cipanku",
+                "maxLevel": 65,
+                "minLevel": 55,
+                "route": "Sacred Lake"
+            },
+            {
+                "area": "Area 4",
+                "freeTem": 161,
+                "frequency": 60,
+                "island": "Cipanku",
+                "maxLevel": 55,
+                "minLevel": 47,
+                "route": "Rice Fields"
+            },
+            {
+                "area": "Area 5",
+                "freeTem": 161,
+                "frequency": 60,
+                "island": "Cipanku",
+                "maxLevel": 55,
+                "minLevel": 47,
+                "route": "Rice Fields"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 200,
+                "frequency": 20,
+                "island": "Cipanku",
+                "maxLevel": 70,
+                "minLevel": 60,
+                "route": "The Highbelow?"
+            }
+        ],
+        "name": "Cycrox",
+        "number": 78,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9d/Cycrox.png/revision/latest",
+        "types": [
+            "Digital type",
+            "Toxic type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 1,
+            "SPDEF": 0,
+            "STA": 1
+        },
+        "genderRatio": 50,
+        "locations": [
+            {
+                "area": "Area 4",
+                "freeTem": 324,
+                "frequency": 5,
+                "island": "Cipanku",
+                "maxLevel": 55,
+                "minLevel": 45,
+                "route": "Pillars of Highabove"
+            }
+        ],
+        "name": "Innki",
+        "number": 75,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2c/Innki.png/revision/latest",
+        "types": [
+            "Electric type",
+            "Crystal type"
+        ]
+    },
+    {
+        "TVs": {
             "ATK": 0,
             "DEF": 0,
             "HP": 0,
@@ -3571,6 +3345,15 @@
         },
         "genderRatio": 50,
         "locations": [
+            {
+                "area": "Area 2",
+                "freeTem": 87,
+                "frequency": 60,
+                "island": "Tucma",
+                "maxLevel": 37,
+                "minLevel": 31,
+                "route": "Kupeleleza"
+            },
             {
                 "area": "Area 4",
                 "freeTem": 83,
@@ -3606,15 +3389,6 @@
                 "maxLevel": 26,
                 "minLevel": 25,
                 "route": "Corrupted Badlands"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 87,
-                "frequency": 60,
-                "island": "Tucma",
-                "maxLevel": 37,
-                "minLevel": 31,
-                "route": "Kupeleleza"
             }
         ],
         "name": "Mushi",
@@ -3800,86 +3574,29 @@
             "ATK": 0,
             "DEF": 0,
             "HP": 0,
-            "SPATK": 2,
+            "SPATK": 3,
             "SPD": 0,
             "SPDEF": 0,
             "STA": 0
         },
-        "genderRatio": 20,
-        "locations": [
-            {
-                "area": "Area 4",
-                "freeTem": 161,
-                "frequency": 60,
-                "island": "Cipanku",
-                "maxLevel": 55,
-                "minLevel": 47,
-                "route": "Rice Fields"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 185,
-                "frequency": 60,
-                "island": "Cipanku",
-                "maxLevel": 65,
-                "minLevel": 55,
-                "route": "Sacred Lake"
-            },
-            {
-                "area": "Area 5",
-                "freeTem": 161,
-                "frequency": 60,
-                "island": "Cipanku",
-                "maxLevel": 55,
-                "minLevel": 47,
-                "route": "Rice Fields"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 200,
-                "frequency": 20,
-                "island": "Cipanku",
-                "maxLevel": 70,
-                "minLevel": 60,
-                "route": "The Highbelow?"
-            }
-        ],
-        "name": "Cycrox",
-        "number": 78,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9d/Cycrox.png/revision/latest",
-        "types": [
-            "Digital type",
-            "Toxic type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 1,
-            "SPDEF": 0,
-            "STA": 1
-        },
         "genderRatio": 50,
         "locations": [
             {
-                "area": "Area 4",
-                "freeTem": 324,
-                "frequency": 5,
-                "island": "Cipanku",
-                "maxLevel": 55,
+                "area": "Area 6",
+                "freeTem": 142,
+                "frequency": 30,
+                "island": "Omninesia",
+                "maxLevel": 50,
                 "minLevel": 45,
-                "route": "Pillars of Highabove"
+                "route": "Anak Volcano"
             }
         ],
-        "name": "Innki",
-        "number": 75,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2c/Innki.png/revision/latest",
+        "name": "Drakash",
+        "number": 71,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/40/Drakash.png/revision/latest",
         "types": [
-            "Electric type",
-            "Crystal type"
+            "Earth type",
+            "Fire type"
         ]
     },
     {
@@ -3964,7 +3681,7 @@
             "ATK": 0,
             "DEF": 0,
             "HP": 0,
-            "SPATK": 3,
+            "SPATK": 1,
             "SPD": 0,
             "SPDEF": 0,
             "STA": 0
@@ -3972,18 +3689,63 @@
         "genderRatio": 50,
         "locations": [
             {
-                "area": "Area 6",
-                "freeTem": 142,
-                "frequency": 30,
-                "island": "Omninesia",
-                "maxLevel": 50,
-                "minLevel": 45,
-                "route": "Anak Volcano"
+                "area": "Area 1",
+                "freeTem": 87,
+                "frequency": 25,
+                "island": "Kisiwa",
+                "maxLevel": 42,
+                "minLevel": 37,
+                "route": "Tasa Desert"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 92,
+                "frequency": 25,
+                "island": "Kisiwa",
+                "maxLevel": 42,
+                "minLevel": 40,
+                "route": "Tasa Desert"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 92,
+                "frequency": 40,
+                "island": "Kisiwa",
+                "maxLevel": 44,
+                "minLevel": 40,
+                "route": "Tasa Desert"
+            },
+            {
+                "area": "Area 4",
+                "freeTem": 92,
+                "frequency": 15,
+                "island": "Kisiwa",
+                "maxLevel": 42,
+                "minLevel": 40,
+                "route": "Tasa Desert"
+            },
+            {
+                "area": "Area 5",
+                "freeTem": 92,
+                "frequency": 25,
+                "island": "Kisiwa",
+                "maxLevel": 42,
+                "minLevel": 40,
+                "route": "Tasa Desert"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 92,
+                "frequency": 5,
+                "island": "Kisiwa",
+                "maxLevel": 44,
+                "minLevel": 40,
+                "route": "Chini Grotto"
             }
         ],
-        "name": "Drakash",
-        "number": 71,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/40/Drakash.png/revision/latest",
+        "name": "Pycko",
+        "number": 70,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/3b/Pycko.png/revision/latest",
         "types": [
             "Earth type",
             "Fire type"
@@ -4001,168 +3763,6 @@
         },
         "genderRatio": 50,
         "locations": [
-            {
-                "area": "Area 1",
-                "freeTem": 38,
-                "frequency": 20,
-                "island": "Deniz",
-                "maxLevel": 12,
-                "minLevel": 9,
-                "route": "Windward Fort"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 42,
-                "frequency": 50,
-                "island": "Deniz",
-                "maxLevel": 14,
-                "minLevel": 11,
-                "route": "Windward Fort"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 46,
-                "frequency": 45,
-                "island": "Deniz",
-                "maxLevel": 16,
-                "minLevel": 13,
-                "route": "Sillaro River"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 49,
-                "frequency": 40,
-                "island": "Deniz",
-                "maxLevel": 17,
-                "minLevel": 15,
-                "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 47,
-                "frequency": 100,
-                "island": "Deniz",
-                "maxLevel": 15,
-                "minLevel": 14,
-                "route": "Sillaro River"
-            },
-            {
-                "area": "Area 7",
-                "freeTem": 46,
-                "frequency": 45,
-                "island": "Deniz",
-                "maxLevel": 14,
-                "minLevel": 13,
-                "route": "Sillaro River"
-            },
-            {
-                "area": "Area 5",
-                "freeTem": 49,
-                "frequency": 35,
-                "island": "Deniz",
-                "maxLevel": 17,
-                "minLevel": 15,
-                "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 113,
-                "frequency": 35,
-                "island": "Cipanku",
-                "maxLevel": 52,
-                "minLevel": 48,
-                "route": "Rice Fields"
-            },
-            {
-                "area": "Area 6",
-                "freeTem": 49,
-                "frequency": 35,
-                "island": "Deniz",
-                "maxLevel": 18,
-                "minLevel": 15,
-                "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 8",
-                "freeTem": 49,
-                "frequency": 20,
-                "island": "Deniz",
-                "maxLevel": 18,
-                "minLevel": 15,
-                "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 9",
-                "freeTem": 49,
-                "frequency": 20,
-                "island": "Deniz",
-                "maxLevel": 18,
-                "minLevel": 15,
-                "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 10",
-                "freeTem": 47,
-                "frequency": 20,
-                "island": "Deniz",
-                "maxLevel": 17,
-                "minLevel": 14,
-                "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 94,
-                "frequency": 50,
-                "island": "Deniz",
-                "maxLevel": 41,
-                "minLevel": 38,
-                "route": "Saipark"
-            },
-            {
-                "area": "Area 12",
-                "freeTem": 55,
-                "frequency": 40,
-                "island": "Deniz",
-                "maxLevel": 20,
-                "minLevel": 18,
-                "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 94,
-                "frequency": 50,
-                "island": "Deniz",
-                "maxLevel": 41,
-                "minLevel": 38,
-                "route": "Saipark"
-            },
-            {
-                "area": "Area 5",
-                "freeTem": 34,
-                "frequency": 5,
-                "island": "Deniz",
-                "maxLevel": 7,
-                "minLevel": 7,
-                "route": "Thalassian Cliffs"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 24,
-                "frequency": 35,
-                "island": "Deniz",
-                "maxLevel": 2,
-                "minLevel": 2,
-                "route": "Prasine Coast"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 26,
-                "frequency": 20,
-                "island": "Deniz",
-                "maxLevel": 4,
-                "minLevel": 3,
-                "route": "Prasine Coast"
-            },
             {
                 "area": "Area 5",
                 "freeTem": 78,
@@ -4182,12 +3782,12 @@
                 "route": "Xolot Reservoir"
             },
             {
-                "area": "Area 7",
-                "freeTem": 26,
-                "frequency": 50,
+                "area": "Area 1",
+                "freeTem": 24,
+                "frequency": 35,
                 "island": "Deniz",
-                "maxLevel": 5,
-                "minLevel": 3,
+                "maxLevel": 2,
+                "minLevel": 2,
                 "route": "Prasine Coast"
             },
             {
@@ -4198,6 +3798,15 @@
                 "maxLevel": 10,
                 "minLevel": 8,
                 "route": "Gifted Bridges"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 26,
+                "frequency": 20,
+                "island": "Deniz",
+                "maxLevel": 4,
+                "minLevel": 3,
+                "route": "Prasine Coast"
             },
             {
                 "area": "Area 7",
@@ -4218,6 +3827,60 @@
                 "route": "Gifted Bridges"
             },
             {
+                "area": "Area 5",
+                "freeTem": 34,
+                "frequency": 5,
+                "island": "Deniz",
+                "maxLevel": 7,
+                "minLevel": 7,
+                "route": "Thalassian Cliffs"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 113,
+                "frequency": 35,
+                "island": "Cipanku",
+                "maxLevel": 52,
+                "minLevel": 48,
+                "route": "Rice Fields"
+            },
+            {
+                "area": "Area 7",
+                "freeTem": 26,
+                "frequency": 50,
+                "island": "Deniz",
+                "maxLevel": 5,
+                "minLevel": 3,
+                "route": "Prasine Coast"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 94,
+                "frequency": 50,
+                "island": "Deniz",
+                "maxLevel": 41,
+                "minLevel": 38,
+                "route": "Saipark"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 94,
+                "frequency": 50,
+                "island": "Deniz",
+                "maxLevel": 41,
+                "minLevel": 38,
+                "route": "Saipark"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 49,
+                "frequency": 40,
+                "island": "Deniz",
+                "maxLevel": 17,
+                "minLevel": 15,
+                "route": "Aguamarina Caves"
+            },
+            {
                 "area": "Area 1",
                 "freeTem": 49,
                 "frequency": 35,
@@ -4225,6 +3888,105 @@
                 "maxLevel": 17,
                 "minLevel": 15,
                 "route": "Arissola Dojo"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 46,
+                "frequency": 45,
+                "island": "Deniz",
+                "maxLevel": 16,
+                "minLevel": 13,
+                "route": "Sillaro River"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 47,
+                "frequency": 100,
+                "island": "Deniz",
+                "maxLevel": 15,
+                "minLevel": 14,
+                "route": "Sillaro River"
+            },
+            {
+                "area": "Area 5",
+                "freeTem": 49,
+                "frequency": 35,
+                "island": "Deniz",
+                "maxLevel": 17,
+                "minLevel": 15,
+                "route": "Aguamarina Caves"
+            },
+            {
+                "area": "Area 6",
+                "freeTem": 49,
+                "frequency": 35,
+                "island": "Deniz",
+                "maxLevel": 18,
+                "minLevel": 15,
+                "route": "Aguamarina Caves"
+            },
+            {
+                "area": "Area 7",
+                "freeTem": 46,
+                "frequency": 45,
+                "island": "Deniz",
+                "maxLevel": 14,
+                "minLevel": 13,
+                "route": "Sillaro River"
+            },
+            {
+                "area": "Area 8",
+                "freeTem": 49,
+                "frequency": 20,
+                "island": "Deniz",
+                "maxLevel": 18,
+                "minLevel": 15,
+                "route": "Aguamarina Caves"
+            },
+            {
+                "area": "Area 9",
+                "freeTem": 49,
+                "frequency": 20,
+                "island": "Deniz",
+                "maxLevel": 18,
+                "minLevel": 15,
+                "route": "Aguamarina Caves"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 38,
+                "frequency": 20,
+                "island": "Deniz",
+                "maxLevel": 12,
+                "minLevel": 9,
+                "route": "Windward Fort"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 42,
+                "frequency": 50,
+                "island": "Deniz",
+                "maxLevel": 14,
+                "minLevel": 11,
+                "route": "Windward Fort"
+            },
+            {
+                "area": "Area 10",
+                "freeTem": 47,
+                "frequency": 20,
+                "island": "Deniz",
+                "maxLevel": 17,
+                "minLevel": 14,
+                "route": "Aguamarina Caves"
+            },
+            {
+                "area": "Area 12",
+                "freeTem": 55,
+                "frequency": 40,
+                "island": "Deniz",
+                "maxLevel": 20,
+                "minLevel": 18,
+                "route": "Aguamarina Caves"
             }
         ],
         "name": "Saipat",
@@ -4233,6 +3995,80 @@
         "types": [
             "Water type",
             "Melee type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 2,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 75,
+        "locations": [
+            {
+                "area": "Area 1",
+                "freeTem": 100,
+                "frequency": 100,
+                "island": "Cipanku",
+                "maxLevel": 50,
+                "minLevel": 44,
+                "route": "Iwaba"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 96,
+                "frequency": 20,
+                "island": "Cipanku",
+                "maxLevel": 48,
+                "minLevel": 42,
+                "route": "Iwaba"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 92,
+                "frequency": 20,
+                "island": "Cipanku",
+                "maxLevel": 50,
+                "minLevel": 40,
+                "route": "Iwaba"
+            },
+            {
+                "area": "Area 4",
+                "freeTem": 96,
+                "frequency": 60,
+                "island": "Cipanku",
+                "maxLevel": 48,
+                "minLevel": 42,
+                "route": "Iwaba"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 92,
+                "frequency": 25,
+                "island": "Cipanku",
+                "maxLevel": 52,
+                "minLevel": 40,
+                "route": "Pillars of Highabove"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 89,
+                "frequency": 25,
+                "island": "Cipanku",
+                "maxLevel": 48,
+                "minLevel": 38,
+                "route": "Pillars of Highabove"
+            }
+        ],
+        "name": "Scarawatt",
+        "number": 62,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9f/Scarawatt.png/revision/latest",
+        "types": [
+            "Electric type"
         ]
     },
     {
@@ -4335,15 +4171,6 @@
                 "route": "Jino Gap"
             },
             {
-                "area": "Area 2",
-                "freeTem": 92,
-                "frequency": 50,
-                "island": "Kisiwa",
-                "maxLevel": 41,
-                "minLevel": 37,
-                "route": "Matope Road"
-            },
-            {
                 "area": "Area 3",
                 "freeTem": 80,
                 "frequency": 75,
@@ -4351,6 +4178,15 @@
                 "maxLevel": 36,
                 "minLevel": 31,
                 "route": "Mawingu Islets"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 92,
+                "frequency": 50,
+                "island": "Kisiwa",
+                "maxLevel": 41,
+                "minLevel": 37,
+                "route": "Matope Road"
             }
         ],
         "name": "Osuchi",
@@ -4358,81 +4194,6 @@
         "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/81/Osuchi.png/revision/latest",
         "types": [
             "Earth type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 1,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 50,
-        "locations": [
-            {
-                "area": "Area 1",
-                "freeTem": 87,
-                "frequency": 25,
-                "island": "Kisiwa",
-                "maxLevel": 42,
-                "minLevel": 37,
-                "route": "Tasa Desert"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 92,
-                "frequency": 25,
-                "island": "Kisiwa",
-                "maxLevel": 42,
-                "minLevel": 40,
-                "route": "Tasa Desert"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 92,
-                "frequency": 40,
-                "island": "Kisiwa",
-                "maxLevel": 44,
-                "minLevel": 40,
-                "route": "Tasa Desert"
-            },
-            {
-                "area": "Area 4",
-                "freeTem": 92,
-                "frequency": 15,
-                "island": "Kisiwa",
-                "maxLevel": 42,
-                "minLevel": 40,
-                "route": "Tasa Desert"
-            },
-            {
-                "area": "Area 5",
-                "freeTem": 92,
-                "frequency": 25,
-                "island": "Kisiwa",
-                "maxLevel": 42,
-                "minLevel": 40,
-                "route": "Tasa Desert"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 92,
-                "frequency": 5,
-                "island": "Kisiwa",
-                "maxLevel": 44,
-                "minLevel": 40,
-                "route": "Chini Grotto"
-            }
-        ],
-        "name": "Pycko",
-        "number": 70,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/3b/Pycko.png/revision/latest",
-        "types": [
-            "Earth type",
-            "Fire type"
         ]
     },
     {
@@ -4515,80 +4276,6 @@
             "SPDEF": 0,
             "STA": 0
         },
-        "genderRatio": 75,
-        "locations": [
-            {
-                "area": "Area 1",
-                "freeTem": 100,
-                "frequency": 100,
-                "island": "Cipanku",
-                "maxLevel": 50,
-                "minLevel": 44,
-                "route": "Iwaba"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 96,
-                "frequency": 20,
-                "island": "Cipanku",
-                "maxLevel": 48,
-                "minLevel": 42,
-                "route": "Iwaba"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 92,
-                "frequency": 20,
-                "island": "Cipanku",
-                "maxLevel": 50,
-                "minLevel": 40,
-                "route": "Iwaba"
-            },
-            {
-                "area": "Area 4",
-                "freeTem": 96,
-                "frequency": 60,
-                "island": "Cipanku",
-                "maxLevel": 48,
-                "minLevel": 42,
-                "route": "Iwaba"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 92,
-                "frequency": 25,
-                "island": "Cipanku",
-                "maxLevel": 52,
-                "minLevel": 40,
-                "route": "Pillars of Highabove"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 89,
-                "frequency": 25,
-                "island": "Cipanku",
-                "maxLevel": 48,
-                "minLevel": 38,
-                "route": "Pillars of Highabove"
-            }
-        ],
-        "name": "Scarawatt",
-        "number": 62,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9f/Scarawatt.png/revision/latest",
-        "types": [
-            "Electric type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 2,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
         "genderRatio": 50,
         "locations": [],
         "name": "Piraniant",
@@ -4611,22 +4298,13 @@
         "genderRatio": 50,
         "locations": [
             {
-                "area": "Area 2",
-                "freeTem": 44,
-                "frequency": 30,
+                "area": "Area 9",
+                "freeTem": 46,
+                "frequency": 100,
                 "island": "Deniz",
-                "maxLevel": 14,
-                "minLevel": 13,
-                "route": "Sillaro River"
-            },
-            {
-                "area": "Area 8",
-                "freeTem": 44,
-                "frequency": 30,
-                "island": "Deniz",
-                "maxLevel": 14,
-                "minLevel": 13,
-                "route": "Sillaro River"
+                "maxLevel": 20,
+                "minLevel": 14,
+                "route": "Prasine Coast"
             },
             {
                 "area": "Area 2",
@@ -4647,13 +4325,22 @@
                 "route": "The Flywalk"
             },
             {
-                "area": "Area 9",
-                "freeTem": 46,
-                "frequency": 100,
+                "area": "Area 2",
+                "freeTem": 44,
+                "frequency": 30,
                 "island": "Deniz",
-                "maxLevel": 20,
-                "minLevel": 14,
-                "route": "Prasine Coast"
+                "maxLevel": 14,
+                "minLevel": 13,
+                "route": "Sillaro River"
+            },
+            {
+                "area": "Area 8",
+                "freeTem": 44,
+                "frequency": 30,
+                "island": "Deniz",
+                "maxLevel": 14,
+                "minLevel": 13,
+                "route": "Sillaro River"
             }
         ],
         "name": "Pewki",
@@ -4828,15 +4515,6 @@
         "genderRatio": 60,
         "locations": [
             {
-                "area": "Area 3",
-                "freeTem": 88,
-                "frequency": 50,
-                "island": "Tucma",
-                "maxLevel": 45,
-                "minLevel": 30,
-                "route": "Gardens of Aztlan"
-            },
-            {
                 "area": "Area 1",
                 "freeTem": 92,
                 "frequency": 60,
@@ -4844,6 +4522,15 @@
                 "maxLevel": 37,
                 "minLevel": 32,
                 "route": "Kupeleleza"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 88,
+                "frequency": 50,
+                "island": "Tucma",
+                "maxLevel": 45,
+                "minLevel": 30,
+                "route": "Gardens of Aztlan"
             }
         ],
         "name": "Occlura",
@@ -4881,607 +4568,6 @@
         "types": [
             "Crystal type",
             "Melee type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 1,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 0,
-        "locations": [
-            {
-                "area": "Area 10",
-                "freeTem": 55,
-                "frequency": 5,
-                "island": "Deniz",
-                "maxLevel": 14,
-                "minLevel": 12,
-                "route": "Windward Fort"
-            }
-        ],
-        "name": "Barnshe",
-        "number": 53,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6c/Barnshe.png/revision/latest",
-        "types": [
-            "Wind type",
-            "Mental type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 2,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 2,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 50,
-        "locations": [
-            {
-                "area": "Area 3",
-                "freeTem": 123,
-                "frequency": 10,
-                "island": "Tucma",
-                "maxLevel": 40,
-                "minLevel": 36,
-                "route": "Mines of Mictlan"
-            }
-        ],
-        "name": "Valash",
-        "number": 50,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/80/Valash.png/revision/latest",
-        "types": [
-            "Neutral type",
-            "Crystal type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 2,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 50,
-        "locations": [
-            {
-                "area": "Area 2",
-                "freeTem": 57,
-                "frequency": 25,
-                "island": "Omninesia",
-                "maxLevel": 22,
-                "minLevel": 19,
-                "route": "The Glassyway"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 51,
-                "frequency": 5,
-                "island": "Omninesia",
-                "maxLevel": 18,
-                "minLevel": 16,
-                "route": "The Canopath"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 88,
-                "frequency": 40,
-                "island": "Tucma",
-                "maxLevel": 38,
-                "minLevel": 35,
-                "route": "Kupeleleza"
-            }
-        ],
-        "name": "Saku",
-        "number": 49,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2a/Saku.png/revision/latest",
-        "types": [
-            "Nature type",
-            "Wind type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 1,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 50,
-        "locations": [
-            {
-                "area": "Area 2",
-                "freeTem": 43,
-                "frequency": 75,
-                "island": "Omninesia",
-                "maxLevel": 18,
-                "minLevel": 16,
-                "route": "The Canopath"
-            },
-            {
-                "area": "Area 4",
-                "freeTem": 46,
-                "frequency": 50,
-                "island": "Omninesia",
-                "maxLevel": 20,
-                "minLevel": 18,
-                "route": "The Flywalk"
-            },
-            {
-                "area": "Area 5",
-                "freeTem": 29,
-                "frequency": 95,
-                "island": "Deniz",
-                "maxLevel": 8,
-                "minLevel": 6,
-                "route": "Thalassian Cliffs"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 23,
-                "frequency": 40,
-                "island": "Deniz",
-                "maxLevel": 4,
-                "minLevel": 2,
-                "route": "Prasine Coast"
-            },
-            {
-                "area": "Area 5",
-                "freeTem": 25,
-                "frequency": 40,
-                "island": "Deniz",
-                "maxLevel": 5,
-                "minLevel": 3,
-                "route": "Prasine Coast"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 32,
-                "frequency": 30,
-                "island": "Deniz",
-                "maxLevel": 10,
-                "minLevel": 8,
-                "route": "Gifted Bridges"
-            },
-            {
-                "area": "Area 5",
-                "freeTem": 30,
-                "frequency": 30,
-                "island": "Deniz",
-                "maxLevel": 11,
-                "minLevel": 7,
-                "route": "Gifted Bridges"
-            }
-        ],
-        "name": "Kaku",
-        "number": 48,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4e/Kaku.png/revision/latest",
-        "types": [
-            "Nature type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 2
-        },
-        "genderRatio": 50,
-        "locations": [],
-        "name": "0b10",
-        "number": 47,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e9/0b10.png/revision/latest",
-        "types": [
-            "Digital type",
-            "Electric type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 1
-        },
-        "genderRatio": 50,
-        "locations": [
-            {
-                "area": "Area 5",
-                "freeTem": 140,
-                "frequency": 70,
-                "island": "Cipanku",
-                "maxLevel": 50,
-                "minLevel": 40,
-                "route": "Pillars of Highabove"
-            },
-            {
-                "area": "Area 6",
-                "freeTem": 140,
-                "frequency": 70,
-                "island": "Cipanku",
-                "maxLevel": 50,
-                "minLevel": 40,
-                "route": "Pillars of Highabove"
-            }
-        ],
-        "name": "0b1",
-        "number": 46,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e5/0b1.png/revision/latest",
-        "types": [
-            "Digital type",
-            "Electric type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 4
-        },
-        "genderRatio": 50,
-        "locations": [
-            {
-                "area": "Area 1",
-                "freeTem": 161,
-                "frequency": 20,
-                "island": "Cipanku",
-                "maxLevel": 53,
-                "minLevel": 47,
-                "route": "Rice Fields"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 161,
-                "frequency": 20,
-                "island": "Cipanku",
-                "maxLevel": 54,
-                "minLevel": 47,
-                "route": "Rice Fields"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 74,
-                "frequency": 35,
-                "island": "Omninesia",
-                "maxLevel": 21,
-                "minLevel": 18,
-                "route": "The Hangroad"
-            },
-            {
-                "area": "Area 4",
-                "freeTem": 161,
-                "frequency": 20,
-                "island": "Cipanku",
-                "maxLevel": 53,
-                "minLevel": 47,
-                "route": "Rice Fields"
-            },
-            {
-                "area": "Area 5",
-                "freeTem": 161,
-                "frequency": 20,
-                "island": "Cipanku",
-                "maxLevel": 55,
-                "minLevel": 47,
-                "route": "Rice Fields"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 74,
-                "frequency": 30,
-                "island": "Omninesia",
-                "maxLevel": 20,
-                "minLevel": 18,
-                "route": "The Flywalk"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 77,
-                "frequency": 35,
-                "island": "Omninesia",
-                "maxLevel": 21,
-                "minLevel": 19,
-                "route": "The Flywalk"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 128,
-                "frequency": 20,
-                "island": "Tucma",
-                "maxLevel": 40,
-                "minLevel": 36,
-                "route": "Kakama Cenote"
-            },
-            {
-                "area": "Area 5",
-                "freeTem": 116,
-                "frequency": 60,
-                "island": "Kisiwa",
-                "maxLevel": 39,
-                "minLevel": 32,
-                "route": "Mawingu Islets"
-            }
-        ],
-        "name": "Babawa",
-        "number": 45,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b9/Babawa.png/revision/latest",
-        "types": [
-            "Nature type",
-            "Water type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 2
-        },
-        "genderRatio": 50,
-        "locations": [],
-        "name": "Bigu",
-        "number": 44,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/09/Bigu.png/revision/latest",
-        "types": [
-            "Nature type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 2,
-            "HP": 2,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 50,
-        "locations": [
-            {
-                "area": "Area 6",
-                "freeTem": 89,
-                "frequency": 95,
-                "island": "Tucma",
-                "maxLevel": 56,
-                "minLevel": 51,
-                "route": "Corrupted Badlands"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 88,
-                "frequency": 95,
-                "island": "Tucma",
-                "maxLevel": 55,
-                "minLevel": 50,
-                "route": "Sons of Crystal"
-            }
-        ],
-        "name": "Zenoreth",
-        "number": 41,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/22/Zenoreth.png/revision/latest",
-        "types": [
-            "Crystal type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 3,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 50,
-        "locations": [
-            {
-                "area": "Area 3",
-                "freeTem": 99,
-                "frequency": 5,
-                "island": "Tucma",
-                "maxLevel": 38,
-                "minLevel": 32,
-                "route": "Mines of Mictlan"
-            }
-        ],
-        "name": "Azuroc",
-        "number": 40,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9a/Azuroc.png/revision/latest",
-        "types": [
-            "Crystal type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 2,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 50,
-        "locations": [
-            {
-                "area": "Area 1",
-                "freeTem": 56,
-                "frequency": 50,
-                "island": "Tucma",
-                "maxLevel": 30,
-                "minLevel": 20,
-                "route": "Gardens of Aztlan"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 74,
-                "frequency": 85,
-                "island": "Tucma",
-                "maxLevel": 34,
-                "minLevel": 30,
-                "route": "Mines of Mictlan"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 76,
-                "frequency": 85,
-                "island": "Tucma",
-                "maxLevel": 35,
-                "minLevel": 31,
-                "route": "Mines of Mictlan"
-            }
-        ],
-        "name": "Lapinite",
-        "number": 39,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/69/Lapinite.png/revision/latest",
-        "types": [
-            "Crystal type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 3,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 50,
-        "locations": [],
-        "name": "Nidrasil",
-        "number": 36,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5b/Nidrasil.png/revision/latest",
-        "types": [
-            "Nature type",
-            "Toxic type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 2,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 50,
-        "locations": [
-            {
-                "area": "Area 2",
-                "freeTem": 83,
-                "frequency": 50,
-                "island": "Tucma",
-                "maxLevel": 30,
-                "minLevel": 28,
-                "route": "Xolot Reservoir"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 77,
-                "frequency": 45,
-                "island": "Tucma",
-                "maxLevel": 27,
-                "minLevel": 25,
-                "route": "Corrupted Badlands"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 77,
-                "frequency": 20,
-                "island": "Tucma",
-                "maxLevel": 28,
-                "minLevel": 25,
-                "route": "Corrupted Badlands"
-            },
-            {
-                "area": "Area 4",
-                "freeTem": 77,
-                "frequency": 75,
-                "island": "Tucma",
-                "maxLevel": 28,
-                "minLevel": 25,
-                "route": "Corrupted Badlands"
-            }
-        ],
-        "name": "Orphyll",
-        "number": 35,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b3/Orphyll.png/revision/latest",
-        "types": [
-            "Nature type",
-            "Toxic type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 3,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 50,
-        "locations": [],
-        "name": "Nagaise",
-        "number": 34,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/82/Nagaise.png/revision/latest",
-        "types": [
-            "Mental type",
-            "Water type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 2,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "genderRatio": 50,
-        "locations": [],
-        "name": "Tental",
-        "number": 33,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/37/Tental.png/revision/latest",
-        "types": [
-            "Mental type"
         ]
     },
     {
@@ -5566,6 +4652,51 @@
         "locations": [
             {
                 "area": "Area 1",
+                "freeTem": 88,
+                "frequency": 40,
+                "island": "Kisiwa",
+                "maxLevel": 39,
+                "minLevel": 35,
+                "route": "Jino Gap"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 84,
+                "frequency": 50,
+                "island": "Kisiwa",
+                "maxLevel": 39,
+                "minLevel": 33,
+                "route": "Mawingu Islets"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 88,
+                "frequency": 40,
+                "island": "Kisiwa",
+                "maxLevel": 39,
+                "minLevel": 35,
+                "route": "Jino Gap"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 84,
+                "frequency": 50,
+                "island": "Kisiwa",
+                "maxLevel": 39,
+                "minLevel": 33,
+                "route": "Mawingu Islets"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 105,
+                "frequency": 25,
+                "island": "Kisiwa",
+                "maxLevel": 47,
+                "minLevel": 44,
+                "route": "Matope Road"
+            },
+            {
+                "area": "Area 1",
                 "freeTem": 98,
                 "frequency": 20,
                 "island": "Kisiwa",
@@ -5581,51 +4712,6 @@
                 "maxLevel": 44,
                 "minLevel": 40,
                 "route": "Kwea Uplands"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 88,
-                "frequency": 40,
-                "island": "Kisiwa",
-                "maxLevel": 39,
-                "minLevel": 35,
-                "route": "Jino Gap"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 88,
-                "frequency": 40,
-                "island": "Kisiwa",
-                "maxLevel": 39,
-                "minLevel": 35,
-                "route": "Jino Gap"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 105,
-                "frequency": 25,
-                "island": "Kisiwa",
-                "maxLevel": 47,
-                "minLevel": 44,
-                "route": "Matope Road"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 84,
-                "frequency": 50,
-                "island": "Kisiwa",
-                "maxLevel": 39,
-                "minLevel": 33,
-                "route": "Mawingu Islets"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 84,
-                "frequency": 50,
-                "island": "Kisiwa",
-                "maxLevel": 39,
-                "minLevel": 33,
-                "route": "Mawingu Islets"
             }
         ],
         "name": "Goty",
@@ -5649,30 +4735,30 @@
         "locations": [
             {
                 "area": "Area 1",
-                "freeTem": 146,
+                "freeTem": 101,
                 "frequency": 50,
-                "island": "Kisiwa",
-                "maxLevel": 48,
-                "minLevel": 42,
-                "route": "Kilima Peaks"
+                "island": "Tucma",
+                "maxLevel": 30,
+                "minLevel": 27,
+                "route": "Xolot Reservoir"
             },
             {
                 "area": "Area 2",
-                "freeTem": 146,
+                "freeTem": 98,
                 "frequency": 20,
-                "island": "Kisiwa",
-                "maxLevel": 48,
-                "minLevel": 42,
-                "route": "Kilima Peaks"
+                "island": "Tucma",
+                "maxLevel": 30,
+                "minLevel": 26,
+                "route": "Corrupted Badlands"
             },
             {
                 "area": "Area 4",
-                "freeTem": 146,
-                "frequency": 70,
+                "freeTem": 110,
+                "frequency": 30,
                 "island": "Kisiwa",
-                "maxLevel": 47,
-                "minLevel": 42,
-                "route": "Kilima Peaks"
+                "maxLevel": 34,
+                "minLevel": 30,
+                "route": "Mawingu Islets"
             },
             {
                 "area": "Area 3",
@@ -5691,6 +4777,15 @@
                 "maxLevel": 18,
                 "minLevel": 14,
                 "route": "Aguamarina Caves"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 146,
+                "frequency": 65,
+                "island": "Kisiwa",
+                "maxLevel": 47,
+                "minLevel": 42,
+                "route": "Barafu Glacier"
             },
             {
                 "area": "Area 8",
@@ -5730,39 +4825,30 @@
             },
             {
                 "area": "Area 1",
-                "freeTem": 101,
+                "freeTem": 146,
                 "frequency": 50,
-                "island": "Tucma",
-                "maxLevel": 30,
-                "minLevel": 27,
-                "route": "Xolot Reservoir"
+                "island": "Kisiwa",
+                "maxLevel": 48,
+                "minLevel": 42,
+                "route": "Kilima Peaks"
             },
             {
                 "area": "Area 2",
-                "freeTem": 98,
-                "frequency": 20,
-                "island": "Tucma",
-                "maxLevel": 30,
-                "minLevel": 26,
-                "route": "Corrupted Badlands"
-            },
-            {
-                "area": "Area 1",
                 "freeTem": 146,
-                "frequency": 65,
+                "frequency": 20,
                 "island": "Kisiwa",
-                "maxLevel": 47,
+                "maxLevel": 48,
                 "minLevel": 42,
-                "route": "Barafu Glacier"
+                "route": "Kilima Peaks"
             },
             {
                 "area": "Area 4",
-                "freeTem": 110,
-                "frequency": 30,
+                "freeTem": 146,
+                "frequency": 70,
                 "island": "Kisiwa",
-                "maxLevel": 34,
-                "minLevel": 30,
-                "route": "Mawingu Islets"
+                "maxLevel": 47,
+                "minLevel": 42,
+                "route": "Kilima Peaks"
             },
             {
                 "area": "Area 1",
@@ -5796,6 +4882,55 @@
             "ATK": 0,
             "DEF": 0,
             "HP": 0,
+            "SPATK": 1,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 0,
+        "locations": [
+            {
+                "area": "Area 10",
+                "freeTem": 55,
+                "frequency": 5,
+                "island": "Deniz",
+                "maxLevel": 14,
+                "minLevel": 12,
+                "route": "Windward Fort"
+            }
+        ],
+        "name": "Barnshe",
+        "number": 53,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6c/Barnshe.png/revision/latest",
+        "types": [
+            "Wind type",
+            "Mental type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 2,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 50,
+        "locations": [],
+        "name": "Tental",
+        "number": 33,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/37/Tental.png/revision/latest",
+        "types": [
+            "Mental type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
             "SPATK": 0,
             "SPD": 1,
             "SPDEF": 0,
@@ -5804,22 +4939,58 @@
         "genderRatio": 50,
         "locations": [
             {
-                "area": "Area 1",
-                "freeTem": 41,
-                "frequency": 70,
+                "area": "Area 2",
+                "freeTem": 36,
+                "frequency": 30,
                 "island": "Deniz",
-                "maxLevel": 11,
-                "minLevel": 9,
-                "route": "Windward Fort"
+                "maxLevel": 9,
+                "minLevel": 7,
+                "route": "Gifted Bridges"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 29,
+                "frequency": 30,
+                "island": "Deniz",
+                "maxLevel": 6,
+                "minLevel": 4,
+                "route": "Thalassian Cliffs"
+            },
+            {
+                "area": "Area 6",
+                "freeTem": 29,
+                "frequency": 5,
+                "island": "Deniz",
+                "maxLevel": 6,
+                "minLevel": 4,
+                "route": "Prasine Coast"
+            },
+            {
+                "area": "Area 9",
+                "freeTem": 36,
+                "frequency": 80,
+                "island": "Deniz",
+                "maxLevel": 9,
+                "minLevel": 7,
+                "route": "Thalassian Cliffs"
+            },
+            {
+                "area": "Area 10",
+                "freeTem": 36,
+                "frequency": 50,
+                "island": "Deniz",
+                "maxLevel": 9,
+                "minLevel": 7,
+                "route": "Thalassian Cliffs"
             },
             {
                 "area": "Area 4",
-                "freeTem": 45,
-                "frequency": 80,
+                "freeTem": 106,
+                "frequency": 50,
                 "island": "Deniz",
-                "maxLevel": 12,
-                "minLevel": 11,
-                "route": "Windward Fort"
+                "maxLevel": 41,
+                "minLevel": 38,
+                "route": "Saipark"
             },
             {
                 "area": "Area 1",
@@ -5829,15 +5000,6 @@
                 "maxLevel": 17,
                 "minLevel": 15,
                 "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 5",
-                "freeTem": 45,
-                "frequency": 100,
-                "island": "Deniz",
-                "maxLevel": 13,
-                "minLevel": 11,
-                "route": "Windward Fort"
             },
             {
                 "area": "Area 3",
@@ -5858,6 +5020,69 @@
                 "route": "Aguamarina Caves"
             },
             {
+                "area": "Area 8",
+                "freeTem": 52,
+                "frequency": 55,
+                "island": "Deniz",
+                "maxLevel": 17,
+                "minLevel": 14,
+                "route": "Aguamarina Caves"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 41,
+                "frequency": 70,
+                "island": "Deniz",
+                "maxLevel": 11,
+                "minLevel": 9,
+                "route": "Windward Fort"
+            },
+            {
+                "area": "Area 9",
+                "freeTem": 54,
+                "frequency": 55,
+                "island": "Deniz",
+                "maxLevel": 18,
+                "minLevel": 15,
+                "route": "Aguamarina Caves"
+            },
+            {
+                "area": "Area 10",
+                "freeTem": 54,
+                "frequency": 55,
+                "island": "Deniz",
+                "maxLevel": 18,
+                "minLevel": 15,
+                "route": "Aguamarina Caves"
+            },
+            {
+                "area": "Area 11",
+                "freeTem": 54,
+                "frequency": 65,
+                "island": "Deniz",
+                "maxLevel": 17,
+                "minLevel": 15,
+                "route": "Aguamarina Caves"
+            },
+            {
+                "area": "Area 4",
+                "freeTem": 45,
+                "frequency": 80,
+                "island": "Deniz",
+                "maxLevel": 12,
+                "minLevel": 11,
+                "route": "Windward Fort"
+            },
+            {
+                "area": "Area 5",
+                "freeTem": 45,
+                "frequency": 100,
+                "island": "Deniz",
+                "maxLevel": 13,
+                "minLevel": 11,
+                "route": "Windward Fort"
+            },
+            {
                 "area": "Area 6",
                 "freeTem": 45,
                 "frequency": 100,
@@ -5865,6 +5090,15 @@
                 "maxLevel": 12,
                 "minLevel": 11,
                 "route": "Windward Fort"
+            },
+            {
+                "area": "Area 12",
+                "freeTem": 61,
+                "frequency": 30,
+                "island": "Deniz",
+                "maxLevel": 20,
+                "minLevel": 18,
+                "route": "Aguamarina Caves"
             },
             {
                 "area": "Area 7",
@@ -5892,105 +5126,6 @@
                 "maxLevel": 14,
                 "minLevel": 12,
                 "route": "Windward Fort"
-            },
-            {
-                "area": "Area 8",
-                "freeTem": 52,
-                "frequency": 55,
-                "island": "Deniz",
-                "maxLevel": 17,
-                "minLevel": 14,
-                "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 9",
-                "freeTem": 54,
-                "frequency": 55,
-                "island": "Deniz",
-                "maxLevel": 18,
-                "minLevel": 15,
-                "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 10",
-                "freeTem": 54,
-                "frequency": 55,
-                "island": "Deniz",
-                "maxLevel": 18,
-                "minLevel": 15,
-                "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 29,
-                "frequency": 30,
-                "island": "Deniz",
-                "maxLevel": 6,
-                "minLevel": 4,
-                "route": "Thalassian Cliffs"
-            },
-            {
-                "area": "Area 11",
-                "freeTem": 54,
-                "frequency": 65,
-                "island": "Deniz",
-                "maxLevel": 17,
-                "minLevel": 15,
-                "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 12",
-                "freeTem": 61,
-                "frequency": 30,
-                "island": "Deniz",
-                "maxLevel": 20,
-                "minLevel": 18,
-                "route": "Aguamarina Caves"
-            },
-            {
-                "area": "Area 4",
-                "freeTem": 106,
-                "frequency": 50,
-                "island": "Deniz",
-                "maxLevel": 41,
-                "minLevel": 38,
-                "route": "Saipark"
-            },
-            {
-                "area": "Area 9",
-                "freeTem": 36,
-                "frequency": 80,
-                "island": "Deniz",
-                "maxLevel": 9,
-                "minLevel": 7,
-                "route": "Thalassian Cliffs"
-            },
-            {
-                "area": "Area 10",
-                "freeTem": 36,
-                "frequency": 50,
-                "island": "Deniz",
-                "maxLevel": 9,
-                "minLevel": 7,
-                "route": "Thalassian Cliffs"
-            },
-            {
-                "area": "Area 6",
-                "freeTem": 29,
-                "frequency": 5,
-                "island": "Deniz",
-                "maxLevel": 6,
-                "minLevel": 4,
-                "route": "Prasine Coast"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 36,
-                "frequency": 30,
-                "island": "Deniz",
-                "maxLevel": 9,
-                "minLevel": 7,
-                "route": "Gifted Bridges"
             }
         ],
         "name": "Skail",
@@ -6012,6 +5147,33 @@
         },
         "genderRatio": 50,
         "locations": [
+            {
+                "area": "Area 4",
+                "freeTem": 119,
+                "frequency": 15,
+                "island": "Tucma",
+                "maxLevel": 39,
+                "minLevel": 33,
+                "route": "Mines of Mictlan"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 164,
+                "frequency": 35,
+                "island": "Cipanku",
+                "maxLevel": 53,
+                "minLevel": 48,
+                "route": "Rice Fields"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 134,
+                "frequency": 40,
+                "island": "Tucma",
+                "maxLevel": 41,
+                "minLevel": 38,
+                "route": "Kakama Cenote"
+            },
             {
                 "area": "Area 1",
                 "freeTem": 62,
@@ -6038,33 +5200,6 @@
                 "maxLevel": 15,
                 "minLevel": 14,
                 "route": "Sillaro River"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 164,
-                "frequency": 35,
-                "island": "Cipanku",
-                "maxLevel": 53,
-                "minLevel": 48,
-                "route": "Rice Fields"
-            },
-            {
-                "area": "Area 4",
-                "freeTem": 119,
-                "frequency": 15,
-                "island": "Tucma",
-                "maxLevel": 39,
-                "minLevel": 33,
-                "route": "Mines of Mictlan"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 134,
-                "frequency": 40,
-                "island": "Tucma",
-                "maxLevel": 41,
-                "minLevel": 38,
-                "route": "Kakama Cenote"
             },
             {
                 "area": "Area 1",
@@ -6097,6 +5232,15 @@
         "genderRatio": 50,
         "locations": [
             {
+                "area": "Area 7",
+                "freeTem": 42,
+                "frequency": 80,
+                "island": "Deniz",
+                "maxLevel": 15,
+                "minLevel": 12,
+                "route": "Gifted Bridges"
+            },
+            {
                 "area": "Area 1",
                 "freeTem": 44,
                 "frequency": 50,
@@ -6104,33 +5248,6 @@
                 "maxLevel": 14,
                 "minLevel": 13,
                 "route": "Sillaro River"
-            },
-            {
-                "area": "Area 1",
-                "freeTem": 37,
-                "frequency": 10,
-                "island": "Deniz",
-                "maxLevel": 11,
-                "minLevel": 9,
-                "route": "Windward Fort"
-            },
-            {
-                "area": "Area 2",
-                "freeTem": 40,
-                "frequency": 50,
-                "island": "Deniz",
-                "maxLevel": 12,
-                "minLevel": 11,
-                "route": "Windward Fort"
-            },
-            {
-                "area": "Area 3",
-                "freeTem": 40,
-                "frequency": 100,
-                "island": "Deniz",
-                "maxLevel": 14,
-                "minLevel": 11,
-                "route": "Windward Fort"
             },
             {
                 "area": "Area 4",
@@ -6169,13 +5286,31 @@
                 "route": "Sillaro River"
             },
             {
-                "area": "Area 7",
-                "freeTem": 42,
-                "frequency": 80,
+                "area": "Area 1",
+                "freeTem": 37,
+                "frequency": 10,
                 "island": "Deniz",
-                "maxLevel": 15,
-                "minLevel": 12,
-                "route": "Gifted Bridges"
+                "maxLevel": 11,
+                "minLevel": 9,
+                "route": "Windward Fort"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 40,
+                "frequency": 50,
+                "island": "Deniz",
+                "maxLevel": 12,
+                "minLevel": 11,
+                "route": "Windward Fort"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 40,
+                "frequency": 100,
+                "island": "Deniz",
+                "maxLevel": 14,
+                "minLevel": 11,
+                "route": "Windward Fort"
             }
         ],
         "name": "Fomu",
@@ -6292,15 +5427,6 @@
         "genderRatio": 50,
         "locations": [
             {
-                "area": "Area 4",
-                "freeTem": 170,
-                "frequency": 35,
-                "island": "Cipanku",
-                "maxLevel": 55,
-                "minLevel": 50,
-                "route": "Pillars of Highabove"
-            },
-            {
                 "area": "Area 1",
                 "freeTem": 119,
                 "frequency": 5,
@@ -6308,6 +5434,15 @@
                 "maxLevel": 37,
                 "minLevel": 33,
                 "route": "Mines of Mictlan"
+            },
+            {
+                "area": "Area 4",
+                "freeTem": 170,
+                "frequency": 35,
+                "island": "Cipanku",
+                "maxLevel": 55,
+                "minLevel": 50,
+                "route": "Pillars of Highabove"
             },
             {
                 "area": "Area 1",
@@ -6341,21 +5476,21 @@
         "locations": [
             {
                 "area": "Area 1",
-                "freeTem": 74,
-                "frequency": 50,
-                "island": "Tucma",
-                "maxLevel": 35,
-                "minLevel": 25,
-                "route": "Gardens of Aztlan"
-            },
-            {
-                "area": "Area 1",
                 "freeTem": 90,
                 "frequency": 70,
                 "island": "Tucma",
                 "maxLevel": 35,
                 "minLevel": 32,
                 "route": "Mines of Mictlan"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 74,
+                "frequency": 50,
+                "island": "Tucma",
+                "maxLevel": 35,
+                "minLevel": 25,
+                "route": "Gardens of Aztlan"
             },
             {
                 "area": "Area 1",
@@ -6459,6 +5594,871 @@
         "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d5/Granpah.png/revision/latest",
         "types": [
             "Wind type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 1,
+            "SPDEF": 0,
+            "STA": 1
+        },
+        "genderRatio": 50,
+        "locations": [
+            {
+                "area": "Area 1",
+                "freeTem": 57,
+                "frequency": 80,
+                "island": "Omninesia",
+                "maxLevel": 22,
+                "minLevel": 19,
+                "route": "The Glassyway"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 51,
+                "frequency": 20,
+                "island": "Omninesia",
+                "maxLevel": 18,
+                "minLevel": 16,
+                "route": "The Canopath"
+            },
+            {
+                "area": "Area 4",
+                "freeTem": 51,
+                "frequency": 20,
+                "island": "Omninesia",
+                "maxLevel": 19,
+                "minLevel": 16,
+                "route": "The Canopath"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 49,
+                "frequency": 20,
+                "island": "Omninesia",
+                "maxLevel": 20,
+                "minLevel": 15,
+                "route": "The Hangroad"
+            },
+            {
+                "area": "Area 4",
+                "freeTem": 55,
+                "frequency": 30,
+                "island": "Omninesia",
+                "maxLevel": 20,
+                "minLevel": 18,
+                "route": "The Flywalk"
+            },
+            {
+                "area": "Area 5",
+                "freeTem": 63,
+                "frequency": 50,
+                "island": "Omninesia",
+                "maxLevel": 25,
+                "minLevel": 22,
+                "route": "The Flywalk"
+            }
+        ],
+        "name": "Loali",
+        "number": 11,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0c/Loali.png/revision/latest",
+        "types": [
+            "Nature type",
+            "Wind type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 1
+        },
+        "genderRatio": 50,
+        "locations": [
+            {
+                "area": "Area 3",
+                "freeTem": 27,
+                "frequency": 30,
+                "island": "Deniz",
+                "maxLevel": 7,
+                "minLevel": 5,
+                "route": "Thalassian Cliffs"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 23,
+                "frequency": 40,
+                "island": "Deniz",
+                "maxLevel": 4,
+                "minLevel": 2,
+                "route": "Prasine Coast"
+            },
+            {
+                "area": "Area 5",
+                "freeTem": 25,
+                "frequency": 40,
+                "island": "Deniz",
+                "maxLevel": 5,
+                "minLevel": 3,
+                "route": "Prasine Coast"
+            },
+            {
+                "area": "Area 9",
+                "freeTem": 29,
+                "frequency": 20,
+                "island": "Deniz",
+                "maxLevel": 8,
+                "minLevel": 6,
+                "route": "Thalassian Cliffs"
+            }
+        ],
+        "name": "Swali",
+        "number": 10,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8a/Swali.png/revision/latest",
+        "types": [
+            "Nature type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 2,
+            "SPD": 2,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 50,
+        "locations": [
+            {
+                "area": "Area 1",
+                "freeTem": 115,
+                "frequency": 95,
+                "island": "Deniz",
+                "maxLevel": 70,
+                "minLevel": 70,
+                "route": "Dabmis' Rest"
+            },
+            {
+                "area": "Area 14",
+                "freeTem": 115,
+                "frequency": 95,
+                "island": "Deniz",
+                "maxLevel": 70,
+                "minLevel": 70,
+                "route": "Aguamarina Caves"
+            }
+        ],
+        "name": "Platimous",
+        "number": 9,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7f/Platimous.png/revision/latest",
+        "types": [
+            "Water type",
+            "Toxic type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 1,
+            "SPATK": 0,
+            "SPD": 1,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 50,
+        "locations": [
+            {
+                "area": "Area 5",
+                "freeTem": 120,
+                "frequency": 15,
+                "island": "Cipanku",
+                "maxLevel": 52,
+                "minLevel": 46,
+                "route": "Iwaba"
+            },
+            {
+                "area": "Area 5",
+                "freeTem": 128,
+                "frequency": 10,
+                "island": "Cipanku",
+                "maxLevel": 60,
+                "minLevel": 50,
+                "route": "Pillars of Highabove"
+            },
+            {
+                "area": "Area 6",
+                "freeTem": 128,
+                "frequency": 10,
+                "island": "Cipanku",
+                "maxLevel": 60,
+                "minLevel": 50,
+                "route": "Pillars of Highabove"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 64,
+                "frequency": 20,
+                "island": "Omninesia",
+                "maxLevel": 22,
+                "minLevel": 20,
+                "route": "The Glassyway"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 55,
+                "frequency": 20,
+                "island": "Omninesia",
+                "maxLevel": 18,
+                "minLevel": 16,
+                "route": "The Canopath"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 38,
+                "frequency": 5,
+                "island": "Deniz",
+                "maxLevel": 10,
+                "minLevel": 8,
+                "route": "Gifted Bridges"
+            },
+            {
+                "area": "Area 4",
+                "freeTem": 85,
+                "frequency": 95,
+                "island": "Deniz",
+                "maxLevel": 40,
+                "minLevel": 30,
+                "route": "Gifted Bridges"
+            },
+            {
+                "area": "Area 4",
+                "freeTem": 107,
+                "frequency": 15,
+                "island": "Deniz",
+                "maxLevel": 45,
+                "minLevel": 40,
+                "route": "Prasine Coast"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 68,
+                "frequency": 40,
+                "island": "Kisiwa",
+                "maxLevel": 32,
+                "minLevel": 22,
+                "route": "Jino Gap"
+            },
+            {
+                "area": "Area 11",
+                "freeTem": 55,
+                "frequency": 20,
+                "island": "Deniz",
+                "maxLevel": 17,
+                "minLevel": 16,
+                "route": "Thalassian Cliffs"
+            },
+            {
+                "area": "Area 4",
+                "freeTem": 59,
+                "frequency": 20,
+                "island": "Omninesia",
+                "maxLevel": 21,
+                "minLevel": 18,
+                "route": "The Flywalk"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 100,
+                "frequency": 50,
+                "island": "Deniz",
+                "maxLevel": 40,
+                "minLevel": 37,
+                "route": "Saipark"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 107,
+                "frequency": 70,
+                "island": "Kisiwa",
+                "maxLevel": 43,
+                "minLevel": 40,
+                "route": "Kwea Uplands"
+            }
+        ],
+        "name": "Paharac",
+        "number": 17,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2c/Paharac.png/revision/latest",
+        "types": [
+            "Wind type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 1,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 50,
+        "locations": [
+            {
+                "area": "Area 1",
+                "freeTem": 30,
+                "frequency": 95,
+                "island": "Deniz",
+                "maxLevel": 8,
+                "minLevel": 7,
+                "route": "Gifted Bridges"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 30,
+                "frequency": 30,
+                "island": "Deniz",
+                "maxLevel": 10,
+                "minLevel": 7,
+                "route": "Gifted Bridges"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 23,
+                "frequency": 35,
+                "island": "Deniz",
+                "maxLevel": 2,
+                "minLevel": 2,
+                "route": "Prasine Coast"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 26,
+                "frequency": 90,
+                "island": "Deniz",
+                "maxLevel": 6,
+                "minLevel": 4,
+                "route": "Thalassian Cliffs"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 23,
+                "frequency": 70,
+                "island": "Deniz",
+                "maxLevel": 3,
+                "minLevel": 2,
+                "route": "Prasine Coast"
+            },
+            {
+                "area": "Area 5",
+                "freeTem": 25,
+                "frequency": 20,
+                "island": "Deniz",
+                "maxLevel": 5,
+                "minLevel": 3,
+                "route": "Prasine Coast"
+            },
+            {
+                "area": "Area 6",
+                "freeTem": 26,
+                "frequency": 90,
+                "island": "Deniz",
+                "maxLevel": 7,
+                "minLevel": 4,
+                "route": "Prasine Coast"
+            },
+            {
+                "area": "Area 8",
+                "freeTem": 26,
+                "frequency": 50,
+                "island": "Deniz",
+                "maxLevel": 6,
+                "minLevel": 4,
+                "route": "Prasine Coast"
+            }
+        ],
+        "name": "Paharo",
+        "number": 16,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1c/Paharo.png/revision/latest",
+        "types": [
+            "Wind type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 2
+        },
+        "genderRatio": 60,
+        "locations": [
+            {
+                "area": "Area 2",
+                "freeTem": 34,
+                "frequency": 40,
+                "island": "Deniz",
+                "maxLevel": 10,
+                "minLevel": 8,
+                "route": "Gifted Bridges"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 27,
+                "frequency": 70,
+                "island": "Deniz",
+                "maxLevel": 6,
+                "minLevel": 4,
+                "route": "Thalassian Cliffs"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 24,
+                "frequency": 30,
+                "island": "Deniz",
+                "maxLevel": 2,
+                "minLevel": 2,
+                "route": "Prasine Coast"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 24,
+                "frequency": 30,
+                "island": "Deniz",
+                "maxLevel": 3,
+                "minLevel": 2,
+                "route": "Prasine Coast"
+            },
+            {
+                "area": "Area 7",
+                "freeTem": 25,
+                "frequency": 50,
+                "island": "Deniz",
+                "maxLevel": 5,
+                "minLevel": 3,
+                "route": "Prasine Coast"
+            },
+            {
+                "area": "Area 4",
+                "freeTem": 73,
+                "frequency": 80,
+                "island": "Kisiwa",
+                "maxLevel": 37,
+                "minLevel": 32,
+                "route": "Jino Gap"
+            },
+            {
+                "area": "Area 8",
+                "freeTem": 27,
+                "frequency": 50,
+                "island": "Deniz",
+                "maxLevel": 6,
+                "minLevel": 4,
+                "route": "Prasine Coast"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 81,
+                "frequency": 50,
+                "island": "Deniz",
+                "maxLevel": 40,
+                "minLevel": 37,
+                "route": "Saipark"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 45,
+                "frequency": 30,
+                "island": "Deniz",
+                "maxLevel": 17,
+                "minLevel": 15,
+                "route": "Aguamarina Caves"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 43,
+                "frequency": 30,
+                "island": "Deniz",
+                "maxLevel": 18,
+                "minLevel": 14,
+                "route": "Aguamarina Caves"
+            },
+            {
+                "area": "Area 4",
+                "freeTem": 43,
+                "frequency": 30,
+                "island": "Deniz",
+                "maxLevel": 17,
+                "minLevel": 14,
+                "route": "Aguamarina Caves"
+            },
+            {
+                "area": "Area 8",
+                "freeTem": 43,
+                "frequency": 20,
+                "island": "Deniz",
+                "maxLevel": 17,
+                "minLevel": 14,
+                "route": "Aguamarina Caves"
+            },
+            {
+                "area": "Area 9",
+                "freeTem": 45,
+                "frequency": 20,
+                "island": "Deniz",
+                "maxLevel": 18,
+                "minLevel": 15,
+                "route": "Aguamarina Caves"
+            },
+            {
+                "area": "Area 10",
+                "freeTem": 43,
+                "frequency": 20,
+                "island": "Deniz",
+                "maxLevel": 17,
+                "minLevel": 14,
+                "route": "Aguamarina Caves"
+            },
+            {
+                "area": "Area 11",
+                "freeTem": 45,
+                "frequency": 30,
+                "island": "Deniz",
+                "maxLevel": 17,
+                "minLevel": 15,
+                "route": "Aguamarina Caves"
+            },
+            {
+                "area": "Area 4",
+                "freeTem": 40,
+                "frequency": 20,
+                "island": "Deniz",
+                "maxLevel": 13,
+                "minLevel": 12,
+                "route": "Windward Fort"
+            },
+            {
+                "area": "Area 12",
+                "freeTem": 52,
+                "frequency": 30,
+                "island": "Deniz",
+                "maxLevel": 20,
+                "minLevel": 19,
+                "route": "Aguamarina Caves"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 89,
+                "frequency": 20,
+                "island": "Kisiwa",
+                "maxLevel": 44,
+                "minLevel": 42,
+                "route": "Kilima Peaks"
+            }
+        ],
+        "name": "Tateru",
+        "number": 12,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/55/Tateru.png/revision/latest",
+        "types": [
+            "Neutral type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 1,
+            "SPD": 1,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 50,
+        "locations": [
+            {
+                "area": "Area 3",
+                "freeTem": 116,
+                "frequency": 50,
+                "island": "Deniz",
+                "maxLevel": 40,
+                "minLevel": 37,
+                "route": "Saipark"
+            },
+            {
+                "area": "Area 4",
+                "freeTem": 116,
+                "frequency": 50,
+                "island": "Deniz",
+                "maxLevel": 40,
+                "minLevel": 37,
+                "route": "Saipark"
+            },
+            {
+                "area": "Area 5",
+                "freeTem": 123,
+                "frequency": 15,
+                "island": "Deniz",
+                "maxLevel": 45,
+                "minLevel": 40,
+                "route": "Sillaro River"
+            }
+        ],
+        "name": "Platox",
+        "number": 8,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7b/Platox.png/revision/latest",
+        "types": [
+            "Water type",
+            "Toxic type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 1,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 50,
+        "locations": [
+            {
+                "area": "Area 4",
+                "freeTem": 90,
+                "frequency": 85,
+                "island": "Tucma",
+                "maxLevel": 36,
+                "minLevel": 32,
+                "route": "Mines of Mictlan"
+            },
+            {
+                "area": "Area 5",
+                "freeTem": 85,
+                "frequency": 70,
+                "island": "Tucma",
+                "maxLevel": 32,
+                "minLevel": 30,
+                "route": "Xolot Reservoir"
+            },
+            {
+                "area": "Area 6",
+                "freeTem": 83,
+                "frequency": 50,
+                "island": "Tucma",
+                "maxLevel": 33,
+                "minLevel": 29,
+                "route": "Xolot Reservoir"
+            },
+            {
+                "area": "Area 7",
+                "freeTem": 85,
+                "frequency": 50,
+                "island": "Tucma",
+                "maxLevel": 33,
+                "minLevel": 30,
+                "route": "Xolot Reservoir"
+            },
+            {
+                "area": "Area 7",
+                "freeTem": 74,
+                "frequency": 30,
+                "island": "Tucma",
+                "maxLevel": 29,
+                "minLevel": 25,
+                "route": "Corrupted Badlands"
+            },
+            {
+                "area": "Area 3",
+                "freeTem": 40,
+                "frequency": 70,
+                "island": "Deniz",
+                "maxLevel": 10,
+                "minLevel": 9,
+                "route": "Gifted Bridges"
+            },
+            {
+                "area": "Area 5",
+                "freeTem": 36,
+                "frequency": 70,
+                "island": "Deniz",
+                "maxLevel": 10,
+                "minLevel": 7,
+                "route": "Gifted Bridges"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 74,
+                "frequency": 80,
+                "island": "Tucma",
+                "maxLevel": 36,
+                "minLevel": 25,
+                "route": "Gardens of Aztlan"
+            }
+        ],
+        "name": "Platypet",
+        "number": 7,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/03/Platypet.png/revision/latest",
+        "types": [
+            "Water type",
+            "Toxic type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 1,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 2
+        },
+        "genderRatio": 25,
+        "locations": [],
+        "name": "Zaobian",
+        "number": 3,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/54/Zaobian.png/revision/latest",
+        "types": [
+            "Digital type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 1
+        },
+        "genderRatio": 25,
+        "locations": [
+            {
+                "area": "Area 1",
+                "freeTem": 95,
+                "frequency": 50,
+                "island": "Cipanku",
+                "maxLevel": 50,
+                "minLevel": 40,
+                "route": "Pillars of Highabove"
+            },
+            {
+                "area": "Area 2",
+                "freeTem": 91,
+                "frequency": 50,
+                "island": "Cipanku",
+                "maxLevel": 48,
+                "minLevel": 38,
+                "route": "Pillars of Highabove"
+            },
+            {
+                "area": "Area 1",
+                "freeTem": 95,
+                "frequency": 60,
+                "island": "Cipanku",
+                "maxLevel": 50,
+                "minLevel": 40,
+                "route": "Rice Fields"
+            }
+        ],
+        "name": "Oree",
+        "number": 2,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/99/Oree.png/revision/latest",
+        "types": [
+            "Digital type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 2,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 5,
+        "locations": [],
+        "name": "Molgu",
+        "number": 6,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5f/Molgu.png/revision/latest",
+        "types": [
+            "Digital type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 2,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 50,
+        "locations": [
+            {
+                "area": "Area 7",
+                "freeTem": 172,
+                "frequency": 50,
+                "island": "Cipanku",
+                "maxLevel": 55,
+                "minLevel": 45,
+                "route": "Pillars of Highabove"
+            }
+        ],
+        "name": "Chromeon",
+        "number": 4,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2d/Chromeon.png/revision/latest",
+        "types": [
+            "Digital type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 1,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "genderRatio": 5,
+        "locations": [
+            {
+                "area": "Area 2",
+                "freeTem": 111,
+                "frequency": 60,
+                "island": "Cipanku",
+                "maxLevel": 50,
+                "minLevel": 42,
+                "route": "Rice Fields"
+            }
+        ],
+        "name": "Halzhi",
+        "number": 5,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/88/Halzhi.png/revision/latest",
+        "types": [
+            "Digital type"
         ]
     }
 ]
