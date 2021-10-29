@@ -25,3 +25,17 @@
     ```bash
     pip install elasticsearch
     ```
+
+## Setup
+
+### Scraping data
+
+    python scrap.py
+
+### Indexing data
+
+    python index.py
+
+### Run all
+
+    python run.py
