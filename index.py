@@ -1,9 +1,9 @@
-import os
 import json
-from elasticsearch import Elasticsearch
-from elasticsearch import helpers
+import os
 
-pathJSON = f'{os.path.dirname(os.path.realpath(__file__))}/data'
+from elasticsearch import Elasticsearch, helpers
+
+pathJSON = f'{os.path.dirname(os.path.realpath(__file__))}/temtem/data'
 
 es = Elasticsearch("localhost:9200")
 
