@@ -1,0 +1,50 @@
+[
+    {
+        "icon": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1b/Digital.png/revision/latest",
+        "name": "Digital type"
+    },
+    {
+        "icon": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a7/Nature.png/revision/latest",
+        "name": "Nature type"
+    },
+    {
+        "icon": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/30/Fire.png/revision/latest",
+        "name": "Fire type"
+    },
+    {
+        "icon": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/bf/Mental.png/revision/latest",
+        "name": "Mental type"
+    },
+    {
+        "icon": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9d/Water.png/revision/latest",
+        "name": "Water type"
+    },
+    {
+        "icon": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b3/Neutral.png/revision/latest",
+        "name": "Neutral type"
+    },
+    {
+        "icon": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2f/Electric.png/revision/latest",
+        "name": "Electric type"
+    },
+    {
+        "icon": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1e/Earth.png/revision/latest",
+        "name": "Earth type"
+    },
+    {
+        "icon": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/bf/Wind.png/revision/latest",
+        "name": "Wind type"
+    },
+    {
+        "icon": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8f/Melee.png/revision/latest",
+        "name": "Melee type"
+    },
+    {
+        "icon": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/31/Crystal.png/revision/latest",
+        "name": "Crystal type"
+    },
+    {
+        "icon": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/96/Toxic.png/revision/latest",
+        "name": "Toxic type"
+    }
+]
