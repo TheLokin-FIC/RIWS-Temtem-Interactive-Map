@@ -21,6 +21,7 @@ class JsonPipeline:
         self.locations = []
 
     def process_item(self, item, spider):
+
         if isinstance(item, TemtemItem):
             self.temtems.append(dict(item))
 
