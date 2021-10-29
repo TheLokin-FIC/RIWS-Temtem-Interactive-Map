@@ -7,6 +7,8 @@
 
 -   [Prerequisites](#prerequisites)
 
+-   [Setup](#setup)
+
 ## Prerequisites
 
 -   [Scrapy](https://scrapy.org/)
