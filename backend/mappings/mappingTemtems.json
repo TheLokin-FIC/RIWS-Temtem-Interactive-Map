@@ -1,0 +1,106 @@
+{
+  "mappings": {
+    "properties": {
+      "temtem": {
+        "properties": {
+          "TVs": {
+            "properties": {
+              "ATK": {
+                "type": "long"
+              },
+              "DEF": {
+                "type": "long"
+              },
+              "HP": {
+                "type": "long"
+              },
+              "SPATK": {
+                "type": "long"
+              },
+              "SPD": {
+                "type": "long"
+              },
+              "SPDEF": {
+                "type": "long"
+              },
+              "STA": {
+                "type": "long"
+              }
+            }
+          },
+          "genderRatio": {
+            "type": "long"
+          },
+          "locations": {
+            "properties": {
+              "area": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "freeTem": {
+                "type": "long"
+              },
+              "frequency": {
+                "type": "long"
+              },
+              "island": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "maxLevel": {
+                "type": "long"
+              },
+              "minLevel": {
+                "type": "long"
+              },
+              "route": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              }
+            }
+          },
+          "name": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "number": {
+            "type": "long"
+          },
+          "portrait": {
+            "type": "object",
+            "enabled": "false"
+          },
+          "types": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

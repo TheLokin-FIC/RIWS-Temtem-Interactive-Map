@@ -5,6 +5,8 @@ from elasticsearch import Elasticsearch, helpers
 
 pathJSON = f'{os.path.dirname(os.path.realpath(__file__))}/temtem/data'
 
+pathMappings = f'{os.path.dirname(os.path.realpath(__file__))}/mappings'
+
 es = Elasticsearch("localhost:9200")
 
 
@@ -23,15 +25,33 @@ def gendata(docs, index):
             index: doc,
         }
 
+def create_index():
+
+    mappingTypes = json_to_var(pathMappings + "/mappingTypes.json")
+
+    mappingTemtems = json_to_var(pathMappings + "/mappingTemtems.json")
+
+    es.indices.create(
+        index="temtems",
+        body=mappingTemtems,
+        ignore=400
+    )
+
+    es.indices.create(
+        index="types",
+        body=mappingTypes,
+        ignore=400
+    )
+    
 
 def temtems():
     docsTemtem = json_to_var(pathJSON + '/temtems.json')
-    helpers.bulk(es, gendata(docsTemtem, "temtem"))
+    helpers.bulk(es, gendata(docsTemtem, "temtem"), ignore_status=400)
 
 
 def types():
     docsTypes = json_to_var(pathJSON + '/types.json')
-    helpers.bulk(es, gendata(docsTypes, "type"))
+    helpers.bulk(es, gendata(docsTypes, "type"), ignore_status=400)
 
 
 def index():
@@ -39,4 +59,5 @@ def index():
     types()
 
 
+create_index()
 index()

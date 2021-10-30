@@ -1,0 +1,23 @@
+{
+  "mappings": {
+    "properties": {
+      "type": {
+        "properties": {
+          "icon": {
+            "type": "object",
+            "enabled": "false"
+          },
+          "name": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
