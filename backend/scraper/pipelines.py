@@ -1,27 +1,24 @@
 import json
 import math
 import os
+from pathlib import Path
 
-from temtem.items import LocationItem, TemtemItem, TypeItem
+from scraper.items import LocationItem, TemtemItem, TypeItem
 
 
 def freeTem(catchRate, level):
+    # Calculate the pansuns by releasing a Temtem based on its catch rate and its level
     return 20 + math.ceil((level / catchRate) * 270)
 
 
 class JsonPipeline:
     def open_spider(self, spider):
-        # Path folder for the scraped data
-        self.path = f'{os.path.dirname(os.path.realpath(__file__))}/data'
-        if not os.path.exists(self.path):
-            os.makedirs(self.path)
-
+        # Lists with the scraped items
         self.temtems = []
         self.types = []
         self.locations = []
 
     def process_item(self, item, spider):
-
         if isinstance(item, TemtemItem):
             self.temtems.append(dict(item))
 
@@ -32,12 +29,12 @@ class JsonPipeline:
             self.locations.append(dict(item))
 
     def close_spider(self, spider):
-        # Save the Temtem types scraped data
-        with open(f'{self.path}/types.json', 'w') as file:
-            file.write(json.dumps(self.types, indent=4, sort_keys=True))
-
-        # Process the scrapped Temtem data
+        # Process the scraped data
         for temtem in self.temtems.copy():
+            # Add the Temtem types
+            temtem['types'] = [item.copy()
+                               for item in self.types if item['name'] in temtem['types']]
+
             # Add the locations where the wild Temtem can be found
             temtem['locations'] = [item.copy()
                                    for item in self.locations if item['temtem'] == temtem['name']]
@@ -50,9 +47,17 @@ class JsonPipeline:
                 # Remove the Temtem name from location
                 del location['temtem']
 
-            # Remove the Temtem catchRate
+            # Remove the Temtem catch rate
             del temtem['catchRate']
 
-        # Save the Temtems scraped data
-        with open(f'{self.path}/temtems.json', 'w') as file:
-            file.write(json.dumps(self.temtems, indent=4, sort_keys=True))
+        # Path folder for the scraped data
+        path = Path(os.path.dirname(os.path.realpath(__file__))
+                    ).parent.absolute().joinpath('data')
+
+        # Create the folder for the scraped data if it does not exist
+        if not os.path.exists(path):
+            os.makedirs(path)
+
+        # Save the scraped data
+        with open(os.path.join(path, 'temtems.json'), 'w') as file:
+            file.write(json.dumps(self.temtems, indent=2, sort_keys=True))

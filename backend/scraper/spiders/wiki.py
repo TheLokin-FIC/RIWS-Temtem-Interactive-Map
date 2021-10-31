@@ -1,43 +1,48 @@
+from scraper.items import LocationItem, TemtemItem, TVField, TypeItem
 from scrapy import Request, Spider
-from temtem.items import LocationItem, TemtemItem, TVField, TypeItem
 
 
 def unscaled_image(value):
+    # Expression to fetch the URL of the image with the highest resolution
     return value.rstrip().split('scale')[0][:-1]
 
 
 def get_url(response, value):
-    # XPath expression to fetch the image url from src
+    # XPath expression to fetch the image URL from src
     url = response.xpath(f'{value}/@src').extract_first()
 
-    # If the image is encoded in base64 the url is extracted from the data-src
+    # If the image is encoded in base64 the URL is extracted from the data-src
     if 'base64' in url:
-        # XPath expression to fetch the image url from data-src
+        # XPath expression to fetch the image URL from data-src
         url = response.xpath(f'{value}/@data-src').extract_first()
 
     return unscaled_image(url)
 
 
 def to_gender_ratio(value):
-    return -1 if value == 'N/A' else int(value.split(' ')[0][:-1])
+    # If the Temtem has no gender, it is assigned the maximum value
+    return 100 if value == 'N/A' else int(value.split(' ')[0][:-1])
 
 
 def to_catch_rate(value):
+    # If the catch rate is 0 it is corrected to 200 to avoid a division by zero
     return 200 if value == '0' else int(value)
 
 
 def to_stat(value):
+    # If the stat is not available, it is assigned to zero
     return int(0 if value is None else value.rstrip() or 0)
 
 
 def to_level(value):
     levels = value.split('-')
 
+    # If the Temtem does not have a minimum and maximum level, the level is returned by duplicate
     return [int(levels[0].rstrip()), int(levels[1].rstrip())] if len(levels) == 2 else [int(value), int(value)]
 
 
-class TemtemsSpider(Spider):
-    name = 'temtems'
+class WikiSpider(Spider):
+    name = 'wiki'
     start_urls = ['https://temtem.fandom.com/wiki/Temtem_(creatures)']
 
     def parse(self, response):
@@ -55,7 +60,7 @@ class TemtemsSpider(Spider):
                 '//table[contains(@class, "ambox")]/tbody/tr/td[1]/a/img/@alt').extract_first() is not None:
             return
 
-        # Item to store Temtem information
+        # The item to store Temtem information
         temtem = TemtemItem()
 
         # XPath expression to fetch the Temtem number
@@ -135,7 +140,7 @@ class TemtemsSpider(Spider):
         yield temtem
 
     def parse_TVs(self, response):
-        # Field to store Temtem TVs information
+        # The field to store Temtem TVs information
         tvs = TVField()
 
         # XPath expression to fetch the HP of the Temtem TV
@@ -169,7 +174,7 @@ class TemtemsSpider(Spider):
         return tvs
 
     def parse_type(self, response):
-        # Item to store Temtem type information
+        # The item to store Temtem type information
         type = TypeItem()
 
         # XPath expression to fetch the name of the Temtem type
@@ -193,7 +198,7 @@ class TemtemsSpider(Spider):
 
         # Loop through the Temtem location areas to get the details of each
         for i, area in enumerate(areas):
-            # Temtems obtained by quest will not be scraped
+            # The Temtems obtained by quests will not be scraped
             if not 'Area' in area:
                 return
 
@@ -208,6 +213,7 @@ class TemtemsSpider(Spider):
                 # XPath expression to fetch the Temtem frequencies in the location
                 frequencies = response.xpath(
                     f'//div[contains(@class, "tabber")]/div[{2+i}]/table/tbody/tr[3]/td[2]/table/tbody/tr[4]/td/abbr[2]/text()').extract()
+
             else:
                 # XPath expression to fetch the Temtem frequencies in the location
                 frequencies = response.xpath(
@@ -219,7 +225,7 @@ class TemtemsSpider(Spider):
 
             # Loop through the Temtems in the location area to map the details of each
             for temtem, frequency, level in zip(temtems, frequencies, levels):
-                # Item to store Temtem location information
+                # The item to store Temtem location information
                 location = LocationItem()
 
                 location['island'] = island

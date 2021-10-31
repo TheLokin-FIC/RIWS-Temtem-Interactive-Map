@@ -3,6 +3,7 @@
         "ms-python.python",
         "ms-python.vscode-pylance",
         "kevinrose.vsc-python-indent",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "ria.elastic"
     ]
 }

@@ -40,4 +40,4 @@ yarn-error.log*
 *.code-workspace
 
 # local history for visual studio code
-.history/
+.history
