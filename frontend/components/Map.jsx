@@ -10,9 +10,9 @@ export default class Map extends Component {
         return (
             <MapContainer
                 center={[-128, 128]}
-                zoom={5}
+                zoom={6}
                 minZoom={0}
-                maxZoom={5}
+                maxZoom={6}
                 zoomControl={false}
                 attributionControl={false}
                 crs={CRS.Simple}

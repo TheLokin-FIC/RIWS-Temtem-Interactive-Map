@@ -63,5 +63,3 @@ docker run --name Kibana --net elastic -p 5601:5601 -e "ELASTICSEARCH_HOSTS=http
 # External programs
 
 [Tile cutter](https://github.com/tearat/tile-cutter-win-desktop) used to generate the interactive map.
-
-[PNGyu](https://nukesaq88.github.io/Pngyu) PNG optimizer used to reduce the size of the files.
