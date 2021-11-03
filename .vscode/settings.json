@@ -9,9 +9,6 @@
     "prettier.singleQuote": true,
     "prettier.tabWidth": 4,
     "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-    },
-    "files.exclude": {
-        "**/__pycache__": true
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
 }
