@@ -1,0 +1,19 @@
+.types {
+    display: flex;
+    justify-content: center;
+}
+
+.types .container-type {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.types .selected {
+    background-color: rgba(255, 255, 255, 0.719);
+    transform: scale(1.1);
+}
+
+.types .container-type:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}

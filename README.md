@@ -30,7 +30,7 @@ docker pull docker.elastic.co/elasticsearch/elasticsearch:7.15.1
 To start a single-node Elasticsearch cluster for development or testing, specify single-node discovery to bypass the bootstrap checks.
 
 ```bash
-docker run --name Elasticsearch -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.15.1
+docker run --name Elasticsearch -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -e "discovery.type=single-node" -e "http.cors.allow-origin=http://localhost:3000" -e "http.cors.enabled=true" docker.elastic.co/elasticsearch/elasticsearch:7.15.1
 ```
 
 ## Kibana
