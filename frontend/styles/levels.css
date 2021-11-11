@@ -1,0 +1,6 @@
+.levels {
+    margin-inline: 20px;
+}
+.levels .slider {
+    color: rgb(var(--font_color)) !important;
+}

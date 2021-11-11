@@ -1,6 +1,4 @@
 import { CRS } from 'leaflet';
-import 'leaflet-defaulticon-compatibility';
-import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
 import 'leaflet/dist/leaflet.css';
 import React, { Component } from 'react';
 import { MapContainer, Marker, TileLayer, ZoomControl } from 'react-leaflet';

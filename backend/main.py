@@ -104,7 +104,6 @@ def create_index(client):
                         },
                         'maxLevel': {
                             'type': 'byte',
-                            'index': 'false'
                         },
                     }
                 }

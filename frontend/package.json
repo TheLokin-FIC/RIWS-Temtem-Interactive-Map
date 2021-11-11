@@ -1,18 +1,23 @@
 {
-  "name": "temtem-interactive-map",
-  "version": "0.1.0",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "leaflet": "^1.7.1",
-    "leaflet-defaulticon-compatibility": "^0.1.1",
-    "next": "^12.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-leaflet": "^3.2.2"
-  }
+    "name": "temtem-interactive-map",
+    "version": "0.1.0",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "@emotion/react": "^11.5.0",
+        "@emotion/styled": "^11.3.0",
+        "@mui/icons-material": "^5.0.5",
+        "@mui/lab": "^5.0.0-alpha.54",
+        "@mui/material": "^5.0.6",
+        "elasticsearch": "^16.7.2",
+        "leaflet": "^1.7.1",
+        "next": "^12.0.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-leaflet": "^3.2.2"
+    }
 }
