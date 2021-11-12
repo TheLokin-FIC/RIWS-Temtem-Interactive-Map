@@ -1,6 +1,6 @@
 <p align="center">
-  <img alt="Interactive Temtem Map" src="https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/63/Temtem_logo.png/revision/latest" />
-  <h1 align="center"><b>Interactive Temtem Map</b></h1>
+  <img alt="Temtem Interactive Map" src="https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/63/Temtem_logo.png/revision/latest" />
+  <h1 align="center"><b>Temtem Interactive Map</b></h1>
 </p>
 
 # Backend

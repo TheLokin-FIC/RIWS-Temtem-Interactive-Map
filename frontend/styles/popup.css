@@ -1,0 +1,62 @@
+.leaflet-popup-content {
+    width: 240px !important;
+}
+
+.popup-table {
+    width: 100%;
+}
+
+.popup-header {
+    padding: 0.4em;
+    color: #fcc56b;
+    text-align: center;
+    text-shadow: 0px 1px #8b8c99;
+    letter-spacing: 0.05em;
+    font-size: 150%;
+    font-weight: bold;
+    border: 2px solid #b2738d;
+    border-radius: 4px;
+    background-color: #7d5873;
+    background: linear-gradient(#523351, #393351);
+}
+
+.popup-row-name {
+    width: 40%;
+    padding: 0.1em 0.7em;
+    color: #fcc56b;
+    vertical-align: middle;
+    text-align: right;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-size: 89%;
+    border-radius: 5px;
+    background-color: #7d5873;
+}
+
+.popup-row-value {
+    width: 60%;
+    vertical-align: middle;
+}
+
+.gender-ratio {
+    margin: 0.1em;
+    width: 96%;
+    height: 1em;
+    overflow: hidden;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.gender-ratio .male,
+.gender-ratio .female {
+    height: 1em;
+    display: inline-block;
+}
+
+.gender-ratio .male {
+    background-color: #25f;
+}
+
+.gender-ratio .female {
+    background-color: #fac;
+}
