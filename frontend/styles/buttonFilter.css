@@ -1,0 +1,19 @@
+/* drawer-button button styling */
+.drawer-button {
+    padding: 20px 2px;
+    outline: 0;
+    cursor: pointer;
+    position: absolute;
+    background-color: rgba(85, 0, 85, 1);
+    display: flex;
+    color: white;
+    border: none;
+}
+
+.drawer-button:hover {
+    opacity: 0.6;
+}
+
+.drawer-button .icon {
+    margin-inline: 2px;
+}

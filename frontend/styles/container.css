@@ -1,0 +1,25 @@
+.all {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.all .image {
+    margin-top: 30px;
+}
+
+.all .container {
+    margin-block: 50px;
+    margin-inline: 30px;
+}
+
+.accordion {
+    background-color: transparent;
+    border: 1px solid rgb(var(--font_color));
+    border-radius: 10px;
+    box-shadow: none;
+    margin-block: 10px;
+}
+
+.MuiLoadingButton-loadingIndicator {
+    color: rgb(var(--font_color));
+}

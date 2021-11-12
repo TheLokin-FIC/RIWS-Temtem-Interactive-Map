@@ -112,6 +112,31 @@ GET /temtems/_search
 GET /temtems/_search
 {
     "_source": false,
+    "size": 1,
+    "query": {
+        "nested": {
+            "path": "locations",
+            "query": {
+                "match_all" : { }
+            },
+            "inner_hits": {
+                "sort": [{
+                    "locations.freeTem": {
+                        "order": "desc"
+                    }
+                }],
+                
+                "_source": [
+                    "locations.freeTem"
+                ]
+            }
+        }
+    }
+}
+
+GET /temtems/_search
+{
+    "_source": false,
     "size": 200,
     "query": {
         "nested": {
@@ -145,21 +170,13 @@ GET /temtems/_search
     "query": {
         "bool": {
             "must": [
-                { "match": { "name": { "query": "chuve", "fuzziness": 2 } } },
-                { "match": { "types.name": "Digital type" } },
-                { "match": { "types.name": "Wind type" } },
-                { "range": { "genderRatio": { "gte": 0 } } },
-                { "range": { "TVs.HP": { "gt": 0 } } },
-                { "range": { "TVs.DEF": { "gt": 0 } } },
+                { "match": { "genderRatio": 0 } },
                 {
                     "nested": {
                         "path": "locations",
                         "query": {
                             "bool": {
                                 "must": [
-                                    { "range": { "locations.frequency": { "gte": 0 } } },
-                                    { "range": { "locations.freeTem": { "gte": 0 } } },
-                                    { "range": { "locations.minLevel": { "gte": 0 } } }
                                 ]
                             }
                         },
