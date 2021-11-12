@@ -9,7 +9,7 @@ GET /temtems/_search
     "query": {
         "bool": {
             "must": [
-                { "match": { "name": { "query": "chuve", "fuzziness": 2 } } }
+                { "match": { "name": { "query": "chube", "fuzziness": "AUTO" } } }
             ]
         }
     }
@@ -78,6 +78,7 @@ GET /temtems/_search
                 }
             },
             "inner_hits": {
+                "size":100,
                 "_source": [
                     "locations.frequency"
                 ]
@@ -101,31 +102,7 @@ GET /temtems/_search
                 }
             },
             "inner_hits": {
-                "_source": [
-                    "locations.freeTem"
-                ]
-            }
-        }
-    }
-}
-
-GET /temtems/_search
-{
-    "_source": false,
-    "size": 1,
-    "query": {
-        "nested": {
-            "path": "locations",
-            "query": {
-                "match_all" : { }
-            },
-            "inner_hits": {
-                "sort": [{
-                    "locations.freeTem": {
-                        "order": "desc"
-                    }
-                }],
-                
+                "size":100,
                 "_source": [
                     "locations.freeTem"
                 ]
@@ -149,6 +126,7 @@ GET /temtems/_search
                 }
             },
             "inner_hits": {
+                "size":100,
                 "_source": [
                     "locations.minLevel"
                 ]
@@ -170,17 +148,26 @@ GET /temtems/_search
     "query": {
         "bool": {
             "must": [
-                { "match": { "genderRatio": 0 } },
+                { "match": { "name": { "query": "chuve", "fuzziness": 2 } } },
+                { "match": { "types.name": "Digital type" } },
+                { "match": { "types.name": "Wind type" } },
+                { "range": { "genderRatio": { "gte": 0 } } },
+                { "range": { "TVs.HP": { "gt": 0 } } },
+                { "range": { "TVs.DEF": { "gt": 0 } } },
                 {
                     "nested": {
                         "path": "locations",
                         "query": {
                             "bool": {
                                 "must": [
+                                    { "range": { "locations.frequency": { "gte": 0 } } },
+                                    { "range": { "locations.freeTem": { "gte": 0 } } },
+                                    { "range": { "locations.minLevel": { "gte": 0 } } }
                                 ]
                             }
                         },
                         "inner_hits": {
+                            "size":100,
                             "_source": [
                                 "locations.frequency",
                                 "locations.freeTem",

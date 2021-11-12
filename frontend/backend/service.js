@@ -23,6 +23,7 @@ const inizializeQuery = () => {
                             inner_hits: {
                                 size: 100,
                                 _source: [
+                                    'locations.area',
                                     'locations.route',
                                     'locations.frequency',
                                     'locations.freeTem',

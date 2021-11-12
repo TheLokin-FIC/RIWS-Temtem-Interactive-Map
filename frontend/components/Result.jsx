@@ -66,7 +66,7 @@ export default function Result(props) {
             {temtems &&
                 temtems.map(function (item) {
                     return (
-                        <Box className="result">
+                        <Box className="result" key={item._source.name}>
                             <Typography align={'center'} className="subtitle">
                                 {item._source.name}
                             </Typography>
@@ -125,6 +125,7 @@ export default function Result(props) {
                                     >
                                         <Box container className="gender">
                                             <Slider
+                                                key={item._source}
                                                 className="slider-gender"
                                                 value={item._source.genderRatio}
                                                 disabled
@@ -156,6 +157,16 @@ export default function Result(props) {
                                                     function (location) {
                                                         return (
                                                             <Grid
+                                                                key={
+                                                                    location
+                                                                        ._source
+                                                                        .route +
+                                                                    location
+                                                                        ._source
+                                                                        .area +
+                                                                    item._source
+                                                                        .name
+                                                                }
                                                                 item
                                                                 xs={12}
                                                                 md={12}
