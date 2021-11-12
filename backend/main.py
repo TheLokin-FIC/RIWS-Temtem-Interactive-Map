@@ -17,11 +17,10 @@ def get_dataset():
     path = Path(os.path.dirname(os.path.realpath(__file__))
                 ).joinpath('data', 'temtems.json')
 
-    # Run the crawler process if the data is not scraped yet
-    if not os.path.exists(path):
-        process = CrawlerProcess(settings)
-        process.crawl(WikiSpider)
-        process.start()
+    # Run the crawler process
+    process = CrawlerProcess(settings)
+    process.crawl(WikiSpider)
+    process.start()
 
     # Read the scraped data
     with open(path, 'r') as file:
@@ -84,14 +83,9 @@ def create_index(client):
                 'locations': {
                     'type': 'nested',
                     'properties': {
-                        'island': {
-                            'type': 'text'
-                        },
                         'route': {
-                            'type': 'text'
-                        },
-                        'area': {
-                            'type': 'text'
+                            'type': 'text',
+                            'index': 'false'
                         },
                         'frequency': {
                             'type': 'byte'
@@ -105,6 +99,18 @@ def create_index(client):
                         'maxLevel': {
                             'type': 'byte',
                         },
+                        'position': {
+                            'properties': {
+                                'lat': {
+                                    'type': 'long',
+                                    'index': 'false'
+                                },
+                                'lng': {
+                                    'type': 'long',
+                                    'index': 'false'
+                                }
+                            }
+                        }
                     }
                 }
             }

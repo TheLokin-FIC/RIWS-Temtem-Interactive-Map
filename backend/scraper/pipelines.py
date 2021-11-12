@@ -1,9 +1,16 @@
+import base64
 import json
 import math
 import os
 from pathlib import Path
 
+import requests
+
 from scraper.items import LocationItem, TemtemItem, TypeItem
+
+
+def get_as_base64(url):
+    return base64.b64encode(requests.get(url).content)
 
 
 def freeTem(catchRate, level):
@@ -29,6 +36,14 @@ class JsonPipeline:
             self.locations.append(dict(item))
 
     def close_spider(self, spider):
+        # Path folder for the data
+        path = Path(os.path.dirname(os.path.realpath(__file__))
+                    ).parent.absolute().joinpath('data')
+
+        # Read the geo location data
+        with open(os.path.join(path, 'geoLocations.json'), 'r') as file:
+            geoLocations = json.loads(file.read())
+
         # Process the scraped data
         for temtem in self.temtems.copy():
             # Add the Temtem types
@@ -44,19 +59,26 @@ class JsonPipeline:
                 location['freeTem'] = freeTem(
                     temtem['catchRate'], location['minLevel'])
 
+                # Add the Temtem position in the map
+                try:
+                    location['position'] = geoLocations[f'{temtem["name"]}-{location["route"]}-{location["area"]}']
+                except:
+                    location['position'] = {
+                        'lat': -128,
+                        'lng': 128
+                    }
+
+                # Remove the island from location
+                del location['island']
+
+                # Remove the area from location
+                del location['area']
+
                 # Remove the Temtem name from location
                 del location['temtem']
 
             # Remove the Temtem catch rate
             del temtem['catchRate']
-
-        # Path folder for the scraped data
-        path = Path(os.path.dirname(os.path.realpath(__file__))
-                    ).parent.absolute().joinpath('data')
-
-        # Create the folder for the scraped data if it does not exist
-        if not os.path.exists(path):
-            os.makedirs(path)
 
         # Save the scraped data
         with open(os.path.join(path, 'temtems.json'), 'w') as file:
