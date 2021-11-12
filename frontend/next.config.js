@@ -1,5 +1,5 @@
 module.exports = {
-  images: {
-    domains: ["static.wikia.nocookie.net"],
-  },
+    images: {
+        domains: ['static.wikia.nocookie.net'],
+    },
 };

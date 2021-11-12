@@ -20,8 +20,8 @@ def get_url(response, value):
 
 
 def to_gender_ratio(value):
-    # If the Temtem has no gender, it is assigned the maximum value
-    return 100 if value == 'N/A' else int(value.split(' ')[0][:-1])
+    # If the Temtem has no gender, it is assigned a negative value
+    return -1 if value == 'N/A' else int(value.split(' ')[0][:-1])
 
 
 def to_catch_rate(value):

@@ -9,6 +9,8 @@
 @import url('./name.css');
 @import url('./gender.css');
 @import url('./frequency.css');
+@import url('./popup.css');
+@import url('./portrait.css');
 
 :root {
     --font_color: 252, 198, 95;
