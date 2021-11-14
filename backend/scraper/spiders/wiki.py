@@ -1,3 +1,4 @@
+
 from scraper.items import LocationItem, TemtemItem, TVField, TypeItem
 from scrapy import Request, Spider
 

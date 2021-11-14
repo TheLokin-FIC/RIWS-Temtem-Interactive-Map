@@ -1,3 +1,5 @@
+DELETE /temtems
+
 GET /temtems/_mapping
 
 GET /temtems/_search
