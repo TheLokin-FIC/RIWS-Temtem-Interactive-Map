@@ -167,7 +167,7 @@ def process_dataset():
                     'freeTem': freeTem(temtem['catchRate'], location['minLevel']),
                     'minLevel': location['minLevel'],
                     'maxLevel': location['maxLevel'],
-                    'positions': geopositions[location['island']][location['route']][location['area']][temtem['name']]
+                    'position': geopositions[location['island']][location['route']][location['area']][temtem['name']]
                 } for location in locations if temtem['name'] == location['temtem']]
             }
 

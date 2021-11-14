@@ -20,21 +20,22 @@
     },
     {
         "TVs": {
-            "ATK": 0,
+            "ATK": 3,
             "DEF": 0,
-            "HP": 1,
+            "HP": 0,
             "SPATK": 0,
-            "SPD": 1,
+            "SPD": 0,
             "SPDEF": 0,
             "STA": 0
         },
-        "catchRate": 125,
+        "catchRate": 100,
         "genderRatio": 50,
-        "name": "Paharac",
-        "number": 17,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2c/Paharac.png/revision/latest",
+        "name": "Nidrasil",
+        "number": 36,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5b/Nidrasil.png/revision/latest",
         "types": [
-            "Wind type"
+            "Nature type",
+            "Toxic type"
         ]
     },
     {
@@ -47,73 +48,14 @@
             "SPDEF": 0,
             "STA": 0
         },
-        "catchRate": 125,
+        "catchRate": 120,
         "genderRatio": 50,
-        "name": "Bunbun",
-        "number": 21,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/38/Bunbun.png/revision/latest",
+        "name": "Orphyll",
+        "number": 35,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b3/Orphyll.png/revision/latest",
         "types": [
-            "Earth type",
-            "Crystal type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 2,
-            "SPD": 2,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 200,
-        "genderRatio": 50,
-        "name": "Granpah",
-        "number": 18,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d5/Granpah.png/revision/latest",
-        "types": [
-            "Wind type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 4,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 40,
-        "genderRatio": 65,
-        "name": "Amphatyr",
-        "number": 20,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a8/Amphatyr.png/revision/latest",
-        "types": [
-            "Electric type",
-            "Nature type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 3,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 90,
-        "genderRatio": 50,
-        "name": "Mudrid",
-        "number": 22,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f5/Mudrid.png/revision/latest",
-        "types": [
-            "Earth type",
-            "Crystal type"
+            "Nature type",
+            "Toxic type"
         ]
     },
     {
@@ -128,11 +70,127 @@
         },
         "catchRate": 180,
         "genderRatio": 50,
-        "name": "Hidody",
-        "number": 23,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1a/Hidody.png/revision/latest",
+        "name": "Bigu",
+        "number": 44,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/09/Bigu.png/revision/latest",
         "types": [
             "Nature type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 3,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 110,
+        "genderRatio": 50,
+        "name": "Azuroc",
+        "number": 40,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9a/Azuroc.png/revision/latest",
+        "types": [
+            "Crystal type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 2,
+            "HP": 2,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 200,
+        "genderRatio": 50,
+        "name": "Zenoreth",
+        "number": 41,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/22/Zenoreth.png/revision/latest",
+        "types": [
+            "Crystal type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 2,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 150,
+        "genderRatio": 60,
+        "name": "Banapi",
+        "number": 37,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/27/Banapi.png/revision/latest",
+        "types": [
+            "Fire type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 4
+        },
+        "catchRate": 90,
+        "genderRatio": 50,
+        "name": "Babawa",
+        "number": 45,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b9/Babawa.png/revision/latest",
+        "types": [
+            "Nature type",
+            "Water type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 1,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 2,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 100,
+        "genderRatio": 60,
+        "name": "Capyre",
+        "number": 38,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/cf/Capyre.png/revision/latest",
+        "types": [
+            "Fire type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 3,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 200,
+        "genderRatio": 50,
+        "name": "Nagaise",
+        "number": 34,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/82/Nagaise.png/revision/latest",
+        "types": [
+            "Mental type",
+            "Water type"
         ]
     },
     {
@@ -143,92 +201,15 @@
             "SPATK": 1,
             "SPD": 0,
             "SPDEF": 0,
-            "STA": 2
-        },
-        "catchRate": 125,
-        "genderRatio": 50,
-        "name": "Taifu",
-        "number": 24,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/36/Taifu.png/revision/latest",
-        "types": [
-            "Nature type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 1,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
             "STA": 0
         },
-        "catchRate": 190,
+        "catchRate": 80,
         "genderRatio": 50,
-        "name": "Paharo",
-        "number": 16,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1c/Paharo.png/revision/latest",
+        "name": "Houchic",
+        "number": 32,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/af/Houchic.png/revision/latest",
         "types": [
-            "Wind type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 2
-        },
-        "catchRate": 165,
-        "genderRatio": 60,
-        "name": "Tateru",
-        "number": 12,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/55/Tateru.png/revision/latest",
-        "types": [
-            "Neutral type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 1,
-            "SPDEF": 0,
-            "STA": 1
-        },
-        "catchRate": 140,
-        "genderRatio": 50,
-        "name": "Loali",
-        "number": 11,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0c/Loali.png/revision/latest",
-        "types": [
-            "Nature type",
-            "Wind type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 1
-        },
-        "catchRate": 200,
-        "genderRatio": 50,
-        "name": "Swali",
-        "number": 10,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8a/Swali.png/revision/latest",
-        "types": [
-            "Nature type"
+            "Mental type"
         ]
     },
     {
@@ -237,74 +218,73 @@
             "DEF": 0,
             "HP": 0,
             "SPATK": 2,
-            "SPD": 2,
+            "SPD": 0,
             "SPDEF": 0,
             "STA": 0
         },
-        "catchRate": 200,
+        "catchRate": 70,
         "genderRatio": 50,
-        "name": "Platimous",
-        "number": 9,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7f/Platimous.png/revision/latest",
+        "name": "Tental",
+        "number": 33,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/37/Tental.png/revision/latest",
         "types": [
-            "Water type",
-            "Toxic type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 2,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 95,
-        "genderRatio": 65,
-        "name": "Ampling",
-        "number": 19,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/93/Ampling.png/revision/latest",
-        "types": [
-            "Electric type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 1,
-            "SPD": 1,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 105,
-        "genderRatio": 50,
-        "name": "Platox",
-        "number": 8,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7b/Platox.png/revision/latest",
-        "types": [
-            "Water type",
-            "Toxic type"
+            "Mental type"
         ]
     },
     {
         "TVs": {
             "ATK": 0,
             "DEF": 1,
+            "HP": 1,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 90,
+        "genderRatio": 50,
+        "name": "Mouflank",
+        "number": 30,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/75/Mouflank.png/revision/latest",
+        "types": [
+            "Neutral type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 1,
+            "DEF": 0,
+            "HP": 2,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 80,
+        "genderRatio": 50,
+        "name": "Rhoulder",
+        "number": 31,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0d/Rhoulder.png/revision/latest",
+        "types": [
+            "Neutral type",
+            "Earth type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 2,
+            "DEF": 0,
             "HP": 0,
             "SPATK": 0,
             "SPD": 0,
             "SPDEF": 0,
             "STA": 0
         },
-        "catchRate": 140,
+        "catchRate": 100,
         "genderRatio": 50,
-        "name": "Kalazu",
-        "number": 127,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/fc/Kalazu.png/revision/latest",
+        "name": "Koish",
+        "number": 143,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6a/Koish.png/revision/latest",
         "types": [
             "Water type"
         ]
@@ -319,33 +299,32 @@
             "SPDEF": 0,
             "STA": 0
         },
-        "catchRate": 125,
+        "catchRate": 140,
         "genderRatio": 50,
-        "name": "Platypet",
-        "number": 7,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/03/Platypet.png/revision/latest",
+        "name": "Goty",
+        "number": 29,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/19/Goty.png/revision/latest",
         "types": [
-            "Water type",
-            "Toxic type"
+            "Neutral type"
         ]
     },
     {
         "TVs": {
             "ATK": 0,
-            "DEF": 0,
+            "DEF": 2,
             "HP": 0,
-            "SPATK": 4,
+            "SPATK": 0,
             "SPD": 0,
             "SPDEF": 0,
             "STA": 0
         },
-        "catchRate": 200,
+        "catchRate": 150,
         "genderRatio": 50,
-        "name": "Volgon",
-        "number": 164,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ab/Volgon.png/revision/latest",
+        "name": "Lapinite",
+        "number": 39,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/69/Lapinite.png/revision/latest",
         "types": [
-            "Electric type"
+            "Crystal type"
         ]
     },
     {
@@ -366,6 +345,25 @@
         "types": [
             "Fire type",
             "Nature type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 4,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 200,
+        "genderRatio": 50,
+        "name": "Volgon",
+        "number": 164,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ab/Volgon.png/revision/latest",
+        "types": [
+            "Electric type"
         ]
     },
     {
@@ -430,45 +428,6 @@
     },
     {
         "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 3,
-            "STA": 0
-        },
-        "catchRate": 110,
-        "genderRatio": 50,
-        "name": "Vulffy",
-        "number": 144,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/46/Vulffy.png/revision/latest",
-        "types": [
-            "Earth type",
-            "Nature type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 2,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 100,
-        "genderRatio": 50,
-        "name": "Koish",
-        "number": 143,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6a/Koish.png/revision/latest",
-        "types": [
-            "Water type"
-        ]
-    },
-    {
-        "TVs": {
             "ATK": 1,
             "DEF": 0,
             "HP": 0,
@@ -485,6 +444,26 @@
         "types": [
             "Earth type",
             "Toxic type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 3,
+            "STA": 0
+        },
+        "catchRate": 110,
+        "genderRatio": 50,
+        "name": "Vulffy",
+        "number": 144,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/46/Vulffy.png/revision/latest",
+        "types": [
+            "Earth type",
+            "Nature type"
         ]
     },
     {
@@ -521,26 +500,6 @@
         "name": "Vulcrane",
         "number": 140,
         "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b3/Vulcrane.png/revision/latest",
-        "types": [
-            "Fire type",
-            "Earth type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 1,
-            "HP": 1,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 100,
-        "genderRatio": 60,
-        "name": "Vulor",
-        "number": 139,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/61/Vulor.png/revision/latest",
         "types": [
             "Fire type",
             "Earth type"
@@ -609,6 +568,26 @@
     {
         "TVs": {
             "ATK": 0,
+            "DEF": 1,
+            "HP": 1,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 100,
+        "genderRatio": 60,
+        "name": "Vulor",
+        "number": 139,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/61/Vulor.png/revision/latest",
+        "types": [
+            "Fire type",
+            "Earth type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
             "DEF": 0,
             "HP": 4,
             "SPATK": 0,
@@ -644,6 +623,26 @@
         "types": [
             "Wind type",
             "Crystal type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 3,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 200,
+        "genderRatio": 50,
+        "name": "Tulcan",
+        "number": 132,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/05/Tulcan.png/revision/latest",
+        "types": [
+            "Wind type",
+            "Fire type"
         ]
     },
     {
@@ -688,46 +687,6 @@
     {
         "TVs": {
             "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 4,
-            "STA": 0
-        },
-        "catchRate": 130,
-        "genderRatio": 50,
-        "name": "Adoroboros",
-        "number": 129,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/26/Adoroboros.png/revision/latest",
-        "types": [
-            "Toxic type",
-            "Mental type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 3,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 200,
-        "genderRatio": 50,
-        "name": "Tulcan",
-        "number": 132,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/05/Tulcan.png/revision/latest",
-        "types": [
-            "Wind type",
-            "Fire type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
             "DEF": 2,
             "HP": 0,
             "SPATK": 0,
@@ -747,6 +706,25 @@
     },
     {
         "TVs": {
+            "ATK": 0,
+            "DEF": 1,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 140,
+        "genderRatio": 50,
+        "name": "Kalazu",
+        "number": 127,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/fc/Kalazu.png/revision/latest",
+        "types": [
+            "Water type"
+        ]
+    },
+    {
+        "TVs": {
             "ATK": 2,
             "DEF": 0,
             "HP": 2,
@@ -762,6 +740,26 @@
         "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0a/Loatle.png/revision/latest",
         "types": [
             "Digital type",
+            "Mental type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 4,
+            "STA": 0
+        },
+        "catchRate": 130,
+        "genderRatio": 50,
+        "name": "Adoroboros",
+        "number": 129,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/26/Adoroboros.png/revision/latest",
+        "types": [
+            "Toxic type",
             "Mental type"
         ]
     },
@@ -847,6 +845,25 @@
     },
     {
         "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 3,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 90,
+        "genderRatio": 75,
+        "name": "Yowlar",
+        "number": 116,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/35/Yowlar.png/revision/latest",
+        "types": [
+            "Neutral type"
+        ]
+    },
+    {
+        "TVs": {
             "ATK": 1,
             "DEF": 0,
             "HP": 0,
@@ -863,6 +880,25 @@
         "types": [
             "Water type",
             "Earth type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 2,
+            "SPD": 1,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 35,
+        "genderRatio": 10,
+        "name": "Oceara",
+        "number": 115,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/26/Oceara.png/revision/latest",
+        "types": [
+            "Water type"
         ]
     },
     {
@@ -923,44 +959,6 @@
         "types": [
             "Earth type",
             "Electric type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 3,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 90,
-        "genderRatio": 75,
-        "name": "Yowlar",
-        "number": 116,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/35/Yowlar.png/revision/latest",
-        "types": [
-            "Neutral type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 2,
-            "SPD": 1,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 35,
-        "genderRatio": 10,
-        "name": "Oceara",
-        "number": 115,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/26/Oceara.png/revision/latest",
-        "types": [
-            "Water type"
         ]
     },
     {
@@ -1067,6 +1065,25 @@
             "HP": 0,
             "SPATK": 2,
             "SPD": 0,
+            "SPDEF": 2,
+            "STA": 0
+        },
+        "catchRate": 75,
+        "genderRatio": 50,
+        "name": "Noxolotl",
+        "number": 106,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/55/Noxolotl.png/revision/latest",
+        "types": [
+            "Toxic type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 2,
+            "SPD": 0,
             "SPDEF": 0,
             "STA": 0
         },
@@ -1096,25 +1113,6 @@
         "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/fa/Cerneaf.png/revision/latest",
         "types": [
             "Nature type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 2,
-            "SPD": 0,
-            "SPDEF": 2,
-            "STA": 0
-        },
-        "catchRate": 75,
-        "genderRatio": 50,
-        "name": "Noxolotl",
-        "number": 106,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/55/Noxolotl.png/revision/latest",
-        "types": [
-            "Toxic type"
         ]
     },
     {
@@ -1180,25 +1178,6 @@
             "DEF": 0,
             "HP": 0,
             "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 1
-        },
-        "catchRate": 130,
-        "genderRatio": 50,
-        "name": "Kuri",
-        "number": 100,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/52/Kuri.png/revision/latest",
-        "types": [
-            "Earth type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
             "SPD": 3,
             "SPDEF": 0,
             "STA": 0
@@ -1233,6 +1212,25 @@
     },
     {
         "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 1
+        },
+        "catchRate": 130,
+        "genderRatio": 50,
+        "name": "Kuri",
+        "number": 100,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/52/Kuri.png/revision/latest",
+        "types": [
+            "Earth type"
+        ]
+    },
+    {
+        "TVs": {
             "ATK": 3,
             "DEF": 0,
             "HP": 0,
@@ -1249,6 +1247,44 @@
         "types": [
             "Melee type",
             "Earth type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 3,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 50,
+        "genderRatio": 65,
+        "name": "Baboong",
+        "number": 93,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/28/Baboong.png/revision/latest",
+        "types": [
+            "Melee type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 1,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 90,
+        "genderRatio": 50,
+        "name": "Umishi",
+        "number": 88,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4f/Umishi.png/revision/latest",
+        "types": [
+            "Water type"
         ]
     },
     {
@@ -1280,11 +1316,11 @@
             "SPDEF": 0,
             "STA": 0
         },
-        "catchRate": 150,
+        "catchRate": 90,
         "genderRatio": 50,
-        "name": "Galvanid",
-        "number": 90,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1a/Galvanid.png/revision/latest",
+        "name": "Raignet",
+        "number": 91,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/50/Raignet.png/revision/latest",
         "types": [
             "Electric type"
         ]
@@ -1299,32 +1335,13 @@
             "SPDEF": 0,
             "STA": 0
         },
-        "catchRate": 90,
+        "catchRate": 150,
         "genderRatio": 50,
-        "name": "Raignet",
-        "number": 91,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/50/Raignet.png/revision/latest",
+        "name": "Galvanid",
+        "number": 90,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1a/Galvanid.png/revision/latest",
         "types": [
             "Electric type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 3,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 50,
-        "genderRatio": 65,
-        "name": "Baboong",
-        "number": 93,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/28/Baboong.png/revision/latest",
-        "types": [
-            "Melee type"
         ]
     },
     {
@@ -1348,25 +1365,6 @@
     },
     {
         "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 1,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 90,
-        "genderRatio": 50,
-        "name": "Umishi",
-        "number": 88,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4f/Umishi.png/revision/latest",
-        "types": [
-            "Water type"
-        ]
-    },
-    {
-        "TVs": {
             "ATK": 3,
             "DEF": 0,
             "HP": 0,
@@ -1380,6 +1378,25 @@
         "name": "Mastione",
         "number": 87,
         "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/32/Mastione.png/revision/latest",
+        "types": [
+            "Fire type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 2,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 200,
+        "genderRatio": 50,
+        "name": "Magmis",
+        "number": 86,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5d/Magmis.png/revision/latest",
         "types": [
             "Fire type"
         ]
@@ -1464,25 +1481,6 @@
     },
     {
         "TVs": {
-            "ATK": 2,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 200,
-        "genderRatio": 50,
-        "name": "Magmis",
-        "number": 86,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5d/Magmis.png/revision/latest",
-        "types": [
-            "Fire type"
-        ]
-    },
-    {
-        "TVs": {
             "ATK": 1,
             "DEF": 0,
             "HP": 0,
@@ -1541,26 +1539,6 @@
     {
         "TVs": {
             "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 1,
-            "SPDEF": 0,
-            "STA": 1
-        },
-        "catchRate": 40,
-        "genderRatio": 50,
-        "name": "Innki",
-        "number": 75,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2c/Innki.png/revision/latest",
-        "types": [
-            "Electric type",
-            "Crystal type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
             "DEF": 3,
             "HP": 0,
             "SPATK": 2,
@@ -1600,25 +1578,6 @@
     {
         "TVs": {
             "ATK": 0,
-            "DEF": 2,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 160,
-        "genderRatio": 35,
-        "name": "Crystle",
-        "number": 72,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ac/Crystle.png/revision/latest",
-        "types": [
-            "Crystal type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
             "DEF": 0,
             "HP": 0,
             "SPATK": 2,
@@ -1634,6 +1593,45 @@
         "types": [
             "Digital type",
             "Toxic type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 1,
+            "SPDEF": 0,
+            "STA": 1
+        },
+        "catchRate": 40,
+        "genderRatio": 50,
+        "name": "Innki",
+        "number": 75,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2c/Innki.png/revision/latest",
+        "types": [
+            "Electric type",
+            "Crystal type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 2,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 160,
+        "genderRatio": 35,
+        "name": "Crystle",
+        "number": 72,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ac/Crystle.png/revision/latest",
+        "types": [
+            "Crystal type"
         ]
     },
     {
@@ -1694,6 +1692,26 @@
         "types": [
             "Water type",
             "Melee type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 1,
+            "SPD": 1,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 80,
+        "genderRatio": 50,
+        "name": "Hoglip",
+        "number": 64,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b1/Hoglip.png/revision/latest",
+        "types": [
+            "Digital type",
+            "Fire type"
         ]
     },
     {
@@ -1770,26 +1788,6 @@
         "name": "Hedgine",
         "number": 65,
         "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/60/Hedgine.png/revision/latest",
-        "types": [
-            "Digital type",
-            "Fire type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 1,
-            "SPD": 1,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 80,
-        "genderRatio": 50,
-        "name": "Hoglip",
-        "number": 64,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b1/Hoglip.png/revision/latest",
         "types": [
             "Digital type",
             "Fire type"
@@ -1894,6 +1892,25 @@
     {
         "TVs": {
             "ATK": 0,
+            "DEF": 0,
+            "HP": 1,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 1,
+            "STA": 0
+        },
+        "catchRate": 120,
+        "genderRatio": 60,
+        "name": "Occlura",
+        "number": 55,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/38/Occlura.png/revision/latest",
+        "types": [
+            "Crystal type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
             "DEF": 2,
             "HP": 0,
             "SPATK": 0,
@@ -1947,25 +1964,6 @@
         "types": [
             "Crystal type",
             "Mental type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 1,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 1,
-            "STA": 0
-        },
-        "catchRate": 120,
-        "genderRatio": 60,
-        "name": "Occlura",
-        "number": 55,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/38/Occlura.png/revision/latest",
-        "types": [
-            "Crystal type"
         ]
     },
     {
@@ -2075,26 +2073,6 @@
             "SPATK": 0,
             "SPD": 0,
             "SPDEF": 0,
-            "STA": 2
-        },
-        "catchRate": 45,
-        "genderRatio": 50,
-        "name": "0b10",
-        "number": 47,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e9/0b10.png/revision/latest",
-        "types": [
-            "Digital type",
-            "Electric type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
             "STA": 1
         },
         "catchRate": 90,
@@ -2115,286 +2093,16 @@
             "SPATK": 0,
             "SPD": 0,
             "SPDEF": 0,
-            "STA": 4
-        },
-        "catchRate": 90,
-        "genderRatio": 50,
-        "name": "Babawa",
-        "number": 45,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b9/Babawa.png/revision/latest",
-        "types": [
-            "Nature type",
-            "Water type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
             "STA": 2
         },
-        "catchRate": 180,
+        "catchRate": 45,
         "genderRatio": 50,
-        "name": "Bigu",
-        "number": 44,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/09/Bigu.png/revision/latest",
+        "name": "0b10",
+        "number": 47,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e9/0b10.png/revision/latest",
         "types": [
-            "Nature type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 2,
-            "HP": 2,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 200,
-        "genderRatio": 50,
-        "name": "Zenoreth",
-        "number": 41,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/22/Zenoreth.png/revision/latest",
-        "types": [
-            "Crystal type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 3,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 110,
-        "genderRatio": 50,
-        "name": "Azuroc",
-        "number": 40,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9a/Azuroc.png/revision/latest",
-        "types": [
-            "Crystal type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 2,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 150,
-        "genderRatio": 50,
-        "name": "Lapinite",
-        "number": 39,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/69/Lapinite.png/revision/latest",
-        "types": [
-            "Crystal type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 1,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 2,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 100,
-        "genderRatio": 60,
-        "name": "Capyre",
-        "number": 38,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/cf/Capyre.png/revision/latest",
-        "types": [
-            "Fire type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 2,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 150,
-        "genderRatio": 60,
-        "name": "Banapi",
-        "number": 37,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/27/Banapi.png/revision/latest",
-        "types": [
-            "Fire type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 3,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 100,
-        "genderRatio": 50,
-        "name": "Nidrasil",
-        "number": 36,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5b/Nidrasil.png/revision/latest",
-        "types": [
-            "Nature type",
-            "Toxic type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
-            "SPD": 2,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 120,
-        "genderRatio": 50,
-        "name": "Orphyll",
-        "number": 35,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b3/Orphyll.png/revision/latest",
-        "types": [
-            "Nature type",
-            "Toxic type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 3,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 200,
-        "genderRatio": 50,
-        "name": "Nagaise",
-        "number": 34,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/82/Nagaise.png/revision/latest",
-        "types": [
-            "Mental type",
-            "Water type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 2,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 70,
-        "genderRatio": 50,
-        "name": "Tental",
-        "number": 33,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/37/Tental.png/revision/latest",
-        "types": [
-            "Mental type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 1,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 80,
-        "genderRatio": 50,
-        "name": "Houchic",
-        "number": 32,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/af/Houchic.png/revision/latest",
-        "types": [
-            "Mental type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 1,
-            "DEF": 0,
-            "HP": 2,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 80,
-        "genderRatio": 50,
-        "name": "Rhoulder",
-        "number": 31,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0d/Rhoulder.png/revision/latest",
-        "types": [
-            "Neutral type",
-            "Earth type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 1,
-            "HP": 1,
-            "SPATK": 0,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 90,
-        "genderRatio": 50,
-        "name": "Mouflank",
-        "number": 30,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/75/Mouflank.png/revision/latest",
-        "types": [
-            "Neutral type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 1,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 140,
-        "genderRatio": 50,
-        "name": "Goty",
-        "number": 29,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/19/Goty.png/revision/latest",
-        "types": [
-            "Neutral type"
+            "Digital type",
+            "Electric type"
         ]
     },
     {
@@ -2415,6 +2123,25 @@
         "types": [
             "Neutral type",
             "Melee type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 1,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 120,
+        "genderRatio": 50,
+        "name": "Skail",
+        "number": 27,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/77/Skail.png/revision/latest",
+        "types": [
+            "Neutral type"
         ]
     },
     {
@@ -2458,6 +2185,278 @@
     },
     {
         "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 1,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 2
+        },
+        "catchRate": 125,
+        "genderRatio": 50,
+        "name": "Taifu",
+        "number": 24,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/36/Taifu.png/revision/latest",
+        "types": [
+            "Nature type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 2
+        },
+        "catchRate": 180,
+        "genderRatio": 50,
+        "name": "Hidody",
+        "number": 23,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1a/Hidody.png/revision/latest",
+        "types": [
+            "Nature type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 3,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 90,
+        "genderRatio": 50,
+        "name": "Mudrid",
+        "number": 22,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f5/Mudrid.png/revision/latest",
+        "types": [
+            "Earth type",
+            "Crystal type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 2,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 125,
+        "genderRatio": 50,
+        "name": "Bunbun",
+        "number": 21,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/38/Bunbun.png/revision/latest",
+        "types": [
+            "Earth type",
+            "Crystal type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 4,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 40,
+        "genderRatio": 65,
+        "name": "Amphatyr",
+        "number": 20,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a8/Amphatyr.png/revision/latest",
+        "types": [
+            "Electric type",
+            "Nature type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 2,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 95,
+        "genderRatio": 65,
+        "name": "Ampling",
+        "number": 19,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/93/Ampling.png/revision/latest",
+        "types": [
+            "Electric type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 1,
+            "SPATK": 0,
+            "SPD": 1,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 125,
+        "genderRatio": 50,
+        "name": "Paharac",
+        "number": 17,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2c/Paharac.png/revision/latest",
+        "types": [
+            "Wind type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 2,
+            "SPD": 2,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 200,
+        "genderRatio": 50,
+        "name": "Granpah",
+        "number": 18,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d5/Granpah.png/revision/latest",
+        "types": [
+            "Wind type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 1,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 190,
+        "genderRatio": 50,
+        "name": "Paharo",
+        "number": 16,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1c/Paharo.png/revision/latest",
+        "types": [
+            "Wind type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 2
+        },
+        "catchRate": 165,
+        "genderRatio": 60,
+        "name": "Tateru",
+        "number": 12,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/55/Tateru.png/revision/latest",
+        "types": [
+            "Neutral type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 1,
+            "SPDEF": 0,
+            "STA": 1
+        },
+        "catchRate": 140,
+        "genderRatio": 50,
+        "name": "Loali",
+        "number": 11,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0c/Loali.png/revision/latest",
+        "types": [
+            "Nature type",
+            "Wind type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 1
+        },
+        "catchRate": 200,
+        "genderRatio": 50,
+        "name": "Swali",
+        "number": 10,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8a/Swali.png/revision/latest",
+        "types": [
+            "Nature type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 2,
+            "SPD": 2,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 200,
+        "genderRatio": 50,
+        "name": "Platimous",
+        "number": 9,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7f/Platimous.png/revision/latest",
+        "types": [
+            "Water type",
+            "Toxic type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 1,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 125,
+        "genderRatio": 50,
+        "name": "Platypet",
+        "number": 7,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/03/Platypet.png/revision/latest",
+        "types": [
+            "Water type",
+            "Toxic type"
+        ]
+    },
+    {
+        "TVs": {
             "ATK": 2,
             "DEF": 0,
             "HP": 0,
@@ -2480,37 +2479,38 @@
             "ATK": 0,
             "DEF": 0,
             "HP": 0,
-            "SPATK": 0,
-            "SPD": 1,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 120,
-        "genderRatio": 50,
-        "name": "Skail",
-        "number": 27,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/77/Skail.png/revision/latest",
-        "types": [
-            "Neutral type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 1,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 0,
+            "SPATK": 2,
             "SPD": 0,
             "SPDEF": 0,
             "STA": 0
         },
-        "catchRate": 125,
-        "genderRatio": 5,
-        "name": "Halzhi",
-        "number": 5,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/88/Halzhi.png/revision/latest",
+        "catchRate": 80,
+        "genderRatio": 50,
+        "name": "Chromeon",
+        "number": 4,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2d/Chromeon.png/revision/latest",
         "types": [
             "Digital type"
+        ]
+    },
+    {
+        "TVs": {
+            "ATK": 0,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 1,
+            "SPD": 1,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 105,
+        "genderRatio": 50,
+        "name": "Platox",
+        "number": 8,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7b/Platox.png/revision/latest",
+        "types": [
+            "Water type",
+            "Toxic type"
         ]
     },
     {
@@ -2534,6 +2534,25 @@
     },
     {
         "TVs": {
+            "ATK": 1,
+            "DEF": 0,
+            "HP": 0,
+            "SPATK": 0,
+            "SPD": 0,
+            "SPDEF": 0,
+            "STA": 0
+        },
+        "catchRate": 125,
+        "genderRatio": 5,
+        "name": "Halzhi",
+        "number": 5,
+        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/88/Halzhi.png/revision/latest",
+        "types": [
+            "Digital type"
+        ]
+    },
+    {
+        "TVs": {
             "ATK": 0,
             "DEF": 0,
             "HP": 0,
@@ -2547,25 +2566,6 @@
         "name": "Oree",
         "number": 2,
         "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/99/Oree.png/revision/latest",
-        "types": [
-            "Digital type"
-        ]
-    },
-    {
-        "TVs": {
-            "ATK": 0,
-            "DEF": 0,
-            "HP": 0,
-            "SPATK": 2,
-            "SPD": 0,
-            "SPDEF": 0,
-            "STA": 0
-        },
-        "catchRate": 80,
-        "genderRatio": 50,
-        "name": "Chromeon",
-        "number": 4,
-        "portrait": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2d/Chromeon.png/revision/latest",
         "types": [
             "Digital type"
         ]
