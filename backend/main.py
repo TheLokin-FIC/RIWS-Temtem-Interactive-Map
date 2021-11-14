@@ -122,7 +122,7 @@ def get_dataset():
 def process_dataset():
     def get_as_base64(url):
         # Encode the image to base64
-        return str(base64.b64encode(requests.get(url).content))
+        return str(base64.b64encode(requests.get(url).content))[2:-1]
 
     def freeTem(catchRate, level):
         # Calculate the pansuns by releasing a Temtem based on its catch rate and its level

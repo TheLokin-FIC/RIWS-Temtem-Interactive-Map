@@ -127,30 +127,498 @@
     },
     {
         "area": "Area 1",
-        "frequency": 60,
+        "frequency": 50,
         "island": "Cipanku",
         "maxLevel": 50,
         "minLevel": 40,
-        "route": "Rice Fields",
+        "route": "Pillars of Highabove",
         "temtem": "Oree"
     },
     {
         "area": "Area 1",
+        "frequency": 25,
+        "island": "Cipanku",
+        "maxLevel": 52,
+        "minLevel": 40,
+        "route": "Pillars of Highabove",
+        "temtem": "Scarawatt"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 25,
+        "island": "Cipanku",
+        "maxLevel": 56,
+        "minLevel": 46,
+        "route": "Pillars of Highabove",
+        "temtem": "Gazuma"
+    },
+    {
+        "area": "Area 2",
         "frequency": 50,
+        "island": "Cipanku",
+        "maxLevel": 48,
+        "minLevel": 38,
+        "route": "Pillars of Highabove",
+        "temtem": "Oree"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 25,
+        "island": "Cipanku",
+        "maxLevel": 48,
+        "minLevel": 38,
+        "route": "Pillars of Highabove",
+        "temtem": "Scarawatt"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 25,
+        "island": "Cipanku",
+        "maxLevel": 60,
+        "minLevel": 50,
+        "route": "Pillars of Highabove",
+        "temtem": "Gazuma"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 60,
+        "island": "Cipanku",
+        "maxLevel": 50,
+        "minLevel": 40,
+        "route": "Pillars of Highabove",
+        "temtem": "Hoglip"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 80,
+        "island": "Omninesia",
+        "maxLevel": 22,
+        "minLevel": 19,
+        "route": "The Glassyway",
+        "temtem": "Loali"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 30,
+        "island": "Cipanku",
+        "maxLevel": 50,
+        "minLevel": 40,
+        "route": "Pillars of Highabove",
+        "temtem": "Galvanid"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 10,
+        "island": "Cipanku",
+        "maxLevel": 45,
+        "minLevel": 38,
+        "route": "Pillars of Highabove",
+        "temtem": "Sparzy"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 60,
+        "island": "Cipanku",
+        "maxLevel": 50,
+        "minLevel": 40,
+        "route": "Pillars of Highabove",
+        "temtem": "Chubee"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 35,
+        "island": "Cipanku",
+        "maxLevel": 55,
+        "minLevel": 50,
+        "route": "Pillars of Highabove",
+        "temtem": "Mudrid"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 5,
+        "island": "Cipanku",
+        "maxLevel": 55,
+        "minLevel": 45,
+        "route": "Pillars of Highabove",
+        "temtem": "Innki"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 70,
+        "island": "Cipanku",
+        "maxLevel": 50,
+        "minLevel": 40,
+        "route": "Pillars of Highabove",
+        "temtem": "0b1"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 20,
+        "island": "Cipanku",
+        "maxLevel": 56,
+        "minLevel": 45,
+        "route": "Pillars of Highabove",
+        "temtem": "Gazuma"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 80,
+        "island": "Kisiwa",
+        "maxLevel": 44,
+        "minLevel": 40,
+        "route": "Kwea Uplands",
+        "temtem": "Kuri"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 40,
         "island": "Kisiwa",
         "maxLevel": 39,
-        "minLevel": 33,
-        "route": "Mawingu Islets",
+        "minLevel": 35,
+        "route": "Jino Gap",
         "temtem": "Goty"
     },
     {
         "area": "Area 1",
-        "frequency": 75,
-        "island": "Tucma",
-        "maxLevel": 40,
+        "frequency": 20,
+        "island": "Omninesia",
+        "maxLevel": 22,
+        "minLevel": 20,
+        "route": "The Glassyway",
+        "temtem": "Paharac"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 50,
+        "island": "Omninesia",
+        "maxLevel": 22,
+        "minLevel": 19,
+        "route": "The Glassyway",
+        "temtem": "Hidody"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 25,
+        "island": "Omninesia",
+        "maxLevel": 22,
+        "minLevel": 19,
+        "route": "The Glassyway",
+        "temtem": "Saku"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 25,
+        "island": "Omninesia",
+        "maxLevel": 22,
+        "minLevel": 19,
+        "route": "The Glassyway",
+        "temtem": "Taifu"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 40,
+        "island": "Omninesia",
+        "maxLevel": 23,
+        "minLevel": 20,
+        "route": "The Glassyway",
+        "temtem": "Spriole"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 30,
+        "island": "Omninesia",
+        "maxLevel": 22,
+        "minLevel": 20,
+        "route": "The Glassyway",
+        "temtem": "Raiber"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 30,
+        "island": "Omninesia",
+        "maxLevel": 22,
+        "minLevel": 20,
+        "route": "The Glassyway",
+        "temtem": "Banapi"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 10,
+        "island": "Cipanku",
+        "maxLevel": 60,
+        "minLevel": 50,
+        "route": "Pillars of Highabove",
+        "temtem": "Paharac"
+    },
+    {
+        "area": "Area 6",
+        "frequency": 70,
+        "island": "Cipanku",
+        "maxLevel": 50,
+        "minLevel": 40,
+        "route": "Pillars of Highabove",
+        "temtem": "0b1"
+    },
+    {
+        "area": "Area 6",
+        "frequency": 20,
+        "island": "Cipanku",
+        "maxLevel": 60,
+        "minLevel": 50,
+        "route": "Pillars of Highabove",
+        "temtem": "Gazuma"
+    },
+    {
+        "area": "Area 6",
+        "frequency": 10,
+        "island": "Cipanku",
+        "maxLevel": 60,
+        "minLevel": 50,
+        "route": "Pillars of Highabove",
+        "temtem": "Paharac"
+    },
+    {
+        "area": "Area 7",
+        "frequency": 50,
+        "island": "Cipanku",
+        "maxLevel": 45,
+        "minLevel": 38,
+        "route": "Pillars of Highabove",
+        "temtem": "Sparzy"
+    },
+    {
+        "area": "Area 7",
+        "frequency": 50,
+        "island": "Cipanku",
+        "maxLevel": 55,
+        "minLevel": 45,
+        "route": "Pillars of Highabove",
+        "temtem": "Chromeon"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 20,
+        "island": "Kisiwa",
+        "maxLevel": 44,
+        "minLevel": 40,
+        "route": "Kwea Uplands",
+        "temtem": "Goty"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 70,
+        "island": "Kisiwa",
+        "maxLevel": 43,
+        "minLevel": 40,
+        "route": "Kwea Uplands",
+        "temtem": "Paharac"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 30,
+        "island": "Kisiwa",
+        "maxLevel": 47,
+        "minLevel": 42,
+        "route": "Kwea Uplands",
+        "temtem": "Zizare"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 80,
+        "island": "Kisiwa",
+        "maxLevel": 44,
+        "minLevel": 40,
+        "route": "Kwea Uplands",
+        "temtem": "Goty"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 40,
+        "island": "Kisiwa",
+        "maxLevel": 39,
+        "minLevel": 35,
+        "route": "Jino Gap",
+        "temtem": "Kuri"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 20,
+        "island": "Kisiwa",
+        "maxLevel": 42,
         "minLevel": 36,
-        "route": "Kakama Cenote",
-        "temtem": "Bunbun"
+        "route": "Jino Gap",
+        "temtem": "Zizare"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 40,
+        "island": "Kisiwa",
+        "maxLevel": 36,
+        "minLevel": 35,
+        "route": "Jino Gap",
+        "temtem": "Osuchi"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 40,
+        "island": "Kisiwa",
+        "maxLevel": 32,
+        "minLevel": 22,
+        "route": "Jino Gap",
+        "temtem": "Paharac"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 20,
+        "island": "Kisiwa",
+        "maxLevel": 39,
+        "minLevel": 34,
+        "route": "Jino Gap",
+        "temtem": "Zephyruff"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 40,
+        "island": "Kisiwa",
+        "maxLevel": 39,
+        "minLevel": 35,
+        "route": "Jino Gap",
+        "temtem": "Goty"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 55,
+        "island": "Omninesia",
+        "maxLevel": 26,
+        "minLevel": 23,
+        "route": "Giant Banyan",
+        "temtem": "Spriole"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 65,
+        "island": "Kisiwa",
+        "maxLevel": 47,
+        "minLevel": 42,
+        "route": "Barafu Glacier",
+        "temtem": "Skunch"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 20,
+        "island": "Kisiwa",
+        "maxLevel": 44,
+        "minLevel": 40,
+        "route": "Kwea Uplands",
+        "temtem": "Kuri"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 40,
+        "island": "Kisiwa",
+        "maxLevel": 38,
+        "minLevel": 37,
+        "route": "Jino Gap",
+        "temtem": "Kuri"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 20,
+        "island": "Kisiwa",
+        "maxLevel": 42,
+        "minLevel": 38,
+        "route": "Jino Gap",
+        "temtem": "Zizare"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 80,
+        "island": "Kisiwa",
+        "maxLevel": 37,
+        "minLevel": 32,
+        "route": "Jino Gap",
+        "temtem": "Tateru"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 10,
+        "island": "Kisiwa",
+        "maxLevel": 38,
+        "minLevel": 35,
+        "route": "Jino Gap",
+        "temtem": "Vulffy"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 10,
+        "island": "Kisiwa",
+        "maxLevel": 42,
+        "minLevel": 36,
+        "route": "Jino Gap",
+        "temtem": "Zizare"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 40,
+        "island": "Omninesia",
+        "maxLevel": 26,
+        "minLevel": 23,
+        "route": "Giant Banyan",
+        "temtem": "Hidody"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 5,
+        "island": "Omninesia",
+        "maxLevel": 28,
+        "minLevel": 24,
+        "route": "Giant Banyan",
+        "temtem": "Kinu"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 15,
+        "island": "Kisiwa",
+        "maxLevel": 45,
+        "minLevel": 42,
+        "route": "Barafu Glacier",
+        "temtem": "Mudrid"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 10,
+        "island": "Kisiwa",
+        "maxLevel": 47,
+        "minLevel": 44,
+        "route": "Barafu Glacier",
+        "temtem": "Zizare"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 5,
+        "island": "Kisiwa",
+        "maxLevel": 47,
+        "minLevel": 42,
+        "route": "Barafu Glacier",
+        "temtem": "Momo"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 5,
+        "island": "Kisiwa",
+        "maxLevel": 55,
+        "minLevel": 52,
+        "route": "Barafu Glacier",
+        "temtem": "Yowlar"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 95,
+        "island": "Deniz",
+        "maxLevel": 70,
+        "minLevel": 70,
+        "route": "Dabmis' Rest",
+        "temtem": "Platimous"
     },
     {
         "area": "Area 1",
@@ -163,129 +631,921 @@
     },
     {
         "area": "Area 1",
-        "frequency": 70,
-        "island": "Omninesia",
-        "maxLevel": 19,
-        "minLevel": 17,
-        "route": "The Flywalk",
-        "temtem": "Spriole"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 20,
-        "island": "Cipanku",
-        "maxLevel": 53,
-        "minLevel": 47,
-        "route": "Rice Fields",
-        "temtem": "Nessla"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 20,
-        "island": "Cipanku",
-        "maxLevel": 53,
-        "minLevel": 47,
-        "route": "Rice Fields",
-        "temtem": "Babawa"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 60,
-        "island": "Cipanku",
-        "maxLevel": 50,
+        "frequency": 50,
+        "island": "Kisiwa",
+        "maxLevel": 48,
         "minLevel": 42,
-        "route": "Rice Fields",
-        "temtem": "Halzhi"
+        "route": "Kilima Peaks",
+        "temtem": "Momo"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 5,
+        "island": "Deniz",
+        "maxLevel": 10,
+        "minLevel": 5,
+        "route": "Dabmis' Rest",
+        "temtem": "Tuwai"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 20,
+        "island": "Omninesia",
+        "maxLevel": 20,
+        "minLevel": 15,
+        "route": "The Hangroad",
+        "temtem": "Loali"
     },
     {
         "area": "Area 2",
-        "frequency": 20,
-        "island": "Cipanku",
-        "maxLevel": 53,
-        "minLevel": 47,
-        "route": "Rice Fields",
-        "temtem": "Nessla"
+        "frequency": 65,
+        "island": "Omninesia",
+        "maxLevel": 18,
+        "minLevel": 14,
+        "route": "The Hangroad",
+        "temtem": "Pewki"
     },
     {
         "area": "Area 2",
-        "frequency": 20,
-        "island": "Cipanku",
-        "maxLevel": 54,
-        "minLevel": 47,
-        "route": "Rice Fields",
+        "frequency": 35,
+        "island": "Omninesia",
+        "maxLevel": 21,
+        "minLevel": 18,
+        "route": "The Hangroad",
         "temtem": "Babawa"
     },
     {
         "area": "Area 3",
+        "frequency": 65,
+        "island": "Omninesia",
+        "maxLevel": 19,
+        "minLevel": 14,
+        "route": "The Hangroad",
+        "temtem": "Banapi"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 50,
+        "island": "Kisiwa",
+        "maxLevel": 48,
+        "minLevel": 42,
+        "route": "Kilima Peaks",
+        "temtem": "Skunch"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 20,
+        "island": "Kisiwa",
+        "maxLevel": 48,
+        "minLevel": 42,
+        "route": "Kilima Peaks",
+        "temtem": "Momo"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 20,
+        "island": "Kisiwa",
+        "maxLevel": 48,
+        "minLevel": 42,
+        "route": "Kilima Peaks",
+        "temtem": "Skunch"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 20,
+        "island": "Kisiwa",
+        "maxLevel": 50,
+        "minLevel": 44,
+        "route": "Kilima Peaks",
+        "temtem": "Zizare"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 20,
+        "island": "Kisiwa",
+        "maxLevel": 45,
+        "minLevel": 40,
+        "route": "Kilima Peaks",
+        "temtem": "Osukan"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 20,
+        "island": "Kisiwa",
+        "maxLevel": 44,
+        "minLevel": 42,
+        "route": "Kilima Peaks",
+        "temtem": "Tateru"
+    },
+    {
+        "area": "Area 3",
         "frequency": 35,
-        "island": "Cipanku",
-        "maxLevel": 52,
-        "minLevel": 48,
-        "route": "Rice Fields",
+        "island": "Kisiwa",
+        "maxLevel": 50,
+        "minLevel": 44,
+        "route": "Kilima Peaks",
+        "temtem": "Zizare"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 35,
+        "island": "Kisiwa",
+        "maxLevel": 43,
+        "minLevel": 40,
+        "route": "Kilima Peaks",
+        "temtem": "Osukan"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 30,
+        "island": "Kisiwa",
+        "maxLevel": 47,
+        "minLevel": 42,
+        "route": "Kilima Peaks",
+        "temtem": "Momo"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 70,
+        "island": "Kisiwa",
+        "maxLevel": 47,
+        "minLevel": 42,
+        "route": "Kilima Peaks",
+        "temtem": "Skunch"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 40,
+        "island": "Deniz",
+        "maxLevel": 17,
+        "minLevel": 15,
+        "route": "Aguamarina Caves",
         "temtem": "Saipat"
     },
     {
         "area": "Area 3",
+        "frequency": 30,
+        "island": "Omninesia",
+        "maxLevel": 22,
+        "minLevel": 16,
+        "route": "The Hangroad",
+        "temtem": "Spriole"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 5,
+        "island": "Omninesia",
+        "maxLevel": 22,
+        "minLevel": 16,
+        "route": "The Hangroad",
+        "temtem": "Deendre"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 30,
+        "island": "Kisiwa",
+        "maxLevel": 44,
+        "minLevel": 42,
+        "route": "Kilima Peaks",
+        "temtem": "Volarend"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 30,
+        "island": "Deniz",
+        "maxLevel": 17,
+        "minLevel": 15,
+        "route": "Aguamarina Caves",
+        "temtem": "Tateru"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 30,
+        "island": "Deniz",
+        "maxLevel": 17,
+        "minLevel": 15,
+        "route": "Aguamarina Caves",
+        "temtem": "Skail"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 95,
+        "island": "Deniz",
+        "maxLevel": 17,
+        "minLevel": 15,
+        "route": "Aguamarina Caves",
+        "temtem": "Kalazu"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 5,
+        "island": "Deniz",
+        "maxLevel": 17,
+        "minLevel": 15,
+        "route": "Aguamarina Caves",
+        "temtem": "Oceara"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 65,
+        "island": "Deniz",
+        "maxLevel": 18,
+        "minLevel": 14,
+        "route": "Aguamarina Caves",
+        "temtem": "Skail"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 30,
+        "island": "Deniz",
+        "maxLevel": 18,
+        "minLevel": 14,
+        "route": "Aguamarina Caves",
+        "temtem": "Tateru"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 5,
+        "island": "Deniz",
+        "maxLevel": 17,
+        "minLevel": 14,
+        "route": "Aguamarina Caves",
+        "temtem": "Skunch"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 65,
+        "island": "Deniz",
+        "maxLevel": 17,
+        "minLevel": 14,
+        "route": "Aguamarina Caves",
+        "temtem": "Skail"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 30,
+        "island": "Deniz",
+        "maxLevel": 17,
+        "minLevel": 14,
+        "route": "Aguamarina Caves",
+        "temtem": "Tateru"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 5,
+        "island": "Deniz",
+        "maxLevel": 18,
+        "minLevel": 14,
+        "route": "Aguamarina Caves",
+        "temtem": "Skunch"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 65,
+        "island": "Deniz",
+        "maxLevel": 18,
+        "minLevel": 15,
+        "route": "Aguamarina Caves",
+        "temtem": "Kalazu"
+    },
+    {
+        "area": "Area 5",
         "frequency": 35,
+        "island": "Deniz",
+        "maxLevel": 17,
+        "minLevel": 15,
+        "route": "Aguamarina Caves",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 6",
+        "frequency": 65,
+        "island": "Deniz",
+        "maxLevel": 18,
+        "minLevel": 15,
+        "route": "Aguamarina Caves",
+        "temtem": "Kalazu"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 70,
+        "island": "Deniz",
+        "maxLevel": 11,
+        "minLevel": 9,
+        "route": "Windward Fort",
+        "temtem": "Skail"
+    },
+    {
+        "area": "Area 6",
+        "frequency": 35,
+        "island": "Deniz",
+        "maxLevel": 18,
+        "minLevel": 15,
+        "route": "Aguamarina Caves",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 7",
+        "frequency": 100,
+        "island": "Deniz",
+        "maxLevel": 18,
+        "minLevel": 15,
+        "route": "Aguamarina Caves",
+        "temtem": "Kalazu"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 60,
         "island": "Cipanku",
-        "maxLevel": 53,
-        "minLevel": 48,
-        "route": "Rice Fields",
-        "temtem": "Wiplump"
+        "maxLevel": 65,
+        "minLevel": 55,
+        "route": "Sacred Lake",
+        "temtem": "Cycrox"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 20,
+        "island": "Deniz",
+        "maxLevel": 12,
+        "minLevel": 9,
+        "route": "Windward Fort",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 10,
+        "island": "Deniz",
+        "maxLevel": 11,
+        "minLevel": 9,
+        "route": "Windward Fort",
+        "temtem": "Fomu"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 50,
+        "island": "Deniz",
+        "maxLevel": 12,
+        "minLevel": 11,
+        "route": "Windward Fort",
+        "temtem": "Fomu"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 50,
+        "island": "Deniz",
+        "maxLevel": 14,
+        "minLevel": 11,
+        "route": "Windward Fort",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 100,
+        "island": "Deniz",
+        "maxLevel": 14,
+        "minLevel": 11,
+        "route": "Windward Fort",
+        "temtem": "Fomu"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 80,
+        "island": "Deniz",
+        "maxLevel": 12,
+        "minLevel": 11,
+        "route": "Windward Fort",
+        "temtem": "Skail"
+    },
+    {
+        "area": "Area 8",
+        "frequency": 55,
+        "island": "Deniz",
+        "maxLevel": 17,
+        "minLevel": 14,
+        "route": "Aguamarina Caves",
+        "temtem": "Skail"
+    },
+    {
+        "area": "Area 8",
+        "frequency": 20,
+        "island": "Deniz",
+        "maxLevel": 17,
+        "minLevel": 14,
+        "route": "Aguamarina Caves",
+        "temtem": "Tateru"
+    },
+    {
+        "area": "Area 8",
+        "frequency": 20,
+        "island": "Deniz",
+        "maxLevel": 18,
+        "minLevel": 15,
+        "route": "Aguamarina Caves",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 8",
+        "frequency": 5,
+        "island": "Deniz",
+        "maxLevel": 20,
+        "minLevel": 19,
+        "route": "Aguamarina Caves",
+        "temtem": "Skunch"
+    },
+    {
+        "area": "Area 9",
+        "frequency": 55,
+        "island": "Deniz",
+        "maxLevel": 18,
+        "minLevel": 15,
+        "route": "Aguamarina Caves",
+        "temtem": "Skail"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 40,
+        "island": "Cipanku",
+        "maxLevel": 65,
+        "minLevel": 55,
+        "route": "Sacred Lake",
+        "temtem": "Nessla"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 45,
+        "island": "Tucma",
+        "maxLevel": 27,
+        "minLevel": 25,
+        "route": "Corrupted Badlands",
+        "temtem": "Orphyll"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 20,
+        "island": "Deniz",
+        "maxLevel": 13,
+        "minLevel": 12,
+        "route": "Windward Fort",
+        "temtem": "Tateru"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 100,
+        "island": "Deniz",
+        "maxLevel": 13,
+        "minLevel": 11,
+        "route": "Windward Fort",
+        "temtem": "Skail"
+    },
+    {
+        "area": "Area 6",
+        "frequency": 100,
+        "island": "Deniz",
+        "maxLevel": 12,
+        "minLevel": 11,
+        "route": "Windward Fort",
+        "temtem": "Skail"
+    },
+    {
+        "area": "Area 7",
+        "frequency": 80,
+        "island": "Deniz",
+        "maxLevel": 13,
+        "minLevel": 12,
+        "route": "Windward Fort",
+        "temtem": "Skail"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 65,
+        "island": "Deniz",
+        "maxLevel": 18,
+        "minLevel": 15,
+        "route": "Arissola Dojo",
+        "temtem": "Kalazu"
+    },
+    {
+        "area": "Area 9",
+        "frequency": 20,
+        "island": "Deniz",
+        "maxLevel": 18,
+        "minLevel": 15,
+        "route": "Aguamarina Caves",
+        "temtem": "Tateru"
+    },
+    {
+        "area": "Area 9",
+        "frequency": 20,
+        "island": "Deniz",
+        "maxLevel": 18,
+        "minLevel": 15,
+        "route": "Aguamarina Caves",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 9",
+        "frequency": 5,
+        "island": "Deniz",
+        "maxLevel": 18,
+        "minLevel": 15,
+        "route": "Aguamarina Caves",
+        "temtem": "Skunch"
+    },
+    {
+        "area": "Area 10",
+        "frequency": 55,
+        "island": "Deniz",
+        "maxLevel": 18,
+        "minLevel": 15,
+        "route": "Aguamarina Caves",
+        "temtem": "Skail"
+    },
+    {
+        "area": "Area 10",
+        "frequency": 20,
+        "island": "Deniz",
+        "maxLevel": 17,
+        "minLevel": 14,
+        "route": "Aguamarina Caves",
+        "temtem": "Tateru"
+    },
+    {
+        "area": "Area 10",
+        "frequency": 20,
+        "island": "Deniz",
+        "maxLevel": 17,
+        "minLevel": 14,
+        "route": "Aguamarina Caves",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 10",
+        "frequency": 5,
+        "island": "Deniz",
+        "maxLevel": 18,
+        "minLevel": 15,
+        "route": "Aguamarina Caves",
+        "temtem": "Skunch"
+    },
+    {
+        "area": "Area 11",
+        "frequency": 65,
+        "island": "Deniz",
+        "maxLevel": 17,
+        "minLevel": 15,
+        "route": "Aguamarina Caves",
+        "temtem": "Skail"
+    },
+    {
+        "area": "Area 11",
+        "frequency": 30,
+        "island": "Deniz",
+        "maxLevel": 17,
+        "minLevel": 15,
+        "route": "Aguamarina Caves",
+        "temtem": "Tateru"
+    },
+    {
+        "area": "Area 11",
+        "frequency": 5,
+        "island": "Deniz",
+        "maxLevel": 17,
+        "minLevel": 15,
+        "route": "Aguamarina Caves",
+        "temtem": "Skunch"
+    },
+    {
+        "area": "Area 12",
+        "frequency": 40,
+        "island": "Deniz",
+        "maxLevel": 20,
+        "minLevel": 18,
+        "route": "Aguamarina Caves",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 45,
+        "island": "Tucma",
+        "maxLevel": 26,
+        "minLevel": 24,
+        "route": "Corrupted Badlands",
+        "temtem": "Mushi"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 10,
+        "island": "Tucma",
+        "maxLevel": 26,
+        "minLevel": 24,
+        "route": "Corrupted Badlands",
+        "temtem": "Blooze"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 60,
+        "island": "Tucma",
+        "maxLevel": 29,
+        "minLevel": 25,
+        "route": "Corrupted Badlands",
+        "temtem": "Zephyruff"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 20,
+        "island": "Tucma",
+        "maxLevel": 28,
+        "minLevel": 25,
+        "route": "Corrupted Badlands",
+        "temtem": "Orphyll"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 20,
+        "island": "Tucma",
+        "maxLevel": 30,
+        "minLevel": 26,
+        "route": "Corrupted Badlands",
+        "temtem": "Skunch"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 60,
+        "island": "Tucma",
+        "maxLevel": 29,
+        "minLevel": 25,
+        "route": "Corrupted Badlands",
+        "temtem": "Zephyruff"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 40,
+        "island": "Tucma",
+        "maxLevel": 28,
+        "minLevel": 24,
+        "route": "Corrupted Badlands",
+        "temtem": "Mushi"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 75,
+        "island": "Tucma",
+        "maxLevel": 28,
+        "minLevel": 25,
+        "route": "Corrupted Badlands",
+        "temtem": "Orphyll"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 25,
+        "island": "Tucma",
+        "maxLevel": 29,
+        "minLevel": 25,
+        "route": "Corrupted Badlands",
+        "temtem": "Blooze"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 50,
+        "island": "Tucma",
+        "maxLevel": 26,
+        "minLevel": 25,
+        "route": "Corrupted Badlands",
+        "temtem": "Mushi"
+    },
+    {
+        "area": "Area 7",
+        "frequency": 20,
+        "island": "Deniz",
+        "maxLevel": 13,
+        "minLevel": 12,
+        "route": "Windward Fort",
+        "temtem": "Ganki"
+    },
+    {
+        "area": "Area 8",
+        "frequency": 100,
+        "island": "Deniz",
+        "maxLevel": 13,
+        "minLevel": 12,
+        "route": "Windward Fort",
+        "temtem": "Skail"
+    },
+    {
+        "area": "Area 9",
+        "frequency": 50,
+        "island": "Deniz",
+        "maxLevel": 14,
+        "minLevel": 12,
+        "route": "Windward Fort",
+        "temtem": "Skail"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 35,
+        "island": "Deniz",
+        "maxLevel": 17,
+        "minLevel": 15,
+        "route": "Arissola Dojo",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 12",
+        "frequency": 30,
+        "island": "Deniz",
+        "maxLevel": 20,
+        "minLevel": 18,
+        "route": "Aguamarina Caves",
+        "temtem": "Skail"
+    },
+    {
+        "area": "Area 12",
+        "frequency": 30,
+        "island": "Deniz",
+        "maxLevel": 20,
+        "minLevel": 19,
+        "route": "Aguamarina Caves",
+        "temtem": "Tateru"
+    },
+    {
+        "area": "Area 13",
+        "frequency": 95,
+        "island": "Deniz",
+        "maxLevel": 22,
+        "minLevel": 19,
+        "route": "Aguamarina Caves",
+        "temtem": "Kalazu"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 50,
+        "island": "Tucma",
+        "maxLevel": 30,
+        "minLevel": 25,
+        "route": "Corrupted Badlands",
+        "temtem": "Blooze"
+    },
+    {
+        "area": "Area 6",
+        "frequency": 95,
+        "island": "Tucma",
+        "maxLevel": 56,
+        "minLevel": 51,
+        "route": "Corrupted Badlands",
+        "temtem": "Zenoreth"
+    },
+    {
+        "area": "Area 6",
+        "frequency": 5,
+        "island": "Tucma",
+        "maxLevel": 10,
+        "minLevel": 5,
+        "route": "Corrupted Badlands",
+        "temtem": "Tuwai"
+    },
+    {
+        "area": "Area 7",
+        "frequency": 70,
+        "island": "Tucma",
+        "maxLevel": 30,
+        "minLevel": 28,
+        "route": "Corrupted Badlands",
+        "temtem": "Kalazu"
+    },
+    {
+        "area": "Area 7",
+        "frequency": 30,
+        "island": "Tucma",
+        "maxLevel": 29,
+        "minLevel": 25,
+        "route": "Corrupted Badlands",
+        "temtem": "Platypet"
+    },
+    {
+        "area": "Area 9",
+        "frequency": 50,
+        "island": "Deniz",
+        "maxLevel": 12,
+        "minLevel": 10,
+        "route": "Windward Fort",
+        "temtem": "Ganki"
+    },
+    {
+        "area": "Area 10",
+        "frequency": 95,
+        "island": "Deniz",
+        "maxLevel": 14,
+        "minLevel": 12,
+        "route": "Windward Fort",
+        "temtem": "Ganki"
+    },
+    {
+        "area": "Area 10",
+        "frequency": 5,
+        "island": "Deniz",
+        "maxLevel": 14,
+        "minLevel": 12,
+        "route": "Windward Fort",
+        "temtem": "Barnshe"
     },
     {
         "area": "Area 1",
         "frequency": 50,
-        "island": "Kisiwa",
-        "maxLevel": 39,
-        "minLevel": 33,
-        "route": "Mawingu Islets",
-        "temtem": "Kuri"
+        "island": "Deniz",
+        "maxLevel": 14,
+        "minLevel": 13,
+        "route": "Sillaro River",
+        "temtem": "Fomu"
     },
     {
-        "area": "Area 2",
-        "frequency": 50,
-        "island": "Kisiwa",
-        "maxLevel": 39,
-        "minLevel": 33,
-        "route": "Mawingu Islets",
-        "temtem": "Goty"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 50,
-        "island": "Kisiwa",
-        "maxLevel": 40,
-        "minLevel": 34,
-        "route": "Mawingu Islets",
-        "temtem": "Zephyruff"
-    },
-    {
-        "area": "Area 3",
+        "area": "Area 1",
         "frequency": 75,
-        "island": "Kisiwa",
-        "maxLevel": 36,
-        "minLevel": 31,
-        "route": "Mawingu Islets",
-        "temtem": "Osuchi"
+        "island": "Tucma",
+        "maxLevel": 40,
+        "minLevel": 36,
+        "route": "Kakama Cenote",
+        "temtem": "Bunbun"
+    },
+    {
+        "area": "Area 13",
+        "frequency": 5,
+        "island": "Deniz",
+        "maxLevel": 22,
+        "minLevel": 21,
+        "route": "Aguamarina Caves",
+        "temtem": "Oceara"
+    },
+    {
+        "area": "Area 14",
+        "frequency": 95,
+        "island": "Deniz",
+        "maxLevel": 70,
+        "minLevel": 70,
+        "route": "Aguamarina Caves",
+        "temtem": "Platimous"
+    },
+    {
+        "area": "Area 14",
+        "frequency": 5,
+        "island": "Deniz",
+        "maxLevel": 10,
+        "minLevel": 5,
+        "route": "Aguamarina Caves",
+        "temtem": "Tuwai"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 45,
+        "island": "Deniz",
+        "maxLevel": 16,
+        "minLevel": 13,
+        "route": "Sillaro River",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 5,
+        "island": "Deniz",
+        "maxLevel": 15,
+        "minLevel": 14,
+        "route": "Sillaro River",
+        "temtem": "Wiplump"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 40,
+        "island": "Deniz",
+        "maxLevel": 15,
+        "minLevel": 13,
+        "route": "Sillaro River",
+        "temtem": "Kalazu"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 30,
+        "island": "Deniz",
+        "maxLevel": 15,
+        "minLevel": 13,
+        "route": "Sillaro River",
+        "temtem": "Umishi"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 30,
+        "island": "Deniz",
+        "maxLevel": 14,
+        "minLevel": 13,
+        "route": "Sillaro River",
+        "temtem": "Pewki"
     },
     {
         "area": "Area 3",
-        "frequency": 25,
-        "island": "Kisiwa",
-        "maxLevel": 43,
-        "minLevel": 38,
-        "route": "Mawingu Islets",
-        "temtem": "Volarend"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 50,
-        "island": "Kisiwa",
-        "maxLevel": 37,
-        "minLevel": 33,
-        "route": "Mawingu Islets",
-        "temtem": "Zephyruff"
+        "frequency": 100,
+        "island": "Deniz",
+        "maxLevel": 15,
+        "minLevel": 14,
+        "route": "Sillaro River",
+        "temtem": "Saipat"
     },
     {
         "area": "Area 1",
@@ -334,354 +1594,12 @@
     },
     {
         "area": "Area 1",
-        "frequency": 20,
-        "island": "Omninesia",
-        "maxLevel": 20,
-        "minLevel": 15,
-        "route": "The Hangroad",
-        "temtem": "Loali"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 65,
-        "island": "Omninesia",
-        "maxLevel": 18,
-        "minLevel": 14,
-        "route": "The Hangroad",
-        "temtem": "Pewki"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 35,
-        "island": "Omninesia",
-        "maxLevel": 21,
-        "minLevel": 18,
-        "route": "The Hangroad",
-        "temtem": "Babawa"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 65,
-        "island": "Omninesia",
-        "maxLevel": 19,
-        "minLevel": 14,
-        "route": "The Hangroad",
-        "temtem": "Banapi"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 30,
-        "island": "Omninesia",
-        "maxLevel": 22,
-        "minLevel": 16,
-        "route": "The Hangroad",
-        "temtem": "Spriole"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 5,
-        "island": "Omninesia",
-        "maxLevel": 22,
-        "minLevel": 16,
-        "route": "The Hangroad",
-        "temtem": "Deendre"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 30,
-        "island": "Omninesia",
-        "maxLevel": 20,
-        "minLevel": 18,
-        "route": "The Flywalk",
-        "temtem": "Babawa"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 65,
-        "island": "Omninesia",
-        "maxLevel": 20,
-        "minLevel": 18,
-        "route": "The Flywalk",
-        "temtem": "Pewki"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 35,
-        "island": "Omninesia",
-        "maxLevel": 21,
-        "minLevel": 19,
-        "route": "The Flywalk",
-        "temtem": "Babawa"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 95,
-        "island": "Omninesia",
-        "maxLevel": 18,
-        "minLevel": 16,
-        "route": "The Flywalk",
-        "temtem": "Spriole"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 5,
-        "island": "Omninesia",
-        "maxLevel": 20,
-        "minLevel": 19,
-        "route": "The Flywalk",
-        "temtem": "Deendre"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 50,
-        "island": "Omninesia",
-        "maxLevel": 20,
-        "minLevel": 18,
-        "route": "The Flywalk",
-        "temtem": "Kaku"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 30,
-        "island": "Omninesia",
-        "maxLevel": 20,
-        "minLevel": 18,
-        "route": "The Flywalk",
-        "temtem": "Loali"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 20,
-        "island": "Omninesia",
-        "maxLevel": 21,
-        "minLevel": 18,
-        "route": "The Flywalk",
-        "temtem": "Paharac"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 50,
-        "island": "Omninesia",
-        "maxLevel": 24,
-        "minLevel": 21,
-        "route": "The Flywalk",
-        "temtem": "Deendre"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 20,
-        "island": "Cipanku",
-        "maxLevel": 55,
-        "minLevel": 47,
-        "route": "Rice Fields",
-        "temtem": "Nessla"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 10,
-        "island": "Cipanku",
-        "maxLevel": 50,
-        "minLevel": 42,
-        "route": "Rice Fields",
-        "temtem": "Pupoise"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 60,
-        "island": "Cipanku",
-        "maxLevel": 55,
-        "minLevel": 47,
-        "route": "Rice Fields",
-        "temtem": "Cycrox"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 20,
-        "island": "Cipanku",
-        "maxLevel": 53,
-        "minLevel": 46,
-        "route": "Rice Fields",
-        "temtem": "Nessla"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 20,
-        "island": "Cipanku",
-        "maxLevel": 53,
-        "minLevel": 47,
-        "route": "Rice Fields",
-        "temtem": "Babawa"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 60,
-        "island": "Cipanku",
-        "maxLevel": 55,
-        "minLevel": 47,
-        "route": "Rice Fields",
-        "temtem": "Cycrox"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 20,
-        "island": "Cipanku",
-        "maxLevel": 55,
-        "minLevel": 47,
-        "route": "Rice Fields",
-        "temtem": "Nessla"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 20,
-        "island": "Cipanku",
-        "maxLevel": 55,
-        "minLevel": 47,
-        "route": "Rice Fields",
-        "temtem": "Babawa"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 30,
-        "island": "Kisiwa",
-        "maxLevel": 34,
-        "minLevel": 30,
-        "route": "Mawingu Islets",
-        "temtem": "Skunch"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 20,
-        "island": "Kisiwa",
-        "maxLevel": 39,
-        "minLevel": 34,
-        "route": "Mawingu Islets",
-        "temtem": "Droply"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 60,
-        "island": "Kisiwa",
-        "maxLevel": 39,
-        "minLevel": 32,
-        "route": "Mawingu Islets",
-        "temtem": "Babawa"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 40,
-        "island": "Kisiwa",
-        "maxLevel": 39,
-        "minLevel": 32,
-        "route": "Mawingu Islets",
-        "temtem": "Droply"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 25,
-        "island": "Omninesia",
-        "maxLevel": 38,
-        "minLevel": 33,
-        "route": "Anak Caldera",
-        "temtem": "Vulor"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 50,
-        "island": "Tucma",
-        "maxLevel": 35,
-        "minLevel": 25,
-        "route": "Gardens of Aztlan",
-        "temtem": "Bunbun"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 50,
-        "island": "Omninesia",
-        "maxLevel": 25,
-        "minLevel": 22,
-        "route": "The Flywalk",
-        "temtem": "Loali"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 25,
-        "island": "Omninesia",
-        "maxLevel": 38,
-        "minLevel": 33,
-        "route": "Anak Caldera",
-        "temtem": "Mastione"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 25,
-        "island": "Omninesia",
-        "maxLevel": 38,
-        "minLevel": 33,
-        "route": "Anak Caldera",
-        "temtem": "Capyre"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 25,
-        "island": "Omninesia",
-        "maxLevel": 38,
-        "minLevel": 33,
-        "route": "Anak Caldera",
-        "temtem": "Raize"
-    },
-    {
-        "area": "Area 1",
         "frequency": 50,
         "island": "Tucma",
         "maxLevel": 30,
-        "minLevel": 20,
-        "route": "Gardens of Aztlan",
-        "temtem": "Lapinite"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 80,
-        "island": "Tucma",
-        "maxLevel": 36,
-        "minLevel": 25,
-        "route": "Gardens of Aztlan",
-        "temtem": "Platypet"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 10,
-        "island": "Tucma",
-        "maxLevel": 34,
-        "minLevel": 24,
-        "route": "Gardens of Aztlan",
-        "temtem": "Droply"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 10,
-        "island": "Tucma",
-        "maxLevel": 35,
-        "minLevel": 30,
-        "route": "Gardens of Aztlan",
-        "temtem": "Kalabyss"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 50,
-        "island": "Tucma",
-        "maxLevel": 45,
-        "minLevel": 35,
-        "route": "Gardens of Aztlan",
-        "temtem": "Zephyruff"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 50,
-        "island": "Tucma",
-        "maxLevel": 45,
-        "minLevel": 30,
-        "route": "Gardens of Aztlan",
-        "temtem": "Occlura"
+        "minLevel": 27,
+        "route": "Xolot Reservoir",
+        "temtem": "Toxolotl"
     },
     {
         "area": "Area 1",
@@ -694,12 +1612,138 @@
     },
     {
         "area": "Area 1",
-        "frequency": 80,
+        "frequency": 50,
+        "island": "Tucma",
+        "maxLevel": 35,
+        "minLevel": 25,
+        "route": "Gardens of Aztlan",
+        "temtem": "Bunbun"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 70,
+        "island": "Tucma",
+        "maxLevel": 35,
+        "minLevel": 32,
+        "route": "Mines of Mictlan",
+        "temtem": "Bunbun"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 90,
+        "island": "Deniz",
+        "maxLevel": 15,
+        "minLevel": 14,
+        "route": "Sillaro River",
+        "temtem": "Fomu"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 10,
+        "island": "Deniz",
+        "maxLevel": 16,
+        "minLevel": 14,
+        "route": "Sillaro River",
+        "temtem": "Nessla"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 85,
+        "island": "Deniz",
+        "maxLevel": 42,
+        "minLevel": 38,
+        "route": "Sillaro River",
+        "temtem": "Wiplump"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 15,
+        "island": "Deniz",
+        "maxLevel": 45,
+        "minLevel": 40,
+        "route": "Sillaro River",
+        "temtem": "Platox"
+    },
+    {
+        "area": "Area 6",
+        "frequency": 100,
+        "island": "Deniz",
+        "maxLevel": 15,
+        "minLevel": 14,
+        "route": "Sillaro River",
+        "temtem": "Fomu"
+    },
+    {
+        "area": "Area 7",
+        "frequency": 50,
+        "island": "Deniz",
+        "maxLevel": 14,
+        "minLevel": 13,
+        "route": "Sillaro River",
+        "temtem": "Fomu"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 70,
         "island": "Omninesia",
-        "maxLevel": 22,
-        "minLevel": 19,
-        "route": "The Glassyway",
-        "temtem": "Loali"
+        "maxLevel": 19,
+        "minLevel": 17,
+        "route": "The Flywalk",
+        "temtem": "Spriole"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 50,
+        "island": "Tucma",
+        "maxLevel": 30,
+        "minLevel": 27,
+        "route": "Xolot Reservoir",
+        "temtem": "Skunch"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 50,
+        "island": "Tucma",
+        "maxLevel": 30,
+        "minLevel": 28,
+        "route": "Xolot Reservoir",
+        "temtem": "Toxolotl"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 50,
+        "island": "Tucma",
+        "maxLevel": 30,
+        "minLevel": 28,
+        "route": "Xolot Reservoir",
+        "temtem": "Orphyll"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 100,
+        "island": "Tucma",
+        "maxLevel": 31,
+        "minLevel": 29,
+        "route": "Xolot Reservoir",
+        "temtem": "Toxolotl"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 65,
+        "island": "Tucma",
+        "maxLevel": 32,
+        "minLevel": 29,
+        "route": "Xolot Reservoir",
+        "temtem": "Mushi"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 35,
+        "island": "Tucma",
+        "maxLevel": 32,
+        "minLevel": 29,
+        "route": "Xolot Reservoir",
+        "temtem": "Adoroboros"
     },
     {
         "area": "Area 1",
@@ -775,462 +1819,57 @@
     },
     {
         "area": "Area 1",
-        "frequency": 20,
-        "island": "Omninesia",
-        "maxLevel": 22,
-        "minLevel": 20,
-        "route": "The Glassyway",
-        "temtem": "Paharac"
-    },
-    {
-        "area": "Area 2",
         "frequency": 50,
-        "island": "Omninesia",
-        "maxLevel": 22,
-        "minLevel": 19,
-        "route": "The Glassyway",
-        "temtem": "Hidody"
+        "island": "Tucma",
+        "maxLevel": 30,
+        "minLevel": 20,
+        "route": "Gardens of Aztlan",
+        "temtem": "Lapinite"
     },
     {
         "area": "Area 2",
-        "frequency": 25,
-        "island": "Omninesia",
-        "maxLevel": 22,
-        "minLevel": 19,
-        "route": "The Glassyway",
-        "temtem": "Saku"
+        "frequency": 80,
+        "island": "Tucma",
+        "maxLevel": 36,
+        "minLevel": 25,
+        "route": "Gardens of Aztlan",
+        "temtem": "Platypet"
     },
     {
         "area": "Area 2",
-        "frequency": 25,
-        "island": "Omninesia",
-        "maxLevel": 22,
-        "minLevel": 19,
-        "route": "The Glassyway",
-        "temtem": "Taifu"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 40,
-        "island": "Omninesia",
-        "maxLevel": 23,
-        "minLevel": 20,
-        "route": "The Glassyway",
-        "temtem": "Spriole"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 30,
-        "island": "Omninesia",
-        "maxLevel": 22,
-        "minLevel": 20,
-        "route": "The Glassyway",
-        "temtem": "Raiber"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 30,
-        "island": "Omninesia",
-        "maxLevel": 22,
-        "minLevel": 20,
-        "route": "The Glassyway",
-        "temtem": "Banapi"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 60,
-        "island": "Cipanku",
-        "maxLevel": 65,
-        "minLevel": 55,
-        "route": "Sacred Lake",
-        "temtem": "Cycrox"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 50,
-        "island": "Kisiwa",
-        "maxLevel": 44,
-        "minLevel": 42,
-        "route": "Matope Road",
+        "frequency": 10,
+        "island": "Tucma",
+        "maxLevel": 34,
+        "minLevel": 24,
+        "route": "Gardens of Aztlan",
         "temtem": "Droply"
     },
     {
-        "area": "Area 1",
-        "frequency": 80,
-        "island": "Kisiwa",
-        "maxLevel": 44,
-        "minLevel": 40,
-        "route": "Kwea Uplands",
-        "temtem": "Kuri"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 25,
-        "island": "Omninesia",
-        "maxLevel": 50,
-        "minLevel": 40,
-        "route": "Anak Volcano",
-        "temtem": "Raize"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 25,
-        "island": "Omninesia",
-        "maxLevel": 55,
-        "minLevel": 45,
-        "route": "Anak Volcano",
-        "temtem": "Mastione"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 50,
-        "island": "Omninesia",
-        "maxLevel": 46,
-        "minLevel": 39,
-        "route": "Anak Volcano",
-        "temtem": "Capyre"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 25,
-        "island": "Omninesia",
-        "maxLevel": 51,
-        "minLevel": 41,
-        "route": "Anak Volcano",
-        "temtem": "Vulor"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 25,
-        "island": "Omninesia",
-        "maxLevel": 50,
-        "minLevel": 45,
-        "route": "Anak Volcano",
-        "temtem": "Mastione"
-    },
-    {
-        "area": "Area 6",
-        "frequency": 35,
-        "island": "Omninesia",
-        "maxLevel": 50,
-        "minLevel": 40,
-        "route": "Anak Volcano",
-        "temtem": "Vulor"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 40,
-        "island": "Cipanku",
-        "maxLevel": 65,
-        "minLevel": 55,
-        "route": "Sacred Lake",
-        "temtem": "Nessla"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 25,
-        "island": "Kisiwa",
-        "maxLevel": 47,
-        "minLevel": 44,
-        "route": "Matope Road",
-        "temtem": "Goty"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 25,
-        "island": "Kisiwa",
-        "maxLevel": 47,
-        "minLevel": 44,
-        "route": "Matope Road",
-        "temtem": "Kuri"
-    },
-    {
         "area": "Area 2",
-        "frequency": 50,
-        "island": "Kisiwa",
-        "maxLevel": 41,
-        "minLevel": 37,
-        "route": "Matope Road",
-        "temtem": "Osuchi"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 30,
-        "island": "Kisiwa",
-        "maxLevel": 47,
-        "minLevel": 42,
-        "route": "Matope Road",
-        "temtem": "Kuri"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 20,
-        "island": "Kisiwa",
-        "maxLevel": 47,
-        "minLevel": 42,
-        "route": "Matope Road",
-        "temtem": "Gazuma"
-    },
-    {
-        "area": "Area 6",
-        "frequency": 35,
-        "island": "Omninesia",
-        "maxLevel": 55,
-        "minLevel": 45,
-        "route": "Anak Volcano",
-        "temtem": "Mastione"
-    },
-    {
-        "area": "Area 6",
-        "frequency": 30,
-        "island": "Omninesia",
-        "maxLevel": 50,
-        "minLevel": 45,
-        "route": "Anak Volcano",
-        "temtem": "Drakash"
-    },
-    {
-        "area": "Area 7",
-        "frequency": 95,
-        "island": "Omninesia",
-        "maxLevel": 70,
-        "minLevel": 70,
-        "route": "Anak Volcano",
-        "temtem": "Raican"
-    },
-    {
-        "area": "Area 7",
-        "frequency": 5,
-        "island": "Omninesia",
-        "maxLevel": 10,
-        "minLevel": 5,
-        "route": "Anak Volcano",
-        "temtem": "Tuwai"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 20,
-        "island": "Kisiwa",
-        "maxLevel": 44,
-        "minLevel": 40,
-        "route": "Kwea Uplands",
-        "temtem": "Goty"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 70,
-        "island": "Kisiwa",
-        "maxLevel": 43,
-        "minLevel": 40,
-        "route": "Kwea Uplands",
-        "temtem": "Paharac"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 30,
-        "island": "Kisiwa",
-        "maxLevel": 47,
-        "minLevel": 42,
-        "route": "Kwea Uplands",
-        "temtem": "Zizare"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 80,
-        "island": "Kisiwa",
-        "maxLevel": 44,
-        "minLevel": 40,
-        "route": "Kwea Uplands",
-        "temtem": "Goty"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 20,
-        "island": "Kisiwa",
-        "maxLevel": 44,
-        "minLevel": 40,
-        "route": "Kwea Uplands",
-        "temtem": "Kuri"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 40,
-        "island": "Kisiwa",
-        "maxLevel": 39,
-        "minLevel": 35,
-        "route": "Jino Gap",
-        "temtem": "Goty"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 75,
-        "island": "Kisiwa",
-        "maxLevel": 48,
-        "minLevel": 44,
-        "route": "Tasa Desert",
-        "temtem": "Akranox"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 70,
+        "frequency": 10,
         "island": "Tucma",
         "maxLevel": 35,
-        "minLevel": 32,
-        "route": "Mines of Mictlan",
-        "temtem": "Bunbun"
+        "minLevel": 30,
+        "route": "Gardens of Aztlan",
+        "temtem": "Kalabyss"
     },
     {
-        "area": "Area 1",
-        "frequency": 95,
+        "area": "Area 3",
+        "frequency": 50,
         "island": "Tucma",
-        "maxLevel": 55,
-        "minLevel": 50,
-        "route": "Sons of Crystal",
-        "temtem": "Zenoreth"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 40,
-        "island": "Kisiwa",
-        "maxLevel": 39,
+        "maxLevel": 45,
         "minLevel": 35,
-        "route": "Jino Gap",
-        "temtem": "Kuri"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 20,
-        "island": "Kisiwa",
-        "maxLevel": 42,
-        "minLevel": 36,
-        "route": "Jino Gap",
-        "temtem": "Zizare"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 40,
-        "island": "Kisiwa",
-        "maxLevel": 36,
-        "minLevel": 35,
-        "route": "Jino Gap",
-        "temtem": "Osuchi"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 40,
-        "island": "Kisiwa",
-        "maxLevel": 32,
-        "minLevel": 22,
-        "route": "Jino Gap",
-        "temtem": "Paharac"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 20,
-        "island": "Kisiwa",
-        "maxLevel": 39,
-        "minLevel": 34,
-        "route": "Jino Gap",
+        "route": "Gardens of Aztlan",
         "temtem": "Zephyruff"
     },
     {
         "area": "Area 3",
-        "frequency": 40,
-        "island": "Kisiwa",
-        "maxLevel": 39,
-        "minLevel": 35,
-        "route": "Jino Gap",
-        "temtem": "Goty"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 40,
-        "island": "Kisiwa",
-        "maxLevel": 38,
-        "minLevel": 37,
-        "route": "Jino Gap",
-        "temtem": "Kuri"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 20,
-        "island": "Kisiwa",
-        "maxLevel": 42,
-        "minLevel": 38,
-        "route": "Jino Gap",
-        "temtem": "Zizare"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 80,
-        "island": "Kisiwa",
-        "maxLevel": 37,
-        "minLevel": 32,
-        "route": "Jino Gap",
-        "temtem": "Tateru"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 25,
-        "island": "Kisiwa",
-        "maxLevel": 42,
-        "minLevel": 37,
-        "route": "Tasa Desert",
-        "temtem": "Pycko"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 75,
-        "island": "Kisiwa",
+        "frequency": 50,
+        "island": "Tucma",
         "maxLevel": 45,
-        "minLevel": 42,
-        "route": "Tasa Desert",
-        "temtem": "Vulffy"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 25,
-        "island": "Kisiwa",
-        "maxLevel": 42,
-        "minLevel": 40,
-        "route": "Tasa Desert",
-        "temtem": "Pycko"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 40,
-        "island": "Kisiwa",
-        "maxLevel": 45,
-        "minLevel": 42,
-        "route": "Tasa Desert",
-        "temtem": "Akranox"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 40,
-        "island": "Kisiwa",
-        "maxLevel": 44,
-        "minLevel": 40,
-        "route": "Tasa Desert",
-        "temtem": "Pycko"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 20,
-        "island": "Kisiwa",
-        "maxLevel": 45,
-        "minLevel": 42,
-        "route": "Tasa Desert",
-        "temtem": "Vulffy"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 40,
-        "island": "Kisiwa",
-        "maxLevel": 48,
-        "minLevel": 42,
-        "route": "Tasa Desert",
-        "temtem": "Akranox"
+        "minLevel": 30,
+        "route": "Gardens of Aztlan",
+        "temtem": "Occlura"
     },
     {
         "area": "Area 1",
@@ -1287,87 +1926,6 @@
         "temtem": "Lapinite"
     },
     {
-        "area": "Area 1",
-        "frequency": 5,
-        "island": "Tucma",
-        "maxLevel": 10,
-        "minLevel": 5,
-        "route": "Sons of Crystal",
-        "temtem": "Tuwai"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 50,
-        "island": "Cipanku",
-        "maxLevel": 50,
-        "minLevel": 40,
-        "route": "Pillars of Highabove",
-        "temtem": "Oree"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 10,
-        "island": "Kisiwa",
-        "maxLevel": 38,
-        "minLevel": 35,
-        "route": "Jino Gap",
-        "temtem": "Vulffy"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 10,
-        "island": "Kisiwa",
-        "maxLevel": 42,
-        "minLevel": 36,
-        "route": "Jino Gap",
-        "temtem": "Zizare"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 40,
-        "island": "Kisiwa",
-        "maxLevel": 48,
-        "minLevel": 42,
-        "route": "Tasa Desert",
-        "temtem": "Vulffy"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 15,
-        "island": "Kisiwa",
-        "maxLevel": 42,
-        "minLevel": 40,
-        "route": "Tasa Desert",
-        "temtem": "Pycko"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 5,
-        "island": "Kisiwa",
-        "maxLevel": 50,
-        "minLevel": 45,
-        "route": "Tasa Desert",
-        "temtem": "Rhoulder"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 75,
-        "island": "Kisiwa",
-        "maxLevel": 48,
-        "minLevel": 42,
-        "route": "Tasa Desert",
-        "temtem": "Akranox"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 25,
-        "island": "Kisiwa",
-        "maxLevel": 42,
-        "minLevel": 40,
-        "route": "Tasa Desert",
-        "temtem": "Pycko"
-    },
-    {
         "area": "Area 3",
         "frequency": 10,
         "island": "Tucma",
@@ -1404,2299 +1962,94 @@
         "temtem": "Wiplump"
     },
     {
-        "area": "Area 1",
-        "frequency": 25,
-        "island": "Cipanku",
-        "maxLevel": 52,
-        "minLevel": 40,
-        "route": "Pillars of Highabove",
-        "temtem": "Scarawatt"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 25,
-        "island": "Cipanku",
-        "maxLevel": 56,
-        "minLevel": 46,
-        "route": "Pillars of Highabove",
-        "temtem": "Gazuma"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 50,
-        "island": "Cipanku",
-        "maxLevel": 48,
-        "minLevel": 38,
-        "route": "Pillars of Highabove",
-        "temtem": "Oree"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 25,
-        "island": "Cipanku",
-        "maxLevel": 48,
-        "minLevel": 38,
-        "route": "Pillars of Highabove",
-        "temtem": "Scarawatt"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 25,
-        "island": "Cipanku",
-        "maxLevel": 60,
-        "minLevel": 50,
-        "route": "Pillars of Highabove",
-        "temtem": "Gazuma"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 60,
-        "island": "Cipanku",
-        "maxLevel": 50,
-        "minLevel": 40,
-        "route": "Pillars of Highabove",
-        "temtem": "Hoglip"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 30,
-        "island": "Cipanku",
-        "maxLevel": 50,
-        "minLevel": 40,
-        "route": "Pillars of Highabove",
-        "temtem": "Galvanid"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 10,
-        "island": "Cipanku",
-        "maxLevel": 45,
-        "minLevel": 38,
-        "route": "Pillars of Highabove",
-        "temtem": "Sparzy"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 60,
-        "island": "Cipanku",
-        "maxLevel": 50,
-        "minLevel": 40,
-        "route": "Pillars of Highabove",
-        "temtem": "Chubee"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 75,
-        "island": "Kisiwa",
-        "maxLevel": 45,
-        "minLevel": 42,
-        "route": "Moyo Lake",
-        "temtem": "Droply"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 100,
-        "island": "Kisiwa",
-        "maxLevel": 50,
-        "minLevel": 44,
-        "route": "Nuru Lodge",
-        "temtem": "Koish"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 50,
-        "island": "Tucma",
-        "maxLevel": 30,
-        "minLevel": 27,
-        "route": "Xolot Reservoir",
-        "temtem": "Toxolotl"
-    },
-    {
-        "area": "Area 1",
+        "area": "Area 7",
         "frequency": 45,
-        "island": "Tucma",
-        "maxLevel": 27,
-        "minLevel": 25,
-        "route": "Corrupted Badlands",
-        "temtem": "Orphyll"
+        "island": "Deniz",
+        "maxLevel": 14,
+        "minLevel": 13,
+        "route": "Sillaro River",
+        "temtem": "Saipat"
     },
     {
-        "area": "Area 4",
-        "frequency": 35,
-        "island": "Cipanku",
-        "maxLevel": 55,
-        "minLevel": 50,
-        "route": "Pillars of Highabove",
-        "temtem": "Mudrid"
-    },
-    {
-        "area": "Area 4",
+        "area": "Area 7",
         "frequency": 5,
-        "island": "Cipanku",
-        "maxLevel": 55,
-        "minLevel": 45,
-        "route": "Pillars of Highabove",
-        "temtem": "Innki"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 70,
-        "island": "Cipanku",
-        "maxLevel": 50,
-        "minLevel": 40,
-        "route": "Pillars of Highabove",
-        "temtem": "0b1"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 20,
-        "island": "Cipanku",
-        "maxLevel": 56,
-        "minLevel": 45,
-        "route": "Pillars of Highabove",
-        "temtem": "Gazuma"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 10,
-        "island": "Cipanku",
-        "maxLevel": 60,
-        "minLevel": 50,
-        "route": "Pillars of Highabove",
-        "temtem": "Paharac"
-    },
-    {
-        "area": "Area 6",
-        "frequency": 70,
-        "island": "Cipanku",
-        "maxLevel": 50,
-        "minLevel": 40,
-        "route": "Pillars of Highabove",
-        "temtem": "0b1"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 25,
-        "island": "Kisiwa",
-        "maxLevel": 48,
-        "minLevel": 44,
-        "route": "Moyo Lake",
-        "temtem": "Koish"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 50,
-        "island": "Tucma",
-        "maxLevel": 30,
-        "minLevel": 27,
-        "route": "Xolot Reservoir",
-        "temtem": "Skunch"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 50,
-        "island": "Tucma",
-        "maxLevel": 30,
-        "minLevel": 28,
-        "route": "Xolot Reservoir",
-        "temtem": "Toxolotl"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 50,
-        "island": "Tucma",
-        "maxLevel": 30,
-        "minLevel": 28,
-        "route": "Xolot Reservoir",
-        "temtem": "Orphyll"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 100,
-        "island": "Tucma",
-        "maxLevel": 31,
-        "minLevel": 29,
-        "route": "Xolot Reservoir",
-        "temtem": "Toxolotl"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 65,
-        "island": "Tucma",
-        "maxLevel": 32,
-        "minLevel": 29,
-        "route": "Xolot Reservoir",
-        "temtem": "Mushi"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 45,
-        "island": "Tucma",
-        "maxLevel": 26,
-        "minLevel": 24,
-        "route": "Corrupted Badlands",
-        "temtem": "Mushi"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 10,
-        "island": "Tucma",
-        "maxLevel": 26,
-        "minLevel": 24,
-        "route": "Corrupted Badlands",
-        "temtem": "Blooze"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 60,
-        "island": "Tucma",
-        "maxLevel": 29,
-        "minLevel": 25,
-        "route": "Corrupted Badlands",
-        "temtem": "Zephyruff"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 20,
-        "island": "Tucma",
-        "maxLevel": 28,
-        "minLevel": 25,
-        "route": "Corrupted Badlands",
-        "temtem": "Orphyll"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 20,
-        "island": "Tucma",
-        "maxLevel": 30,
-        "minLevel": 26,
-        "route": "Corrupted Badlands",
-        "temtem": "Skunch"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 60,
-        "island": "Tucma",
-        "maxLevel": 29,
-        "minLevel": 25,
-        "route": "Corrupted Badlands",
-        "temtem": "Zephyruff"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 40,
-        "island": "Tucma",
-        "maxLevel": 28,
-        "minLevel": 24,
-        "route": "Corrupted Badlands",
-        "temtem": "Mushi"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 75,
-        "island": "Tucma",
-        "maxLevel": 28,
-        "minLevel": 25,
-        "route": "Corrupted Badlands",
-        "temtem": "Orphyll"
-    },
-    {
-        "area": "Area 6",
-        "frequency": 20,
-        "island": "Cipanku",
-        "maxLevel": 60,
-        "minLevel": 50,
-        "route": "Pillars of Highabove",
-        "temtem": "Gazuma"
-    },
-    {
-        "area": "Area 6",
-        "frequency": 10,
-        "island": "Cipanku",
-        "maxLevel": 60,
-        "minLevel": 50,
-        "route": "Pillars of Highabove",
-        "temtem": "Paharac"
-    },
-    {
-        "area": "Area 7",
-        "frequency": 50,
-        "island": "Cipanku",
-        "maxLevel": 45,
-        "minLevel": 38,
-        "route": "Pillars of Highabove",
-        "temtem": "Sparzy"
-    },
-    {
-        "area": "Area 7",
-        "frequency": 50,
-        "island": "Cipanku",
-        "maxLevel": 55,
-        "minLevel": 45,
-        "route": "Pillars of Highabove",
-        "temtem": "Chromeon"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 35,
-        "island": "Tucma",
-        "maxLevel": 32,
-        "minLevel": 29,
-        "route": "Xolot Reservoir",
-        "temtem": "Adoroboros"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 70,
-        "island": "Tucma",
-        "maxLevel": 32,
-        "minLevel": 30,
-        "route": "Xolot Reservoir",
-        "temtem": "Platypet"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 30,
-        "island": "Tucma",
-        "maxLevel": 32,
-        "minLevel": 30,
-        "route": "Xolot Reservoir",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 6",
-        "frequency": 50,
-        "island": "Tucma",
-        "maxLevel": 33,
-        "minLevel": 29,
-        "route": "Xolot Reservoir",
-        "temtem": "Platypet"
-    },
-    {
-        "area": "Area 6",
-        "frequency": 40,
-        "island": "Tucma",
-        "maxLevel": 33,
-        "minLevel": 29,
-        "route": "Xolot Reservoir",
-        "temtem": "Kalazu"
-    },
-    {
-        "area": "Area 6",
-        "frequency": 10,
-        "island": "Tucma",
-        "maxLevel": 34,
-        "minLevel": 30,
-        "route": "Xolot Reservoir",
-        "temtem": "Kalabyss"
-    },
-    {
-        "area": "Area 7",
-        "frequency": 50,
-        "island": "Tucma",
-        "maxLevel": 33,
-        "minLevel": 30,
-        "route": "Xolot Reservoir",
-        "temtem": "Platypet"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 25,
-        "island": "Tucma",
-        "maxLevel": 29,
-        "minLevel": 25,
-        "route": "Corrupted Badlands",
-        "temtem": "Blooze"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 50,
-        "island": "Tucma",
-        "maxLevel": 26,
-        "minLevel": 25,
-        "route": "Corrupted Badlands",
-        "temtem": "Mushi"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 50,
-        "island": "Tucma",
-        "maxLevel": 30,
-        "minLevel": 25,
-        "route": "Corrupted Badlands",
-        "temtem": "Blooze"
-    },
-    {
-        "area": "Area 6",
-        "frequency": 95,
-        "island": "Tucma",
-        "maxLevel": 56,
-        "minLevel": 51,
-        "route": "Corrupted Badlands",
-        "temtem": "Zenoreth"
-    },
-    {
-        "area": "Area 6",
-        "frequency": 5,
-        "island": "Tucma",
-        "maxLevel": 10,
-        "minLevel": 5,
-        "route": "Corrupted Badlands",
-        "temtem": "Tuwai"
-    },
-    {
-        "area": "Area 7",
-        "frequency": 70,
-        "island": "Tucma",
-        "maxLevel": 30,
-        "minLevel": 28,
-        "route": "Corrupted Badlands",
-        "temtem": "Kalazu"
-    },
-    {
-        "area": "Area 7",
-        "frequency": 40,
-        "island": "Tucma",
-        "maxLevel": 33,
-        "minLevel": 30,
-        "route": "Xolot Reservoir",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 7",
-        "frequency": 10,
-        "island": "Tucma",
-        "maxLevel": 34,
-        "minLevel": 30,
-        "route": "Xolot Reservoir",
-        "temtem": "Kalabyss"
-    },
-    {
-        "area": "Area 7",
-        "frequency": 30,
-        "island": "Tucma",
-        "maxLevel": 29,
-        "minLevel": 25,
-        "route": "Corrupted Badlands",
-        "temtem": "Platypet"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 50,
-        "island": "Deniz",
-        "maxLevel": 41,
-        "minLevel": 38,
-        "route": "Saipark",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 95,
-        "island": "Deniz",
-        "maxLevel": 8,
-        "minLevel": 7,
-        "route": "Gifted Bridges",
-        "temtem": "Paharo"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 70,
-        "island": "Deniz",
-        "maxLevel": 6,
-        "minLevel": 4,
-        "route": "Thalassian Cliffs",
-        "temtem": "Tateru"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 35,
-        "island": "Deniz",
-        "maxLevel": 2,
-        "minLevel": 2,
-        "route": "Prasine Coast",
-        "temtem": "Paharo"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 50,
-        "island": "Deniz",
-        "maxLevel": 40,
-        "minLevel": 37,
-        "route": "Saipark",
-        "temtem": "Tateru"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 50,
-        "island": "Deniz",
-        "maxLevel": 41,
-        "minLevel": 38,
-        "route": "Saipark",
-        "temtem": "Pigepic"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 50,
-        "island": "Deniz",
-        "maxLevel": 40,
-        "minLevel": 37,
-        "route": "Saipark",
-        "temtem": "Paharac"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 50,
-        "island": "Deniz",
-        "maxLevel": 41,
-        "minLevel": 38,
-        "route": "Saipark",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 50,
-        "island": "Deniz",
-        "maxLevel": 40,
-        "minLevel": 37,
-        "route": "Saipark",
-        "temtem": "Platox"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 50,
-        "island": "Deniz",
-        "maxLevel": 41,
-        "minLevel": 38,
-        "route": "Saipark",
-        "temtem": "Skail"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 5,
-        "island": "Deniz",
-        "maxLevel": 10,
-        "minLevel": 8,
-        "route": "Gifted Bridges",
-        "temtem": "Paharac"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 40,
-        "island": "Deniz",
-        "maxLevel": 10,
-        "minLevel": 8,
-        "route": "Gifted Bridges",
-        "temtem": "Tateru"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 30,
-        "island": "Deniz",
-        "maxLevel": 10,
-        "minLevel": 7,
-        "route": "Gifted Bridges",
-        "temtem": "Paharo"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 30,
-        "island": "Deniz",
-        "maxLevel": 9,
-        "minLevel": 7,
-        "route": "Gifted Bridges",
-        "temtem": "Skail"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 70,
-        "island": "Deniz",
-        "maxLevel": 10,
-        "minLevel": 9,
-        "route": "Gifted Bridges",
-        "temtem": "Platypet"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 30,
-        "island": "Deniz",
-        "maxLevel": 10,
-        "minLevel": 8,
-        "route": "Gifted Bridges",
-        "temtem": "Kaku"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 95,
-        "island": "Deniz",
-        "maxLevel": 40,
-        "minLevel": 30,
-        "route": "Gifted Bridges",
-        "temtem": "Paharac"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 30,
-        "island": "Deniz",
-        "maxLevel": 6,
-        "minLevel": 4,
-        "route": "Thalassian Cliffs",
-        "temtem": "Skail"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 90,
-        "island": "Deniz",
-        "maxLevel": 6,
-        "minLevel": 4,
-        "route": "Thalassian Cliffs",
-        "temtem": "Paharo"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 10,
-        "island": "Deniz",
-        "maxLevel": 6,
-        "minLevel": 4,
-        "route": "Thalassian Cliffs",
-        "temtem": "Pigepic"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 70,
-        "island": "Deniz",
-        "maxLevel": 7,
-        "minLevel": 5,
-        "route": "Thalassian Cliffs",
-        "temtem": "Pigepic"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 35,
-        "island": "Deniz",
-        "maxLevel": 2,
-        "minLevel": 2,
-        "route": "Prasine Coast",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 30,
-        "island": "Deniz",
-        "maxLevel": 2,
-        "minLevel": 2,
-        "route": "Prasine Coast",
-        "temtem": "Tateru"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 70,
-        "island": "Deniz",
-        "maxLevel": 3,
-        "minLevel": 2,
-        "route": "Prasine Coast",
-        "temtem": "Paharo"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 30,
-        "island": "Deniz",
-        "maxLevel": 3,
-        "minLevel": 2,
-        "route": "Prasine Coast",
-        "temtem": "Tateru"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 50,
-        "island": "Deniz",
-        "maxLevel": 40,
-        "minLevel": 37,
-        "route": "Saipark",
-        "temtem": "Platox"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 55,
-        "island": "Omninesia",
-        "maxLevel": 26,
-        "minLevel": 23,
-        "route": "Giant Banyan",
-        "temtem": "Spriole"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 5,
-        "island": "Deniz",
-        "maxLevel": 40,
-        "minLevel": 30,
-        "route": "Gifted Bridges",
-        "temtem": "Hocus"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 70,
-        "island": "Deniz",
-        "maxLevel": 10,
-        "minLevel": 7,
-        "route": "Gifted Bridges",
-        "temtem": "Platypet"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 30,
-        "island": "Deniz",
-        "maxLevel": 11,
-        "minLevel": 7,
-        "route": "Gifted Bridges",
-        "temtem": "Kaku"
-    },
-    {
-        "area": "Area 6",
-        "frequency": 85,
-        "island": "Deniz",
-        "maxLevel": 10,
-        "minLevel": 8,
-        "route": "Gifted Bridges",
-        "temtem": "Pigepic"
-    },
-    {
-        "area": "Area 6",
-        "frequency": 15,
-        "island": "Deniz",
-        "maxLevel": 10,
-        "minLevel": 8,
-        "route": "Gifted Bridges",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 7",
-        "frequency": 80,
         "island": "Deniz",
         "maxLevel": 15,
-        "minLevel": 12,
-        "route": "Gifted Bridges",
-        "temtem": "Fomu"
+        "minLevel": 14,
+        "route": "Sillaro River",
+        "temtem": "Wiplump"
     },
     {
-        "area": "Area 3",
+        "area": "Area 8",
+        "frequency": 40,
+        "island": "Deniz",
+        "maxLevel": 15,
+        "minLevel": 13,
+        "route": "Sillaro River",
+        "temtem": "Kalazu"
+    },
+    {
+        "area": "Area 8",
         "frequency": 30,
         "island": "Deniz",
-        "maxLevel": 7,
-        "minLevel": 5,
-        "route": "Thalassian Cliffs",
-        "temtem": "Swali"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 100,
-        "island": "Deniz",
-        "maxLevel": 7,
-        "minLevel": 5,
-        "route": "Thalassian Cliffs",
-        "temtem": "Ganki"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 95,
-        "island": "Deniz",
-        "maxLevel": 8,
-        "minLevel": 6,
-        "route": "Thalassian Cliffs",
-        "temtem": "Kaku"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 5,
-        "island": "Deniz",
-        "maxLevel": 7,
-        "minLevel": 7,
-        "route": "Thalassian Cliffs",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 6",
-        "frequency": 90,
-        "island": "Deniz",
-        "maxLevel": 18,
-        "minLevel": 17,
-        "route": "Thalassian Cliffs",
+        "maxLevel": 15,
+        "minLevel": 13,
+        "route": "Sillaro River",
         "temtem": "Umishi"
     },
     {
-        "area": "Area 6",
-        "frequency": 10,
-        "island": "Deniz",
-        "maxLevel": 18,
-        "minLevel": 17,
-        "route": "Thalassian Cliffs",
-        "temtem": "Nessla"
-    },
-    {
-        "area": "Area 7",
-        "frequency": 100,
-        "island": "Deniz",
-        "maxLevel": 8,
-        "minLevel": 6,
-        "route": "Thalassian Cliffs",
-        "temtem": "Ganki"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 40,
-        "island": "Deniz",
-        "maxLevel": 4,
-        "minLevel": 2,
-        "route": "Prasine Coast",
-        "temtem": "Kaku"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 40,
-        "island": "Deniz",
-        "maxLevel": 4,
-        "minLevel": 2,
-        "route": "Prasine Coast",
-        "temtem": "Swali"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 20,
-        "island": "Deniz",
-        "maxLevel": 4,
-        "minLevel": 3,
-        "route": "Prasine Coast",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 85,
-        "island": "Deniz",
-        "maxLevel": 45,
-        "minLevel": 40,
-        "route": "Prasine Coast",
-        "temtem": "Taifu"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 15,
-        "island": "Deniz",
-        "maxLevel": 45,
-        "minLevel": 40,
-        "route": "Prasine Coast",
-        "temtem": "Paharac"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 40,
-        "island": "Deniz",
-        "maxLevel": 5,
-        "minLevel": 3,
-        "route": "Prasine Coast",
-        "temtem": "Kaku"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 40,
-        "island": "Deniz",
-        "maxLevel": 5,
-        "minLevel": 3,
-        "route": "Prasine Coast",
-        "temtem": "Swali"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 20,
-        "island": "Deniz",
-        "maxLevel": 5,
-        "minLevel": 3,
-        "route": "Prasine Coast",
-        "temtem": "Paharo"
-    },
-    {
-        "area": "Area 6",
-        "frequency": 90,
-        "island": "Deniz",
-        "maxLevel": 7,
-        "minLevel": 4,
-        "route": "Prasine Coast",
-        "temtem": "Paharo"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 40,
-        "island": "Omninesia",
-        "maxLevel": 26,
-        "minLevel": 23,
-        "route": "Giant Banyan",
-        "temtem": "Hidody"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 5,
-        "island": "Omninesia",
-        "maxLevel": 28,
-        "minLevel": 24,
-        "route": "Giant Banyan",
-        "temtem": "Kinu"
-    },
-    {
-        "area": "Area 7",
-        "frequency": 20,
+        "area": "Area 8",
+        "frequency": 30,
         "island": "Deniz",
         "maxLevel": 14,
-        "minLevel": 12,
-        "route": "Gifted Bridges",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 8",
-        "frequency": 100,
-        "island": "Deniz",
-        "maxLevel": 13,
-        "minLevel": 11,
-        "route": "Gifted Bridges",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 8",
-        "frequency": 100,
-        "island": "Deniz",
-        "maxLevel": 8,
-        "minLevel": 7,
-        "route": "Thalassian Cliffs",
-        "temtem": "Pigepic"
-    },
-    {
-        "area": "Area 9",
-        "frequency": 80,
-        "island": "Deniz",
-        "maxLevel": 9,
-        "minLevel": 7,
-        "route": "Thalassian Cliffs",
-        "temtem": "Skail"
-    },
-    {
-        "area": "Area 9",
-        "frequency": 20,
-        "island": "Deniz",
-        "maxLevel": 8,
-        "minLevel": 6,
-        "route": "Thalassian Cliffs",
-        "temtem": "Swali"
-    },
-    {
-        "area": "Area 10",
-        "frequency": 50,
-        "island": "Deniz",
-        "maxLevel": 10,
-        "minLevel": 8,
-        "route": "Thalassian Cliffs",
-        "temtem": "Pigepic"
-    },
-    {
-        "area": "Area 6",
-        "frequency": 5,
-        "island": "Deniz",
-        "maxLevel": 6,
-        "minLevel": 4,
-        "route": "Prasine Coast",
-        "temtem": "Pigepic"
-    },
-    {
-        "area": "Area 6",
-        "frequency": 5,
-        "island": "Deniz",
-        "maxLevel": 6,
-        "minLevel": 4,
-        "route": "Prasine Coast",
-        "temtem": "Skail"
-    },
-    {
-        "area": "Area 7",
-        "frequency": 50,
-        "island": "Deniz",
-        "maxLevel": 5,
-        "minLevel": 3,
-        "route": "Prasine Coast",
-        "temtem": "Tateru"
-    },
-    {
-        "area": "Area 7",
-        "frequency": 50,
-        "island": "Deniz",
-        "maxLevel": 5,
-        "minLevel": 3,
-        "route": "Prasine Coast",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 8",
-        "frequency": 50,
-        "island": "Deniz",
-        "maxLevel": 6,
-        "minLevel": 4,
-        "route": "Prasine Coast",
-        "temtem": "Paharo"
-    },
-    {
-        "area": "Area 8",
-        "frequency": 50,
-        "island": "Deniz",
-        "maxLevel": 6,
-        "minLevel": 4,
-        "route": "Prasine Coast",
-        "temtem": "Tateru"
-    },
-    {
-        "area": "Area 9",
-        "frequency": 100,
-        "island": "Deniz",
-        "maxLevel": 20,
-        "minLevel": 14,
-        "route": "Prasine Coast",
+        "minLevel": 13,
+        "route": "Sillaro River",
         "temtem": "Pewki"
     },
     {
-        "area": "Area 10",
-        "frequency": 50,
+        "area": "Area 9",
+        "frequency": 100,
         "island": "Deniz",
-        "maxLevel": 9,
-        "minLevel": 7,
-        "route": "Thalassian Cliffs",
-        "temtem": "Skail"
+        "maxLevel": 15,
+        "minLevel": 14,
+        "route": "Sillaro River",
+        "temtem": "Fomu"
     },
     {
-        "area": "Area 11",
-        "frequency": 80,
-        "island": "Deniz",
-        "maxLevel": 16,
-        "minLevel": 13,
-        "route": "Thalassian Cliffs",
-        "temtem": "Ganki"
+        "area": "Area 1",
+        "frequency": 30,
+        "island": "Omninesia",
+        "maxLevel": 20,
+        "minLevel": 18,
+        "route": "The Flywalk",
+        "temtem": "Babawa"
     },
     {
-        "area": "Area 11",
-        "frequency": 20,
-        "island": "Deniz",
-        "maxLevel": 17,
+        "area": "Area 2",
+        "frequency": 65,
+        "island": "Omninesia",
+        "maxLevel": 20,
+        "minLevel": 18,
+        "route": "The Flywalk",
+        "temtem": "Pewki"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 35,
+        "island": "Omninesia",
+        "maxLevel": 21,
+        "minLevel": 19,
+        "route": "The Flywalk",
+        "temtem": "Babawa"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 95,
+        "island": "Omninesia",
+        "maxLevel": 18,
         "minLevel": 16,
-        "route": "Thalassian Cliffs",
-        "temtem": "Paharac"
-    },
-    {
-        "area": "Area 12",
-        "frequency": 50,
-        "island": "Deniz",
-        "maxLevel": 20,
-        "minLevel": 18,
-        "route": "Thalassian Cliffs",
-        "temtem": "Umishi"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 65,
-        "island": "Deniz",
-        "maxLevel": 18,
-        "minLevel": 15,
-        "route": "Arissola Dojo",
-        "temtem": "Kalazu"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 40,
-        "island": "Deniz",
-        "maxLevel": 17,
-        "minLevel": 15,
-        "route": "Aguamarina Caves",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 50,
-        "island": "Deniz",
-        "maxLevel": 14,
-        "minLevel": 13,
-        "route": "Sillaro River",
-        "temtem": "Fomu"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 95,
-        "island": "Omninesia",
-        "maxLevel": 70,
-        "minLevel": 70,
-        "route": "Altar of the Inner Flame",
-        "temtem": "Raican"
-    },
-    {
-        "area": "Area 12",
-        "frequency": 50,
-        "island": "Deniz",
-        "maxLevel": 20,
-        "minLevel": 18,
-        "route": "Thalassian Cliffs",
-        "temtem": "Kalazu"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 35,
-        "island": "Deniz",
-        "maxLevel": 17,
-        "minLevel": 15,
-        "route": "Arissola Dojo",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 30,
-        "island": "Deniz",
-        "maxLevel": 17,
-        "minLevel": 15,
-        "route": "Aguamarina Caves",
-        "temtem": "Tateru"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 30,
-        "island": "Deniz",
-        "maxLevel": 17,
-        "minLevel": 15,
-        "route": "Aguamarina Caves",
-        "temtem": "Skail"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 95,
-        "island": "Deniz",
-        "maxLevel": 17,
-        "minLevel": 15,
-        "route": "Aguamarina Caves",
-        "temtem": "Kalazu"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 5,
-        "island": "Deniz",
-        "maxLevel": 17,
-        "minLevel": 15,
-        "route": "Aguamarina Caves",
-        "temtem": "Oceara"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 65,
-        "island": "Deniz",
-        "maxLevel": 18,
-        "minLevel": 14,
-        "route": "Aguamarina Caves",
-        "temtem": "Skail"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 45,
-        "island": "Deniz",
-        "maxLevel": 16,
-        "minLevel": 13,
-        "route": "Sillaro River",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 5,
-        "island": "Deniz",
-        "maxLevel": 15,
-        "minLevel": 14,
-        "route": "Sillaro River",
-        "temtem": "Wiplump"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 40,
-        "island": "Deniz",
-        "maxLevel": 15,
-        "minLevel": 13,
-        "route": "Sillaro River",
-        "temtem": "Kalazu"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 30,
-        "island": "Deniz",
-        "maxLevel": 15,
-        "minLevel": 13,
-        "route": "Sillaro River",
-        "temtem": "Umishi"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 30,
-        "island": "Deniz",
-        "maxLevel": 14,
-        "minLevel": 13,
-        "route": "Sillaro River",
-        "temtem": "Pewki"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 100,
-        "island": "Deniz",
-        "maxLevel": 15,
-        "minLevel": 14,
-        "route": "Sillaro River",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 5,
-        "island": "Omninesia",
-        "maxLevel": 10,
-        "minLevel": 5,
-        "route": "Altar of the Inner Flame",
-        "temtem": "Tuwai"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 95,
-        "island": "Cipanku",
-        "maxLevel": 72,
-        "minLevel": 72,
-        "route": "Digital Kami Shrine",
-        "temtem": "Golzy"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 30,
-        "island": "Deniz",
-        "maxLevel": 18,
-        "minLevel": 14,
-        "route": "Aguamarina Caves",
-        "temtem": "Tateru"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 5,
-        "island": "Deniz",
-        "maxLevel": 17,
-        "minLevel": 14,
-        "route": "Aguamarina Caves",
-        "temtem": "Skunch"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 65,
-        "island": "Deniz",
-        "maxLevel": 17,
-        "minLevel": 14,
-        "route": "Aguamarina Caves",
-        "temtem": "Skail"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 30,
-        "island": "Deniz",
-        "maxLevel": 17,
-        "minLevel": 14,
-        "route": "Aguamarina Caves",
-        "temtem": "Tateru"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 5,
-        "island": "Deniz",
-        "maxLevel": 18,
-        "minLevel": 14,
-        "route": "Aguamarina Caves",
-        "temtem": "Skunch"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 65,
-        "island": "Deniz",
-        "maxLevel": 18,
-        "minLevel": 15,
-        "route": "Aguamarina Caves",
-        "temtem": "Kalazu"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 35,
-        "island": "Deniz",
-        "maxLevel": 17,
-        "minLevel": 15,
-        "route": "Aguamarina Caves",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 6",
-        "frequency": 65,
-        "island": "Deniz",
-        "maxLevel": 18,
-        "minLevel": 15,
-        "route": "Aguamarina Caves",
-        "temtem": "Kalazu"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 95,
-        "island": "Kisiwa",
-        "maxLevel": 72,
-        "minLevel": 72,
-        "route": "Aisha's Hearth",
-        "temtem": "Osukai"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 95,
-        "island": "Deniz",
-        "maxLevel": 70,
-        "minLevel": 70,
-        "route": "Dabmis' Rest",
-        "temtem": "Platimous"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 90,
-        "island": "Deniz",
-        "maxLevel": 15,
-        "minLevel": 14,
-        "route": "Sillaro River",
-        "temtem": "Fomu"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 10,
-        "island": "Deniz",
-        "maxLevel": 16,
-        "minLevel": 14,
-        "route": "Sillaro River",
-        "temtem": "Nessla"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 85,
-        "island": "Deniz",
-        "maxLevel": 42,
-        "minLevel": 38,
-        "route": "Sillaro River",
-        "temtem": "Wiplump"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 15,
-        "island": "Deniz",
-        "maxLevel": 45,
-        "minLevel": 40,
-        "route": "Sillaro River",
-        "temtem": "Platox"
-    },
-    {
-        "area": "Area 6",
-        "frequency": 100,
-        "island": "Deniz",
-        "maxLevel": 15,
-        "minLevel": 14,
-        "route": "Sillaro River",
-        "temtem": "Fomu"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 5,
-        "island": "Cipanku",
-        "maxLevel": 10,
-        "minLevel": 5,
-        "route": "Digital Kami Shrine",
-        "temtem": "Tuwai"
-    },
-    {
-        "area": "Area 6",
-        "frequency": 35,
-        "island": "Deniz",
-        "maxLevel": 18,
-        "minLevel": 15,
-        "route": "Aguamarina Caves",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 7",
-        "frequency": 100,
-        "island": "Deniz",
-        "maxLevel": 18,
-        "minLevel": 15,
-        "route": "Aguamarina Caves",
-        "temtem": "Kalazu"
-    },
-    {
-        "area": "Area 8",
-        "frequency": 55,
-        "island": "Deniz",
-        "maxLevel": 17,
-        "minLevel": 14,
-        "route": "Aguamarina Caves",
-        "temtem": "Skail"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 5,
-        "island": "Kisiwa",
-        "maxLevel": 10,
-        "minLevel": 5,
-        "route": "Aisha's Hearth",
-        "temtem": "Tuwai"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 5,
-        "island": "Deniz",
-        "maxLevel": 10,
-        "minLevel": 5,
-        "route": "Dabmis' Rest",
-        "temtem": "Tuwai"
-    },
-    {
-        "area": "Area 7",
-        "frequency": 50,
-        "island": "Deniz",
-        "maxLevel": 14,
-        "minLevel": 13,
-        "route": "Sillaro River",
-        "temtem": "Fomu"
-    },
-    {
-        "area": "Area 7",
-        "frequency": 45,
-        "island": "Deniz",
-        "maxLevel": 14,
-        "minLevel": 13,
-        "route": "Sillaro River",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 7",
-        "frequency": 5,
-        "island": "Deniz",
-        "maxLevel": 15,
-        "minLevel": 14,
-        "route": "Sillaro River",
-        "temtem": "Wiplump"
-    },
-    {
-        "area": "Area 8",
-        "frequency": 40,
-        "island": "Deniz",
-        "maxLevel": 15,
-        "minLevel": 13,
-        "route": "Sillaro River",
-        "temtem": "Kalazu"
-    },
-    {
-        "area": "Area 8",
-        "frequency": 20,
-        "island": "Deniz",
-        "maxLevel": 17,
-        "minLevel": 14,
-        "route": "Aguamarina Caves",
-        "temtem": "Tateru"
-    },
-    {
-        "area": "Area 8",
-        "frequency": 20,
-        "island": "Deniz",
-        "maxLevel": 18,
-        "minLevel": 15,
-        "route": "Aguamarina Caves",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 8",
-        "frequency": 5,
-        "island": "Deniz",
-        "maxLevel": 20,
-        "minLevel": 19,
-        "route": "Aguamarina Caves",
-        "temtem": "Skunch"
-    },
-    {
-        "area": "Area 9",
-        "frequency": 55,
-        "island": "Deniz",
-        "maxLevel": 18,
-        "minLevel": 15,
-        "route": "Aguamarina Caves",
-        "temtem": "Skail"
-    },
-    {
-        "area": "Area 9",
-        "frequency": 20,
-        "island": "Deniz",
-        "maxLevel": 18,
-        "minLevel": 15,
-        "route": "Aguamarina Caves",
-        "temtem": "Tateru"
-    },
-    {
-        "area": "Area 9",
-        "frequency": 20,
-        "island": "Deniz",
-        "maxLevel": 18,
-        "minLevel": 15,
-        "route": "Aguamarina Caves",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 9",
-        "frequency": 5,
-        "island": "Deniz",
-        "maxLevel": 18,
-        "minLevel": 15,
-        "route": "Aguamarina Caves",
-        "temtem": "Skunch"
-    },
-    {
-        "area": "Area 10",
-        "frequency": 55,
-        "island": "Deniz",
-        "maxLevel": 18,
-        "minLevel": 15,
-        "route": "Aguamarina Caves",
-        "temtem": "Skail"
-    },
-    {
-        "area": "Area 10",
-        "frequency": 20,
-        "island": "Deniz",
-        "maxLevel": 17,
-        "minLevel": 14,
-        "route": "Aguamarina Caves",
-        "temtem": "Tateru"
-    },
-    {
-        "area": "Area 10",
-        "frequency": 20,
-        "island": "Deniz",
-        "maxLevel": 17,
-        "minLevel": 14,
-        "route": "Aguamarina Caves",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 10",
-        "frequency": 5,
-        "island": "Deniz",
-        "maxLevel": 18,
-        "minLevel": 15,
-        "route": "Aguamarina Caves",
-        "temtem": "Skunch"
-    },
-    {
-        "area": "Area 11",
-        "frequency": 65,
-        "island": "Deniz",
-        "maxLevel": 17,
-        "minLevel": 15,
-        "route": "Aguamarina Caves",
-        "temtem": "Skail"
-    },
-    {
-        "area": "Area 8",
-        "frequency": 30,
-        "island": "Deniz",
-        "maxLevel": 15,
-        "minLevel": 13,
-        "route": "Sillaro River",
-        "temtem": "Umishi"
-    },
-    {
-        "area": "Area 8",
-        "frequency": 30,
-        "island": "Deniz",
-        "maxLevel": 14,
-        "minLevel": 13,
-        "route": "Sillaro River",
-        "temtem": "Pewki"
-    },
-    {
-        "area": "Area 9",
-        "frequency": 100,
-        "island": "Deniz",
-        "maxLevel": 15,
-        "minLevel": 14,
-        "route": "Sillaro River",
-        "temtem": "Fomu"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 80,
-        "island": "Kisiwa",
-        "maxLevel": 37,
-        "minLevel": 34,
-        "route": "Juu Tunnel",
-        "temtem": "Grumvel"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 20,
-        "island": "Cipanku",
-        "maxLevel": 65,
-        "minLevel": 55,
-        "route": "The Highbelow?",
-        "temtem": "Garyo"
-    },
-    {
-        "area": "Area 11",
-        "frequency": 30,
-        "island": "Deniz",
-        "maxLevel": 17,
-        "minLevel": 15,
-        "route": "Aguamarina Caves",
-        "temtem": "Tateru"
-    },
-    {
-        "area": "Area 11",
-        "frequency": 5,
-        "island": "Deniz",
-        "maxLevel": 17,
-        "minLevel": 15,
-        "route": "Aguamarina Caves",
-        "temtem": "Skunch"
-    },
-    {
-        "area": "Area 12",
-        "frequency": 40,
-        "island": "Deniz",
-        "maxLevel": 20,
-        "minLevel": 18,
-        "route": "Aguamarina Caves",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 12",
-        "frequency": 30,
-        "island": "Deniz",
-        "maxLevel": 20,
-        "minLevel": 18,
-        "route": "Aguamarina Caves",
-        "temtem": "Skail"
-    },
-    {
-        "area": "Area 12",
-        "frequency": 30,
-        "island": "Deniz",
-        "maxLevel": 20,
-        "minLevel": 19,
-        "route": "Aguamarina Caves",
-        "temtem": "Tateru"
-    },
-    {
-        "area": "Area 13",
-        "frequency": 95,
-        "island": "Deniz",
-        "maxLevel": 22,
-        "minLevel": 19,
-        "route": "Aguamarina Caves",
-        "temtem": "Kalazu"
-    },
-    {
-        "area": "Area 13",
-        "frequency": 5,
-        "island": "Deniz",
-        "maxLevel": 22,
-        "minLevel": 21,
-        "route": "Aguamarina Caves",
-        "temtem": "Oceara"
-    },
-    {
-        "area": "Area 14",
-        "frequency": 95,
-        "island": "Deniz",
-        "maxLevel": 70,
-        "minLevel": 70,
-        "route": "Aguamarina Caves",
-        "temtem": "Platimous"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 20,
-        "island": "Kisiwa",
-        "maxLevel": 41,
-        "minLevel": 35,
-        "route": "Juu Tunnel",
-        "temtem": "Zizare"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 80,
-        "island": "Kisiwa",
-        "maxLevel": 44,
-        "minLevel": 37,
-        "route": "Juu Tunnel",
-        "temtem": "Grumvel"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 20,
-        "island": "Kisiwa",
-        "maxLevel": 42,
-        "minLevel": 37,
-        "route": "Juu Tunnel",
-        "temtem": "Droply"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 100,
-        "island": "Kisiwa",
-        "maxLevel": 47,
-        "minLevel": 42,
-        "route": "Juu Tunnel",
-        "temtem": "Droply"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 20,
-        "island": "Cipanku",
-        "maxLevel": 65,
-        "minLevel": 55,
-        "route": "The Highbelow?",
-        "temtem": "Wiplump"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 20,
-        "island": "Cipanku",
-        "maxLevel": 70,
-        "minLevel": 60,
-        "route": "The Highbelow?",
-        "temtem": "Cycrox"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 20,
-        "island": "Cipanku",
-        "maxLevel": 65,
-        "minLevel": 55,
-        "route": "The Highbelow?",
-        "temtem": "Grumper"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 20,
-        "island": "Cipanku",
-        "maxLevel": 40,
-        "minLevel": 30,
-        "route": "The Highbelow?",
-        "temtem": "Sparzy"
-    },
-    {
-        "area": "Area 14",
-        "frequency": 5,
-        "island": "Deniz",
-        "maxLevel": 10,
-        "minLevel": 5,
-        "route": "Aguamarina Caves",
-        "temtem": "Tuwai"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 65,
-        "island": "Kisiwa",
-        "maxLevel": 47,
-        "minLevel": 42,
-        "route": "Barafu Glacier",
-        "temtem": "Skunch"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 70,
-        "island": "Deniz",
-        "maxLevel": 11,
-        "minLevel": 9,
-        "route": "Windward Fort",
-        "temtem": "Skail"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 15,
-        "island": "Kisiwa",
-        "maxLevel": 45,
-        "minLevel": 42,
-        "route": "Barafu Glacier",
-        "temtem": "Mudrid"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 10,
-        "island": "Kisiwa",
-        "maxLevel": 47,
-        "minLevel": 44,
-        "route": "Barafu Glacier",
-        "temtem": "Zizare"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 5,
-        "island": "Kisiwa",
-        "maxLevel": 47,
-        "minLevel": 42,
-        "route": "Barafu Glacier",
-        "temtem": "Momo"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 5,
-        "island": "Kisiwa",
-        "maxLevel": 55,
-        "minLevel": 52,
-        "route": "Barafu Glacier",
-        "temtem": "Yowlar"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 20,
-        "island": "Deniz",
-        "maxLevel": 12,
-        "minLevel": 9,
-        "route": "Windward Fort",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 10,
-        "island": "Deniz",
-        "maxLevel": 11,
-        "minLevel": 9,
-        "route": "Windward Fort",
-        "temtem": "Fomu"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 50,
-        "island": "Deniz",
-        "maxLevel": 12,
-        "minLevel": 11,
-        "route": "Windward Fort",
-        "temtem": "Fomu"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 50,
-        "island": "Deniz",
-        "maxLevel": 14,
-        "minLevel": 11,
-        "route": "Windward Fort",
-        "temtem": "Saipat"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 100,
-        "island": "Deniz",
-        "maxLevel": 14,
-        "minLevel": 11,
-        "route": "Windward Fort",
-        "temtem": "Fomu"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 80,
-        "island": "Deniz",
-        "maxLevel": 12,
-        "minLevel": 11,
-        "route": "Windward Fort",
-        "temtem": "Skail"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 20,
-        "island": "Deniz",
-        "maxLevel": 13,
-        "minLevel": 12,
-        "route": "Windward Fort",
-        "temtem": "Tateru"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 100,
-        "island": "Deniz",
-        "maxLevel": 13,
-        "minLevel": 11,
-        "route": "Windward Fort",
-        "temtem": "Skail"
-    },
-    {
-        "area": "Area 6",
-        "frequency": 100,
-        "island": "Deniz",
-        "maxLevel": 12,
-        "minLevel": 11,
-        "route": "Windward Fort",
-        "temtem": "Skail"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 50,
-        "island": "Kisiwa",
-        "maxLevel": 48,
-        "minLevel": 42,
-        "route": "Kilima Peaks",
-        "temtem": "Momo"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 60,
-        "island": "Tucma",
-        "maxLevel": 37,
-        "minLevel": 32,
-        "route": "Kupeleleza",
-        "temtem": "Occlura"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 60,
-        "island": "Kisiwa",
-        "maxLevel": 44,
-        "minLevel": 40,
-        "route": "Chini Grotto",
-        "temtem": "Grumvel"
-    },
-    {
-        "area": "Area 7",
-        "frequency": 80,
-        "island": "Deniz",
-        "maxLevel": 13,
-        "minLevel": 12,
-        "route": "Windward Fort",
-        "temtem": "Skail"
-    },
-    {
-        "area": "Area 7",
-        "frequency": 20,
-        "island": "Deniz",
-        "maxLevel": 13,
-        "minLevel": 12,
-        "route": "Windward Fort",
-        "temtem": "Ganki"
-    },
-    {
-        "area": "Area 8",
-        "frequency": 100,
-        "island": "Deniz",
-        "maxLevel": 13,
-        "minLevel": 12,
-        "route": "Windward Fort",
-        "temtem": "Skail"
-    },
-    {
-        "area": "Area 9",
-        "frequency": 50,
-        "island": "Deniz",
-        "maxLevel": 14,
-        "minLevel": 12,
-        "route": "Windward Fort",
-        "temtem": "Skail"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 50,
-        "island": "Kisiwa",
-        "maxLevel": 48,
-        "minLevel": 42,
-        "route": "Kilima Peaks",
-        "temtem": "Skunch"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 20,
-        "island": "Kisiwa",
-        "maxLevel": 48,
-        "minLevel": 42,
-        "route": "Kilima Peaks",
-        "temtem": "Momo"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 20,
-        "island": "Kisiwa",
-        "maxLevel": 48,
-        "minLevel": 42,
-        "route": "Kilima Peaks",
-        "temtem": "Skunch"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 20,
-        "island": "Kisiwa",
-        "maxLevel": 50,
-        "minLevel": 44,
-        "route": "Kilima Peaks",
-        "temtem": "Zizare"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 20,
-        "island": "Kisiwa",
-        "maxLevel": 45,
-        "minLevel": 40,
-        "route": "Kilima Peaks",
-        "temtem": "Osukan"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 20,
-        "island": "Kisiwa",
-        "maxLevel": 44,
-        "minLevel": 42,
-        "route": "Kilima Peaks",
-        "temtem": "Tateru"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 35,
-        "island": "Kisiwa",
-        "maxLevel": 50,
-        "minLevel": 44,
-        "route": "Kilima Peaks",
-        "temtem": "Zizare"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 35,
-        "island": "Tucma",
-        "maxLevel": 36,
-        "minLevel": 31,
-        "route": "Kupeleleza",
-        "temtem": "Zephyruff"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 5,
-        "island": "Tucma",
-        "maxLevel": 29,
-        "minLevel": 25,
-        "route": "Kupeleleza",
-        "temtem": "Crystle"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 60,
-        "island": "Tucma",
-        "maxLevel": 37,
-        "minLevel": 31,
-        "route": "Kupeleleza",
-        "temtem": "Mushi"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 40,
-        "island": "Tucma",
-        "maxLevel": 38,
-        "minLevel": 33,
-        "route": "Kupeleleza",
-        "temtem": "Zephyruff"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 60,
-        "island": "Tucma",
-        "maxLevel": 37,
-        "minLevel": 36,
-        "route": "Kupeleleza",
-        "temtem": "Zephyruff"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 40,
-        "island": "Tucma",
-        "maxLevel": 38,
-        "minLevel": 35,
-        "route": "Kupeleleza",
-        "temtem": "Saku"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 95,
-        "island": "Tucma",
-        "maxLevel": 38,
-        "minLevel": 36,
-        "route": "Kupeleleza",
-        "temtem": "Zephyruff"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 20,
-        "island": "Kisiwa",
-        "maxLevel": 48,
-        "minLevel": 43,
-        "route": "Chini Grotto",
-        "temtem": "Skunch"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 15,
-        "island": "Kisiwa",
-        "maxLevel": 48,
-        "minLevel": 43,
-        "route": "Chini Grotto",
-        "temtem": "Zizare"
-    },
-    {
-        "area": "Area 1",
-        "frequency": 5,
-        "island": "Kisiwa",
-        "maxLevel": 44,
-        "minLevel": 40,
-        "route": "Chini Grotto",
-        "temtem": "Pycko"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 60,
-        "island": "Kisiwa",
-        "maxLevel": 44,
-        "minLevel": 40,
-        "route": "Chini Grotto",
-        "temtem": "Grumvel"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 20,
-        "island": "Kisiwa",
-        "maxLevel": 48,
-        "minLevel": 43,
-        "route": "Chini Grotto",
-        "temtem": "Skunch"
-    },
-    {
-        "area": "Area 2",
-        "frequency": 20,
-        "island": "Kisiwa",
-        "maxLevel": 48,
-        "minLevel": 43,
-        "route": "Chini Grotto",
-        "temtem": "Zizare"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 90,
-        "island": "Kisiwa",
-        "maxLevel": 44,
-        "minLevel": 40,
-        "route": "Chini Grotto",
-        "temtem": "Grumvel"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 10,
-        "island": "Kisiwa",
-        "maxLevel": 48,
-        "minLevel": 43,
-        "route": "Chini Grotto",
-        "temtem": "Zizare"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 70,
-        "island": "Kisiwa",
-        "maxLevel": 45,
-        "minLevel": 41,
-        "route": "Chini Grotto",
-        "temtem": "Grumvel"
-    },
-    {
-        "area": "Area 9",
-        "frequency": 50,
-        "island": "Deniz",
-        "maxLevel": 12,
-        "minLevel": 10,
-        "route": "Windward Fort",
-        "temtem": "Ganki"
-    },
-    {
-        "area": "Area 10",
-        "frequency": 95,
-        "island": "Deniz",
-        "maxLevel": 14,
-        "minLevel": 12,
-        "route": "Windward Fort",
-        "temtem": "Ganki"
-    },
-    {
-        "area": "Area 10",
-        "frequency": 5,
-        "island": "Deniz",
-        "maxLevel": 14,
-        "minLevel": 12,
-        "route": "Windward Fort",
-        "temtem": "Barnshe"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 35,
-        "island": "Kisiwa",
-        "maxLevel": 43,
-        "minLevel": 40,
-        "route": "Kilima Peaks",
-        "temtem": "Osukan"
-    },
-    {
-        "area": "Area 3",
-        "frequency": 30,
-        "island": "Kisiwa",
-        "maxLevel": 47,
-        "minLevel": 42,
-        "route": "Kilima Peaks",
-        "temtem": "Momo"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 70,
-        "island": "Kisiwa",
-        "maxLevel": 47,
-        "minLevel": 42,
-        "route": "Kilima Peaks",
-        "temtem": "Skunch"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 30,
-        "island": "Kisiwa",
-        "maxLevel": 44,
-        "minLevel": 42,
-        "route": "Kilima Peaks",
-        "temtem": "Volarend"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 5,
-        "island": "Tucma",
-        "maxLevel": 40,
-        "minLevel": 38,
-        "route": "Kupeleleza",
-        "temtem": "Volarend"
-    },
-    {
-        "area": "Area 4",
-        "frequency": 30,
-        "island": "Kisiwa",
-        "maxLevel": 48,
-        "minLevel": 43,
-        "route": "Chini Grotto",
-        "temtem": "Zizare"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 95,
-        "island": "Kisiwa",
-        "maxLevel": 72,
-        "minLevel": 72,
-        "route": "Chini Grotto",
-        "temtem": "Osukai"
-    },
-    {
-        "area": "Area 5",
-        "frequency": 5,
-        "island": "Kisiwa",
-        "maxLevel": 10,
-        "minLevel": 5,
-        "route": "Chini Grotto",
-        "temtem": "Tuwai"
+        "route": "The Flywalk",
+        "temtem": "Spriole"
     },
     {
         "area": "Area 1",
@@ -3706,6 +2059,150 @@
         "minLevel": 14,
         "route": "The Canopath",
         "temtem": "Hidody"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 70,
+        "island": "Tucma",
+        "maxLevel": 32,
+        "minLevel": 30,
+        "route": "Xolot Reservoir",
+        "temtem": "Platypet"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 30,
+        "island": "Tucma",
+        "maxLevel": 32,
+        "minLevel": 30,
+        "route": "Xolot Reservoir",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 6",
+        "frequency": 50,
+        "island": "Tucma",
+        "maxLevel": 33,
+        "minLevel": 29,
+        "route": "Xolot Reservoir",
+        "temtem": "Platypet"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 25,
+        "island": "Omninesia",
+        "maxLevel": 50,
+        "minLevel": 40,
+        "route": "Anak Volcano",
+        "temtem": "Raize"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 25,
+        "island": "Omninesia",
+        "maxLevel": 55,
+        "minLevel": 45,
+        "route": "Anak Volcano",
+        "temtem": "Mastione"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 50,
+        "island": "Omninesia",
+        "maxLevel": 46,
+        "minLevel": 39,
+        "route": "Anak Volcano",
+        "temtem": "Capyre"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 25,
+        "island": "Omninesia",
+        "maxLevel": 51,
+        "minLevel": 41,
+        "route": "Anak Volcano",
+        "temtem": "Vulor"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 25,
+        "island": "Omninesia",
+        "maxLevel": 50,
+        "minLevel": 45,
+        "route": "Anak Volcano",
+        "temtem": "Mastione"
+    },
+    {
+        "area": "Area 6",
+        "frequency": 35,
+        "island": "Omninesia",
+        "maxLevel": 50,
+        "minLevel": 40,
+        "route": "Anak Volcano",
+        "temtem": "Vulor"
+    },
+    {
+        "area": "Area 6",
+        "frequency": 35,
+        "island": "Omninesia",
+        "maxLevel": 55,
+        "minLevel": 45,
+        "route": "Anak Volcano",
+        "temtem": "Mastione"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 5,
+        "island": "Omninesia",
+        "maxLevel": 20,
+        "minLevel": 19,
+        "route": "The Flywalk",
+        "temtem": "Deendre"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 50,
+        "island": "Omninesia",
+        "maxLevel": 20,
+        "minLevel": 18,
+        "route": "The Flywalk",
+        "temtem": "Kaku"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 30,
+        "island": "Omninesia",
+        "maxLevel": 20,
+        "minLevel": 18,
+        "route": "The Flywalk",
+        "temtem": "Loali"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 20,
+        "island": "Omninesia",
+        "maxLevel": 21,
+        "minLevel": 18,
+        "route": "The Flywalk",
+        "temtem": "Paharac"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 50,
+        "island": "Omninesia",
+        "maxLevel": 24,
+        "minLevel": 21,
+        "route": "The Flywalk",
+        "temtem": "Deendre"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 50,
+        "island": "Omninesia",
+        "maxLevel": 25,
+        "minLevel": 22,
+        "route": "The Flywalk",
+        "temtem": "Loali"
     },
     {
         "area": "Area 1",
@@ -3780,6 +2277,114 @@
         "temtem": "Hidody"
     },
     {
+        "area": "Area 6",
+        "frequency": 40,
+        "island": "Tucma",
+        "maxLevel": 33,
+        "minLevel": 29,
+        "route": "Xolot Reservoir",
+        "temtem": "Kalazu"
+    },
+    {
+        "area": "Area 6",
+        "frequency": 10,
+        "island": "Tucma",
+        "maxLevel": 34,
+        "minLevel": 30,
+        "route": "Xolot Reservoir",
+        "temtem": "Kalabyss"
+    },
+    {
+        "area": "Area 7",
+        "frequency": 50,
+        "island": "Tucma",
+        "maxLevel": 33,
+        "minLevel": 30,
+        "route": "Xolot Reservoir",
+        "temtem": "Platypet"
+    },
+    {
+        "area": "Area 7",
+        "frequency": 40,
+        "island": "Tucma",
+        "maxLevel": 33,
+        "minLevel": 30,
+        "route": "Xolot Reservoir",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 7",
+        "frequency": 10,
+        "island": "Tucma",
+        "maxLevel": 34,
+        "minLevel": 30,
+        "route": "Xolot Reservoir",
+        "temtem": "Kalabyss"
+    },
+    {
+        "area": "Area 6",
+        "frequency": 30,
+        "island": "Omninesia",
+        "maxLevel": 50,
+        "minLevel": 45,
+        "route": "Anak Volcano",
+        "temtem": "Drakash"
+    },
+    {
+        "area": "Area 7",
+        "frequency": 95,
+        "island": "Omninesia",
+        "maxLevel": 70,
+        "minLevel": 70,
+        "route": "Anak Volcano",
+        "temtem": "Raican"
+    },
+    {
+        "area": "Area 7",
+        "frequency": 5,
+        "island": "Omninesia",
+        "maxLevel": 10,
+        "minLevel": 5,
+        "route": "Anak Volcano",
+        "temtem": "Tuwai"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 70,
+        "island": "Deniz",
+        "maxLevel": 6,
+        "minLevel": 4,
+        "route": "Thalassian Cliffs",
+        "temtem": "Tateru"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 50,
+        "island": "Deniz",
+        "maxLevel": 41,
+        "minLevel": 38,
+        "route": "Saipark",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 35,
+        "island": "Deniz",
+        "maxLevel": 2,
+        "minLevel": 2,
+        "route": "Prasine Coast",
+        "temtem": "Paharo"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 95,
+        "island": "Deniz",
+        "maxLevel": 8,
+        "minLevel": 7,
+        "route": "Gifted Bridges",
+        "temtem": "Paharo"
+    },
+    {
         "area": "Area 4",
         "frequency": 40,
         "island": "Omninesia",
@@ -3796,5 +2401,1400 @@
         "minLevel": 16,
         "route": "The Canopath",
         "temtem": "Loali"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 30,
+        "island": "Deniz",
+        "maxLevel": 6,
+        "minLevel": 4,
+        "route": "Thalassian Cliffs",
+        "temtem": "Skail"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 90,
+        "island": "Deniz",
+        "maxLevel": 6,
+        "minLevel": 4,
+        "route": "Thalassian Cliffs",
+        "temtem": "Paharo"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 10,
+        "island": "Deniz",
+        "maxLevel": 6,
+        "minLevel": 4,
+        "route": "Thalassian Cliffs",
+        "temtem": "Pigepic"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 70,
+        "island": "Deniz",
+        "maxLevel": 7,
+        "minLevel": 5,
+        "route": "Thalassian Cliffs",
+        "temtem": "Pigepic"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 30,
+        "island": "Deniz",
+        "maxLevel": 7,
+        "minLevel": 5,
+        "route": "Thalassian Cliffs",
+        "temtem": "Swali"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 100,
+        "island": "Deniz",
+        "maxLevel": 7,
+        "minLevel": 5,
+        "route": "Thalassian Cliffs",
+        "temtem": "Ganki"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 50,
+        "island": "Deniz",
+        "maxLevel": 40,
+        "minLevel": 37,
+        "route": "Saipark",
+        "temtem": "Tateru"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 50,
+        "island": "Deniz",
+        "maxLevel": 41,
+        "minLevel": 38,
+        "route": "Saipark",
+        "temtem": "Pigepic"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 50,
+        "island": "Deniz",
+        "maxLevel": 40,
+        "minLevel": 37,
+        "route": "Saipark",
+        "temtem": "Paharac"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 50,
+        "island": "Deniz",
+        "maxLevel": 41,
+        "minLevel": 38,
+        "route": "Saipark",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 35,
+        "island": "Deniz",
+        "maxLevel": 2,
+        "minLevel": 2,
+        "route": "Prasine Coast",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 30,
+        "island": "Deniz",
+        "maxLevel": 2,
+        "minLevel": 2,
+        "route": "Prasine Coast",
+        "temtem": "Tateru"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 70,
+        "island": "Deniz",
+        "maxLevel": 3,
+        "minLevel": 2,
+        "route": "Prasine Coast",
+        "temtem": "Paharo"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 30,
+        "island": "Deniz",
+        "maxLevel": 3,
+        "minLevel": 2,
+        "route": "Prasine Coast",
+        "temtem": "Tateru"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 40,
+        "island": "Deniz",
+        "maxLevel": 4,
+        "minLevel": 2,
+        "route": "Prasine Coast",
+        "temtem": "Kaku"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 40,
+        "island": "Deniz",
+        "maxLevel": 4,
+        "minLevel": 2,
+        "route": "Prasine Coast",
+        "temtem": "Swali"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 20,
+        "island": "Deniz",
+        "maxLevel": 4,
+        "minLevel": 3,
+        "route": "Prasine Coast",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 85,
+        "island": "Deniz",
+        "maxLevel": 45,
+        "minLevel": 40,
+        "route": "Prasine Coast",
+        "temtem": "Taifu"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 5,
+        "island": "Deniz",
+        "maxLevel": 10,
+        "minLevel": 8,
+        "route": "Gifted Bridges",
+        "temtem": "Paharac"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 40,
+        "island": "Deniz",
+        "maxLevel": 10,
+        "minLevel": 8,
+        "route": "Gifted Bridges",
+        "temtem": "Tateru"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 30,
+        "island": "Deniz",
+        "maxLevel": 10,
+        "minLevel": 7,
+        "route": "Gifted Bridges",
+        "temtem": "Paharo"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 30,
+        "island": "Deniz",
+        "maxLevel": 9,
+        "minLevel": 7,
+        "route": "Gifted Bridges",
+        "temtem": "Skail"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 70,
+        "island": "Deniz",
+        "maxLevel": 10,
+        "minLevel": 9,
+        "route": "Gifted Bridges",
+        "temtem": "Platypet"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 30,
+        "island": "Deniz",
+        "maxLevel": 10,
+        "minLevel": 8,
+        "route": "Gifted Bridges",
+        "temtem": "Kaku"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 95,
+        "island": "Deniz",
+        "maxLevel": 40,
+        "minLevel": 30,
+        "route": "Gifted Bridges",
+        "temtem": "Paharac"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 95,
+        "island": "Deniz",
+        "maxLevel": 8,
+        "minLevel": 6,
+        "route": "Thalassian Cliffs",
+        "temtem": "Kaku"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 5,
+        "island": "Deniz",
+        "maxLevel": 7,
+        "minLevel": 7,
+        "route": "Thalassian Cliffs",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 6",
+        "frequency": 90,
+        "island": "Deniz",
+        "maxLevel": 18,
+        "minLevel": 17,
+        "route": "Thalassian Cliffs",
+        "temtem": "Umishi"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 50,
+        "island": "Deniz",
+        "maxLevel": 40,
+        "minLevel": 37,
+        "route": "Saipark",
+        "temtem": "Platox"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 50,
+        "island": "Deniz",
+        "maxLevel": 41,
+        "minLevel": 38,
+        "route": "Saipark",
+        "temtem": "Skail"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 50,
+        "island": "Deniz",
+        "maxLevel": 40,
+        "minLevel": 37,
+        "route": "Saipark",
+        "temtem": "Platox"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 15,
+        "island": "Deniz",
+        "maxLevel": 45,
+        "minLevel": 40,
+        "route": "Prasine Coast",
+        "temtem": "Paharac"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 40,
+        "island": "Deniz",
+        "maxLevel": 5,
+        "minLevel": 3,
+        "route": "Prasine Coast",
+        "temtem": "Kaku"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 40,
+        "island": "Deniz",
+        "maxLevel": 5,
+        "minLevel": 3,
+        "route": "Prasine Coast",
+        "temtem": "Swali"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 20,
+        "island": "Deniz",
+        "maxLevel": 5,
+        "minLevel": 3,
+        "route": "Prasine Coast",
+        "temtem": "Paharo"
+    },
+    {
+        "area": "Area 6",
+        "frequency": 90,
+        "island": "Deniz",
+        "maxLevel": 7,
+        "minLevel": 4,
+        "route": "Prasine Coast",
+        "temtem": "Paharo"
+    },
+    {
+        "area": "Area 6",
+        "frequency": 5,
+        "island": "Deniz",
+        "maxLevel": 6,
+        "minLevel": 4,
+        "route": "Prasine Coast",
+        "temtem": "Pigepic"
+    },
+    {
+        "area": "Area 6",
+        "frequency": 5,
+        "island": "Deniz",
+        "maxLevel": 6,
+        "minLevel": 4,
+        "route": "Prasine Coast",
+        "temtem": "Skail"
+    },
+    {
+        "area": "Area 7",
+        "frequency": 50,
+        "island": "Deniz",
+        "maxLevel": 5,
+        "minLevel": 3,
+        "route": "Prasine Coast",
+        "temtem": "Tateru"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 5,
+        "island": "Deniz",
+        "maxLevel": 40,
+        "minLevel": 30,
+        "route": "Gifted Bridges",
+        "temtem": "Hocus"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 70,
+        "island": "Deniz",
+        "maxLevel": 10,
+        "minLevel": 7,
+        "route": "Gifted Bridges",
+        "temtem": "Platypet"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 30,
+        "island": "Deniz",
+        "maxLevel": 11,
+        "minLevel": 7,
+        "route": "Gifted Bridges",
+        "temtem": "Kaku"
+    },
+    {
+        "area": "Area 6",
+        "frequency": 85,
+        "island": "Deniz",
+        "maxLevel": 10,
+        "minLevel": 8,
+        "route": "Gifted Bridges",
+        "temtem": "Pigepic"
+    },
+    {
+        "area": "Area 6",
+        "frequency": 10,
+        "island": "Deniz",
+        "maxLevel": 18,
+        "minLevel": 17,
+        "route": "Thalassian Cliffs",
+        "temtem": "Nessla"
+    },
+    {
+        "area": "Area 7",
+        "frequency": 100,
+        "island": "Deniz",
+        "maxLevel": 8,
+        "minLevel": 6,
+        "route": "Thalassian Cliffs",
+        "temtem": "Ganki"
+    },
+    {
+        "area": "Area 8",
+        "frequency": 100,
+        "island": "Deniz",
+        "maxLevel": 8,
+        "minLevel": 7,
+        "route": "Thalassian Cliffs",
+        "temtem": "Pigepic"
+    },
+    {
+        "area": "Area 7",
+        "frequency": 50,
+        "island": "Deniz",
+        "maxLevel": 5,
+        "minLevel": 3,
+        "route": "Prasine Coast",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 8",
+        "frequency": 50,
+        "island": "Deniz",
+        "maxLevel": 6,
+        "minLevel": 4,
+        "route": "Prasine Coast",
+        "temtem": "Paharo"
+    },
+    {
+        "area": "Area 8",
+        "frequency": 50,
+        "island": "Deniz",
+        "maxLevel": 6,
+        "minLevel": 4,
+        "route": "Prasine Coast",
+        "temtem": "Tateru"
+    },
+    {
+        "area": "Area 9",
+        "frequency": 100,
+        "island": "Deniz",
+        "maxLevel": 20,
+        "minLevel": 14,
+        "route": "Prasine Coast",
+        "temtem": "Pewki"
+    },
+    {
+        "area": "Area 6",
+        "frequency": 15,
+        "island": "Deniz",
+        "maxLevel": 10,
+        "minLevel": 8,
+        "route": "Gifted Bridges",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 7",
+        "frequency": 80,
+        "island": "Deniz",
+        "maxLevel": 15,
+        "minLevel": 12,
+        "route": "Gifted Bridges",
+        "temtem": "Fomu"
+    },
+    {
+        "area": "Area 7",
+        "frequency": 20,
+        "island": "Deniz",
+        "maxLevel": 14,
+        "minLevel": 12,
+        "route": "Gifted Bridges",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 8",
+        "frequency": 100,
+        "island": "Deniz",
+        "maxLevel": 13,
+        "minLevel": 11,
+        "route": "Gifted Bridges",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 9",
+        "frequency": 80,
+        "island": "Deniz",
+        "maxLevel": 9,
+        "minLevel": 7,
+        "route": "Thalassian Cliffs",
+        "temtem": "Skail"
+    },
+    {
+        "area": "Area 9",
+        "frequency": 20,
+        "island": "Deniz",
+        "maxLevel": 8,
+        "minLevel": 6,
+        "route": "Thalassian Cliffs",
+        "temtem": "Swali"
+    },
+    {
+        "area": "Area 10",
+        "frequency": 50,
+        "island": "Deniz",
+        "maxLevel": 10,
+        "minLevel": 8,
+        "route": "Thalassian Cliffs",
+        "temtem": "Pigepic"
+    },
+    {
+        "area": "Area 10",
+        "frequency": 50,
+        "island": "Deniz",
+        "maxLevel": 9,
+        "minLevel": 7,
+        "route": "Thalassian Cliffs",
+        "temtem": "Skail"
+    },
+    {
+        "area": "Area 11",
+        "frequency": 80,
+        "island": "Deniz",
+        "maxLevel": 16,
+        "minLevel": 13,
+        "route": "Thalassian Cliffs",
+        "temtem": "Ganki"
+    },
+    {
+        "area": "Area 11",
+        "frequency": 20,
+        "island": "Deniz",
+        "maxLevel": 17,
+        "minLevel": 16,
+        "route": "Thalassian Cliffs",
+        "temtem": "Paharac"
+    },
+    {
+        "area": "Area 12",
+        "frequency": 50,
+        "island": "Deniz",
+        "maxLevel": 20,
+        "minLevel": 18,
+        "route": "Thalassian Cliffs",
+        "temtem": "Umishi"
+    },
+    {
+        "area": "Area 12",
+        "frequency": 50,
+        "island": "Deniz",
+        "maxLevel": 20,
+        "minLevel": 18,
+        "route": "Thalassian Cliffs",
+        "temtem": "Kalazu"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 75,
+        "island": "Kisiwa",
+        "maxLevel": 45,
+        "minLevel": 42,
+        "route": "Moyo Lake",
+        "temtem": "Droply"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 25,
+        "island": "Kisiwa",
+        "maxLevel": 48,
+        "minLevel": 44,
+        "route": "Moyo Lake",
+        "temtem": "Koish"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 100,
+        "island": "Kisiwa",
+        "maxLevel": 50,
+        "minLevel": 44,
+        "route": "Nuru Lodge",
+        "temtem": "Koish"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 75,
+        "island": "Kisiwa",
+        "maxLevel": 48,
+        "minLevel": 44,
+        "route": "Tasa Desert",
+        "temtem": "Akranox"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 25,
+        "island": "Kisiwa",
+        "maxLevel": 42,
+        "minLevel": 37,
+        "route": "Tasa Desert",
+        "temtem": "Pycko"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 75,
+        "island": "Kisiwa",
+        "maxLevel": 45,
+        "minLevel": 42,
+        "route": "Tasa Desert",
+        "temtem": "Vulffy"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 25,
+        "island": "Kisiwa",
+        "maxLevel": 42,
+        "minLevel": 40,
+        "route": "Tasa Desert",
+        "temtem": "Pycko"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 40,
+        "island": "Kisiwa",
+        "maxLevel": 45,
+        "minLevel": 42,
+        "route": "Tasa Desert",
+        "temtem": "Akranox"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 40,
+        "island": "Kisiwa",
+        "maxLevel": 44,
+        "minLevel": 40,
+        "route": "Tasa Desert",
+        "temtem": "Pycko"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 20,
+        "island": "Kisiwa",
+        "maxLevel": 45,
+        "minLevel": 42,
+        "route": "Tasa Desert",
+        "temtem": "Vulffy"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 40,
+        "island": "Kisiwa",
+        "maxLevel": 48,
+        "minLevel": 42,
+        "route": "Tasa Desert",
+        "temtem": "Akranox"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 40,
+        "island": "Kisiwa",
+        "maxLevel": 48,
+        "minLevel": 42,
+        "route": "Tasa Desert",
+        "temtem": "Vulffy"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 15,
+        "island": "Kisiwa",
+        "maxLevel": 42,
+        "minLevel": 40,
+        "route": "Tasa Desert",
+        "temtem": "Pycko"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 5,
+        "island": "Kisiwa",
+        "maxLevel": 50,
+        "minLevel": 45,
+        "route": "Tasa Desert",
+        "temtem": "Rhoulder"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 75,
+        "island": "Kisiwa",
+        "maxLevel": 48,
+        "minLevel": 42,
+        "route": "Tasa Desert",
+        "temtem": "Akranox"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 25,
+        "island": "Kisiwa",
+        "maxLevel": 42,
+        "minLevel": 40,
+        "route": "Tasa Desert",
+        "temtem": "Pycko"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 25,
+        "island": "Omninesia",
+        "maxLevel": 38,
+        "minLevel": 33,
+        "route": "Anak Caldera",
+        "temtem": "Vulor"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 25,
+        "island": "Omninesia",
+        "maxLevel": 38,
+        "minLevel": 33,
+        "route": "Anak Caldera",
+        "temtem": "Mastione"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 25,
+        "island": "Omninesia",
+        "maxLevel": 38,
+        "minLevel": 33,
+        "route": "Anak Caldera",
+        "temtem": "Capyre"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 25,
+        "island": "Omninesia",
+        "maxLevel": 38,
+        "minLevel": 33,
+        "route": "Anak Caldera",
+        "temtem": "Raize"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 95,
+        "island": "Omninesia",
+        "maxLevel": 70,
+        "minLevel": 70,
+        "route": "Altar of the Inner Flame",
+        "temtem": "Raican"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 5,
+        "island": "Omninesia",
+        "maxLevel": 10,
+        "minLevel": 5,
+        "route": "Altar of the Inner Flame",
+        "temtem": "Tuwai"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 95,
+        "island": "Cipanku",
+        "maxLevel": 72,
+        "minLevel": 72,
+        "route": "Digital Kami Shrine",
+        "temtem": "Golzy"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 95,
+        "island": "Kisiwa",
+        "maxLevel": 72,
+        "minLevel": 72,
+        "route": "Aisha's Hearth",
+        "temtem": "Osukai"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 95,
+        "island": "Tucma",
+        "maxLevel": 55,
+        "minLevel": 50,
+        "route": "Sons of Crystal",
+        "temtem": "Zenoreth"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 5,
+        "island": "Cipanku",
+        "maxLevel": 10,
+        "minLevel": 5,
+        "route": "Digital Kami Shrine",
+        "temtem": "Tuwai"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 5,
+        "island": "Kisiwa",
+        "maxLevel": 10,
+        "minLevel": 5,
+        "route": "Aisha's Hearth",
+        "temtem": "Tuwai"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 5,
+        "island": "Tucma",
+        "maxLevel": 10,
+        "minLevel": 5,
+        "route": "Sons of Crystal",
+        "temtem": "Tuwai"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 60,
+        "island": "Cipanku",
+        "maxLevel": 50,
+        "minLevel": 40,
+        "route": "Rice Fields",
+        "temtem": "Oree"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 20,
+        "island": "Cipanku",
+        "maxLevel": 53,
+        "minLevel": 47,
+        "route": "Rice Fields",
+        "temtem": "Nessla"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 20,
+        "island": "Cipanku",
+        "maxLevel": 53,
+        "minLevel": 47,
+        "route": "Rice Fields",
+        "temtem": "Babawa"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 60,
+        "island": "Cipanku",
+        "maxLevel": 50,
+        "minLevel": 42,
+        "route": "Rice Fields",
+        "temtem": "Halzhi"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 20,
+        "island": "Cipanku",
+        "maxLevel": 53,
+        "minLevel": 47,
+        "route": "Rice Fields",
+        "temtem": "Nessla"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 20,
+        "island": "Cipanku",
+        "maxLevel": 54,
+        "minLevel": 47,
+        "route": "Rice Fields",
+        "temtem": "Babawa"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 35,
+        "island": "Cipanku",
+        "maxLevel": 52,
+        "minLevel": 48,
+        "route": "Rice Fields",
+        "temtem": "Saipat"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 35,
+        "island": "Cipanku",
+        "maxLevel": 53,
+        "minLevel": 48,
+        "route": "Rice Fields",
+        "temtem": "Wiplump"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 20,
+        "island": "Cipanku",
+        "maxLevel": 55,
+        "minLevel": 47,
+        "route": "Rice Fields",
+        "temtem": "Nessla"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 10,
+        "island": "Cipanku",
+        "maxLevel": 50,
+        "minLevel": 42,
+        "route": "Rice Fields",
+        "temtem": "Pupoise"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 60,
+        "island": "Cipanku",
+        "maxLevel": 55,
+        "minLevel": 47,
+        "route": "Rice Fields",
+        "temtem": "Cycrox"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 20,
+        "island": "Cipanku",
+        "maxLevel": 53,
+        "minLevel": 46,
+        "route": "Rice Fields",
+        "temtem": "Nessla"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 20,
+        "island": "Cipanku",
+        "maxLevel": 53,
+        "minLevel": 47,
+        "route": "Rice Fields",
+        "temtem": "Babawa"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 60,
+        "island": "Cipanku",
+        "maxLevel": 55,
+        "minLevel": 47,
+        "route": "Rice Fields",
+        "temtem": "Cycrox"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 20,
+        "island": "Cipanku",
+        "maxLevel": 65,
+        "minLevel": 55,
+        "route": "The Highbelow?",
+        "temtem": "Garyo"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 20,
+        "island": "Cipanku",
+        "maxLevel": 55,
+        "minLevel": 47,
+        "route": "Rice Fields",
+        "temtem": "Nessla"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 20,
+        "island": "Cipanku",
+        "maxLevel": 55,
+        "minLevel": 47,
+        "route": "Rice Fields",
+        "temtem": "Babawa"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 20,
+        "island": "Cipanku",
+        "maxLevel": 65,
+        "minLevel": 55,
+        "route": "The Highbelow?",
+        "temtem": "Wiplump"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 20,
+        "island": "Cipanku",
+        "maxLevel": 70,
+        "minLevel": 60,
+        "route": "The Highbelow?",
+        "temtem": "Cycrox"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 20,
+        "island": "Cipanku",
+        "maxLevel": 65,
+        "minLevel": 55,
+        "route": "The Highbelow?",
+        "temtem": "Grumper"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 20,
+        "island": "Cipanku",
+        "maxLevel": 40,
+        "minLevel": 30,
+        "route": "The Highbelow?",
+        "temtem": "Sparzy"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 50,
+        "island": "Kisiwa",
+        "maxLevel": 44,
+        "minLevel": 42,
+        "route": "Matope Road",
+        "temtem": "Droply"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 80,
+        "island": "Kisiwa",
+        "maxLevel": 37,
+        "minLevel": 34,
+        "route": "Juu Tunnel",
+        "temtem": "Grumvel"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 50,
+        "island": "Kisiwa",
+        "maxLevel": 39,
+        "minLevel": 33,
+        "route": "Mawingu Islets",
+        "temtem": "Goty"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 25,
+        "island": "Kisiwa",
+        "maxLevel": 47,
+        "minLevel": 44,
+        "route": "Matope Road",
+        "temtem": "Goty"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 25,
+        "island": "Kisiwa",
+        "maxLevel": 47,
+        "minLevel": 44,
+        "route": "Matope Road",
+        "temtem": "Kuri"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 50,
+        "island": "Kisiwa",
+        "maxLevel": 41,
+        "minLevel": 37,
+        "route": "Matope Road",
+        "temtem": "Osuchi"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 30,
+        "island": "Kisiwa",
+        "maxLevel": 47,
+        "minLevel": 42,
+        "route": "Matope Road",
+        "temtem": "Kuri"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 20,
+        "island": "Kisiwa",
+        "maxLevel": 47,
+        "minLevel": 42,
+        "route": "Matope Road",
+        "temtem": "Gazuma"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 20,
+        "island": "Kisiwa",
+        "maxLevel": 41,
+        "minLevel": 35,
+        "route": "Juu Tunnel",
+        "temtem": "Zizare"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 80,
+        "island": "Kisiwa",
+        "maxLevel": 44,
+        "minLevel": 37,
+        "route": "Juu Tunnel",
+        "temtem": "Grumvel"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 20,
+        "island": "Kisiwa",
+        "maxLevel": 42,
+        "minLevel": 37,
+        "route": "Juu Tunnel",
+        "temtem": "Droply"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 100,
+        "island": "Kisiwa",
+        "maxLevel": 47,
+        "minLevel": 42,
+        "route": "Juu Tunnel",
+        "temtem": "Droply"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 50,
+        "island": "Kisiwa",
+        "maxLevel": 39,
+        "minLevel": 33,
+        "route": "Mawingu Islets",
+        "temtem": "Kuri"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 50,
+        "island": "Kisiwa",
+        "maxLevel": 39,
+        "minLevel": 33,
+        "route": "Mawingu Islets",
+        "temtem": "Goty"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 50,
+        "island": "Kisiwa",
+        "maxLevel": 40,
+        "minLevel": 34,
+        "route": "Mawingu Islets",
+        "temtem": "Zephyruff"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 75,
+        "island": "Kisiwa",
+        "maxLevel": 36,
+        "minLevel": 31,
+        "route": "Mawingu Islets",
+        "temtem": "Osuchi"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 25,
+        "island": "Kisiwa",
+        "maxLevel": 43,
+        "minLevel": 38,
+        "route": "Mawingu Islets",
+        "temtem": "Volarend"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 50,
+        "island": "Kisiwa",
+        "maxLevel": 37,
+        "minLevel": 33,
+        "route": "Mawingu Islets",
+        "temtem": "Zephyruff"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 30,
+        "island": "Kisiwa",
+        "maxLevel": 34,
+        "minLevel": 30,
+        "route": "Mawingu Islets",
+        "temtem": "Skunch"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 20,
+        "island": "Kisiwa",
+        "maxLevel": 39,
+        "minLevel": 34,
+        "route": "Mawingu Islets",
+        "temtem": "Droply"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 60,
+        "island": "Kisiwa",
+        "maxLevel": 39,
+        "minLevel": 32,
+        "route": "Mawingu Islets",
+        "temtem": "Babawa"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 40,
+        "island": "Kisiwa",
+        "maxLevel": 39,
+        "minLevel": 32,
+        "route": "Mawingu Islets",
+        "temtem": "Droply"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 60,
+        "island": "Kisiwa",
+        "maxLevel": 44,
+        "minLevel": 40,
+        "route": "Chini Grotto",
+        "temtem": "Grumvel"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 20,
+        "island": "Kisiwa",
+        "maxLevel": 48,
+        "minLevel": 43,
+        "route": "Chini Grotto",
+        "temtem": "Skunch"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 15,
+        "island": "Kisiwa",
+        "maxLevel": 48,
+        "minLevel": 43,
+        "route": "Chini Grotto",
+        "temtem": "Zizare"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 5,
+        "island": "Kisiwa",
+        "maxLevel": 44,
+        "minLevel": 40,
+        "route": "Chini Grotto",
+        "temtem": "Pycko"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 60,
+        "island": "Kisiwa",
+        "maxLevel": 44,
+        "minLevel": 40,
+        "route": "Chini Grotto",
+        "temtem": "Grumvel"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 20,
+        "island": "Kisiwa",
+        "maxLevel": 48,
+        "minLevel": 43,
+        "route": "Chini Grotto",
+        "temtem": "Skunch"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 20,
+        "island": "Kisiwa",
+        "maxLevel": 48,
+        "minLevel": 43,
+        "route": "Chini Grotto",
+        "temtem": "Zizare"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 90,
+        "island": "Kisiwa",
+        "maxLevel": 44,
+        "minLevel": 40,
+        "route": "Chini Grotto",
+        "temtem": "Grumvel"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 10,
+        "island": "Kisiwa",
+        "maxLevel": 48,
+        "minLevel": 43,
+        "route": "Chini Grotto",
+        "temtem": "Zizare"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 70,
+        "island": "Kisiwa",
+        "maxLevel": 45,
+        "minLevel": 41,
+        "route": "Chini Grotto",
+        "temtem": "Grumvel"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 30,
+        "island": "Kisiwa",
+        "maxLevel": 48,
+        "minLevel": 43,
+        "route": "Chini Grotto",
+        "temtem": "Zizare"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 95,
+        "island": "Kisiwa",
+        "maxLevel": 72,
+        "minLevel": 72,
+        "route": "Chini Grotto",
+        "temtem": "Osukai"
+    },
+    {
+        "area": "Area 5",
+        "frequency": 5,
+        "island": "Kisiwa",
+        "maxLevel": 10,
+        "minLevel": 5,
+        "route": "Chini Grotto",
+        "temtem": "Tuwai"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 60,
+        "island": "Tucma",
+        "maxLevel": 37,
+        "minLevel": 32,
+        "route": "Kupeleleza",
+        "temtem": "Occlura"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 35,
+        "island": "Tucma",
+        "maxLevel": 36,
+        "minLevel": 31,
+        "route": "Kupeleleza",
+        "temtem": "Zephyruff"
+    },
+    {
+        "area": "Area 1",
+        "frequency": 5,
+        "island": "Tucma",
+        "maxLevel": 29,
+        "minLevel": 25,
+        "route": "Kupeleleza",
+        "temtem": "Crystle"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 60,
+        "island": "Tucma",
+        "maxLevel": 37,
+        "minLevel": 31,
+        "route": "Kupeleleza",
+        "temtem": "Mushi"
+    },
+    {
+        "area": "Area 2",
+        "frequency": 40,
+        "island": "Tucma",
+        "maxLevel": 38,
+        "minLevel": 33,
+        "route": "Kupeleleza",
+        "temtem": "Zephyruff"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 60,
+        "island": "Tucma",
+        "maxLevel": 37,
+        "minLevel": 36,
+        "route": "Kupeleleza",
+        "temtem": "Zephyruff"
+    },
+    {
+        "area": "Area 3",
+        "frequency": 40,
+        "island": "Tucma",
+        "maxLevel": 38,
+        "minLevel": 35,
+        "route": "Kupeleleza",
+        "temtem": "Saku"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 95,
+        "island": "Tucma",
+        "maxLevel": 38,
+        "minLevel": 36,
+        "route": "Kupeleleza",
+        "temtem": "Zephyruff"
+    },
+    {
+        "area": "Area 4",
+        "frequency": 5,
+        "island": "Tucma",
+        "maxLevel": 40,
+        "minLevel": 38,
+        "route": "Kupeleleza",
+        "temtem": "Volarend"
     }
 ]
