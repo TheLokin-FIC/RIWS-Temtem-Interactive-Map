@@ -43,7 +43,11 @@ const getTvs = (tvs) => {
 };
 
 export default function Result(props) {
-    const { temtems } = props;
+    const { temtems, map } = props;
+
+    function setView(coords) {
+        map.setView(coords);
+    }
 
     return (
         <Box className="results">
@@ -102,7 +106,10 @@ export default function Result(props) {
                                             );
                                         })}
                                     </Typography>
-                                    <Box className="temtemImageContainer">
+                                    <Box
+                                        className="temtemImageContainer"
+                                        key={item._source}
+                                    >
                                         <Image
                                             className="temtemImage"
                                             alt="temtem-image"
@@ -115,7 +122,7 @@ export default function Result(props) {
                                         />
                                     </Box>
                                     <Tooltip
-                                        key={item._source}
+                                        key={item._source + 1}
                                         title={
                                             item._source.genderRatio +
                                             '% ♂ - ' +
@@ -160,12 +167,14 @@ export default function Result(props) {
                                                                 key={
                                                                     location
                                                                         ._source
-                                                                        .route +
+                                                                        .position
+                                                                        .lat +
+                                                                    item._source
+                                                                        .name +
                                                                     location
                                                                         ._source
-                                                                        .area +
-                                                                    item._source
-                                                                        .name
+                                                                        .position
+                                                                        .lng
                                                                 }
                                                                 item
                                                                 xs={12}
@@ -174,9 +183,16 @@ export default function Result(props) {
                                                                     Button
                                                                 }
                                                                 onClick={() =>
-                                                                    console.log(
+                                                                    setView([
                                                                         location
-                                                                    )
+                                                                            ._source
+                                                                            .position
+                                                                            .lat,
+                                                                        location
+                                                                            ._source
+                                                                            .position
+                                                                            .lng,
+                                                                    ])
                                                                 }
                                                                 className="location"
                                                             >

@@ -2,34 +2,35 @@ import Image from 'next/image';
 import React, { Component } from 'react';
 import { Marker, Popup } from 'react-leaflet';
 import Icon from './Icon';
-import locations from './locations.json';
 
-export default class TemtemMarkers extends Component {
-    render() {
-        return (
-            <>
-                {locations.map((temtem) => (
+const TemtemMarkers = ({ temtems }) => {
+    return (
+        <>
+            {temtems.map((temtem) =>
+                temtem.inner_hits.locations.hits.hits.map((location) => (
                     <Marker
-                        key={temtem.name}
-                        position={temtem.position}
-                        icon={Icon(temtem.portrait)}
+                        key={temtem + location}
+                        position={location._source.position}
+                        icon={Icon(temtem._source.portrait)}
                     >
                         <TemtemPopup
-                            name={temtem.name}
-                            types={temtem.types}
-                            genderRatio={temtem.genderRatio}
-                            frequency={temtem.frequency}
-                            minLevel={temtem.minLevel}
-                            maxLevel={temtem.maxLevel}
-                            freeTem={temtem.freeTem}
-                            TVs={temtem.TVs}
+                            name={temtem._source.name}
+                            types={temtem._source.types}
+                            genderRatio={temtem._source.genderRatio}
+                            frequency={location._source.frequency}
+                            minLevel={location._source.minLevel}
+                            maxLevel={location._source.maxLevel}
+                            freeTem={location._source.freeTem}
+                            TVs={temtem._source.TVs}
                         />
                     </Marker>
-                ))}
-            </>
-        );
-    }
-}
+                ))
+            )}
+        </>
+    );
+};
+
+export default TemtemMarkers;
 
 class TemtemPopup extends Component {
     render() {
@@ -55,7 +56,11 @@ class TemtemPopup extends Component {
                         </tr>
                         <tr>
                             <th className="popup-row-name">
-                                {types.length == 1 ? <b>Type</b> : <b>Types</b>}
+                                {types.length === 1 ? (
+                                    <b>Type</b>
+                                ) : (
+                                    <b>Types</b>
+                                )}
                             </th>
                             <td className="popup-row-value">
                                 {types.map((type) => (
@@ -76,7 +81,7 @@ class TemtemPopup extends Component {
                                 <b>Gender Ratio</b>
                             </th>
                             <td className="popup-row-value">
-                                {genderRatio == -1 ? (
+                                {genderRatio === -1 ? (
                                     'N/A'
                                 ) : (
                                     <>
@@ -117,7 +122,7 @@ class TemtemPopup extends Component {
                                 <b>Level</b>
                             </th>
                             <td className="popup-row-value">
-                                {minLevel == maxLevel
+                                {minLevel === maxLevel
                                     ? minLevel
                                     : minLevel + ' - ' + maxLevel}
                             </td>

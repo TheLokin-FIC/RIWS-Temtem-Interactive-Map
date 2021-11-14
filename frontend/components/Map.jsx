@@ -1,27 +1,12 @@
 import { CRS } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import React, { useMemo, useRef, useState } from 'react';
-import {
-    MapContainer,
-    Marker,
-    Popup,
-    TileLayer,
-    useMap,
-    ZoomControl,
-} from 'react-leaflet';
-import Icon from './Icon';
+import { MapContainer, TileLayer, ZoomControl } from 'react-leaflet';
 import TemtemMarkers from './Marker';
 
-export default function Map() {
+export default function Map({ temtems, setTemtems, setMap }) {
     const [x, setX] = useState(120);
     const [y, setY] = useState(-120);
-
-    function SetView({ coords }) {
-        const map = useMap();
-        map.setView(coords, map.getZoom());
-
-        return null;
-    }
 
     const markerRef = useRef(null);
     const eventHandlers = useMemo(() => ({
@@ -32,11 +17,11 @@ export default function Map() {
             setY(lat);
         },
     }));
-
     return (
         <MapContainer
             center={[-147, 184]}
-            zoom={5}
+            zoom={2}
+            whenCreated={setMap}
             minZoom={0}
             maxZoom={6}
             zoomControl={false}
@@ -61,8 +46,8 @@ export default function Map() {
                 ]}
                 noWrap={true}
             />
-            <TemtemMarkers />
-            <Marker
+            <TemtemMarkers temtems={temtems} />
+            {/*             <Marker
                 key={200}
                 position={[y, x]}
                 draggable={true}
@@ -72,11 +57,11 @@ export default function Map() {
                 ref={markerRef}
                 eventHandlers={eventHandlers}
             >
-                {/* <SetView coords={[y, x]} /> */}
+                <SetView coords={[y, x]} />
                 <Popup key={201} closeButton={false}>
                     Marker: {JSON.stringify([y, x])}
                 </Popup>
-            </Marker>
+            </Marker> */}
         </MapContainer>
     );
 }

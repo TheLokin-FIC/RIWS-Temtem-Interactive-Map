@@ -6,7 +6,7 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import Content from './Content';
 
-export default function Drawer() {
+export default function Drawer({ temtems, setTemtems, map }) {
     const [open, setOpen] = useState(true);
 
     return (
@@ -29,7 +29,11 @@ export default function Drawer() {
                     <Image src={'/images/logo.png'} width={512} height={80} />
                 </Box>
                 <Box className="container">
-                    <Content />
+                    <Content
+                        temtems={temtems}
+                        setTemtems={setTemtems}
+                        map={map}
+                    />
                 </Box>
             </Box>
         </Box>

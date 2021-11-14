@@ -1,10 +1,13 @@
+import HighlightOffIcon from '@mui/icons-material/HighlightOff';
+import { Typography } from '@mui/material';
 import { Box } from '@mui/system';
+import 'leaflet/dist/leaflet.css';
 import React, { useState } from 'react';
 import { getTemtems } from '../backend/service';
 import Filters from './Filters';
 import Result from './Result';
 
-const Content = () => {
+const Content = ({ temtems, setTemtems, map }) => {
     const nameDefault = '';
     const levelsDefault = [0, 100];
     const typesDefault = [];
@@ -16,7 +19,6 @@ const Content = () => {
     const [loading, setLoading] = useState(false);
 
     const [name, setName] = useState(nameDefault);
-    const [temtems, setTemtems] = useState([]);
     const [levels, setLevels] = React.useState(levelsDefault);
     const [types, setTypes] = useState(typesDefault);
     const [tvs, setTvs] = useState(tvsDefault);
@@ -75,6 +77,19 @@ const Content = () => {
 
     return (
         <Box sx={{ minHeight: '101vh' }}>
+            {temtems.length > 0 && (
+                <Typography
+                    align="right"
+                    className="subtitle link"
+                    onClick={() => setTemtems([])}
+                >
+                    <HighlightOffIcon
+                        sx={{ marginTop: '6px', marginRight: '3px' }}
+                        className="subtitle"
+                    />
+                    Limpiar Temtems
+                </Typography>
+            )}
             <Filters
                 filterByFreeTem={filterByFreeTem}
                 setFilterByFreeTem={setFilterByFreeTem}
@@ -105,7 +120,7 @@ const Content = () => {
                 setFilterByGender={setFilterByGender}
                 loading={loading}
             />
-            <Result temtems={temtems} />
+            <Result temtems={temtems} map={map} />
         </Box>
     );
 };
