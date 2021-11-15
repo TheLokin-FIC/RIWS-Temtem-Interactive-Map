@@ -3,11 +3,7 @@ import React, { Component } from 'react';
 import { Marker, Popup } from 'react-leaflet';
 import Icon from './Icon';
 
-const TemtemMarkers = ({ temtems, setMarkerRefs }) => {
-    const bindMarker = (ref) => {
-        //    setMarkerRefs((prev) => [...prev, ref]);
-    };
-
+const TemtemMarkers = ({ temtems, handleMarkers }) => {
     return (
         <>
             {temtems.map((temtem) =>
@@ -20,7 +16,7 @@ const TemtemMarkers = ({ temtems, setMarkerRefs }) => {
                         }
                         position={location._source.position}
                         icon={Icon(temtem._source.portrait)}
-                        ref={bindMarker}
+                        ref={handleMarkers}
                     >
                         <TemtemPopup
                             name={temtem._source.name}

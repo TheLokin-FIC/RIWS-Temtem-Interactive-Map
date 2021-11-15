@@ -4,7 +4,7 @@ import React from 'react';
 import { MapContainer, TileLayer, ZoomControl } from 'react-leaflet';
 import TemtemMarkers from './Marker';
 
-const Map = ({ temtems, setMap, setMarkerRefs }) => {
+const Map = ({ temtems, setMap, handleMarkers }) => {
     return (
         <MapContainer
             center={[-147, 184]}
@@ -35,7 +35,7 @@ const Map = ({ temtems, setMap, setMarkerRefs }) => {
                 ]}
                 noWrap={true}
             />
-            <TemtemMarkers temtems={temtems} setMarkerRefs={setMarkerRefs} />
+            <TemtemMarkers temtems={temtems} handleMarkers={handleMarkers} />
         </MapContainer>
     );
 };

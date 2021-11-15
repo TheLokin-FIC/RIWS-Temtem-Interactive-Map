@@ -6,7 +6,7 @@ import DrawerComponent from '../components/DrawerComponent';
 export default function Home() {
     const [temtems, setTemtems] = useState([]);
     const [map, setMap] = useState(null);
-    const [markerRefs, setMarkerRefs] = useState([]);
+    //const [markerRefs, setMarkerRefs] = useState([]);
     const [open, setOpen] = useState(true);
 
     const Map = useMemo(
@@ -16,6 +16,12 @@ export default function Home() {
             }),
         []
     );
+
+    let markerRefs = [];
+
+    const handleMarkers = (ref) => {
+        markerRefs.push(ref);
+    };
 
     return (
         <>
@@ -39,7 +45,7 @@ export default function Home() {
                 }
             >
                 <Map
-                    setMarkerRefs={setMarkerRefs}
+                    handleMarkers={handleMarkers}
                     setMap={setMap}
                     temtems={temtems}
                 />

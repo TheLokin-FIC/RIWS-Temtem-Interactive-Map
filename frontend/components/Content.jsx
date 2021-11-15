@@ -68,16 +68,6 @@ const Content = ({ temtems, setTemtems, map, markerRefs }) => {
         }
     };
 
-    const restoreFilters = () => {
-        setName(nameDefault);
-        setLevels(levelsDefault);
-        setTypes(typesDefault);
-        setTvs(tvsDefault);
-        setGender(genderDefault);
-        setFrequency(frequencyDefault);
-        setFreeTem(freeTemDefault);
-    };
-
     const [filterByTvs, setFilterByTvs] = React.useState(false);
     const [filterByTypes, setFilterByTypes] = React.useState(false);
     const [filterByLevels, setFilterByLevels] = React.useState(false);
@@ -88,7 +78,7 @@ const Content = ({ temtems, setTemtems, map, markerRefs }) => {
     return (
         <Box sx={{ minHeight: '101vh' }}>
             {temtems.length > 0 && (
-                <Grid xs={12} onClick={() => setTemtems([])}>
+                <Grid onClick={() => setTemtems([])}>
                     <Typography className="subtitle link" align={'right'}>
                         <HighlightOffIcon
                             sx={{ marginTop: '6px', marginRight: '3px' }}

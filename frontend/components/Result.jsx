@@ -49,12 +49,10 @@ export default function Result(props) {
         map.setView(coords, 6);
         let refs = markerRefs.filter(
             (marker) =>
-                marker.latlng.lat === coords.lat &&
-                marker.latlng.lat === coords.lon
+                marker._latlng.lat === coords[0] &&
+                marker._latlng.lng === coords[1]
         );
-        console.log(markerRefs);
-        console.log(refs);
-        //refs[0].ref.leafletElement.openPopup();
+        refs[0].openPopup();
     }
 
     return (
