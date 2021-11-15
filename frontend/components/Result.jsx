@@ -43,10 +43,18 @@ const getTvs = (tvs) => {
 };
 
 export default function Result(props) {
-    const { temtems, map } = props;
+    const { temtems, map, markerRefs } = props;
 
     function setView(coords) {
-        map.setView(coords);
+        map.setView(coords, 6);
+        let refs = markerRefs.filter(
+            (marker) =>
+                marker.latlng.lat === coords.lat &&
+                marker.latlng.lat === coords.lon
+        );
+        console.log(markerRefs);
+        console.log(refs);
+        //refs[0].ref.leafletElement.openPopup();
     }
 
     return (
@@ -97,7 +105,7 @@ export default function Result(props) {
                                                     <span>
                                                         <Image
                                                             alt="type-image"
-                                                            src={type.icon}
+                                                            src={`data:image/png;base64,${type.icon}`}
                                                             width={30}
                                                             height={30}
                                                         />
@@ -113,32 +121,42 @@ export default function Result(props) {
                                         <Image
                                             className="temtemImage"
                                             alt="temtem-image"
-                                            src={
-                                                item._source.portrait +
-                                                '/scale-to-width-down/52'
-                                            }
+                                            src={`data:image/png;base64,${item._source.portrait}`}
                                             width={52}
                                             height={52}
                                         />
                                     </Box>
-                                    <Tooltip
-                                        key={item._source + 1}
-                                        title={
-                                            item._source.genderRatio +
-                                            '% ♂ - ' +
-                                            (100 - item._source.genderRatio) +
-                                            '% ♀'
-                                        }
-                                    >
-                                        <Box container className="gender">
-                                            <Slider
-                                                key={item._source}
-                                                className="slider-gender"
-                                                value={item._source.genderRatio}
-                                                disabled
-                                            />
-                                        </Box>
-                                    </Tooltip>
+                                    {item._source.genderRatio === -1 ? (
+                                        <Typography
+                                            className="subtitle"
+                                            align="center"
+                                            gutterBottom
+                                        >
+                                            N/A
+                                        </Typography>
+                                    ) : (
+                                        <Tooltip
+                                            key={item._source + 1}
+                                            title={
+                                                item._source.genderRatio +
+                                                '% ♂ - ' +
+                                                (100 -
+                                                    item._source.genderRatio) +
+                                                '% ♀'
+                                            }
+                                        >
+                                            <Box container className="gender">
+                                                <Slider
+                                                    key={item._source}
+                                                    className="slider-gender"
+                                                    value={
+                                                        item._source.genderRatio
+                                                    }
+                                                    disabled
+                                                />
+                                            </Box>
+                                        </Tooltip>
+                                    )}
                                     <Box className="attributes">
                                         <Grid container>
                                             {getTvs(item._source.TVs)}

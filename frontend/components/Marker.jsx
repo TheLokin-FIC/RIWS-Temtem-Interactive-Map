@@ -3,15 +3,24 @@ import React, { Component } from 'react';
 import { Marker, Popup } from 'react-leaflet';
 import Icon from './Icon';
 
-const TemtemMarkers = ({ temtems }) => {
+const TemtemMarkers = ({ temtems, setMarkerRefs }) => {
+    const bindMarker = (ref) => {
+        //    setMarkerRefs((prev) => [...prev, ref]);
+    };
+
     return (
         <>
             {temtems.map((temtem) =>
                 temtem.inner_hits.locations.hits.hits.map((location) => (
                     <Marker
-                        key={temtem + location}
+                        key={
+                            location._source.position.lat +
+                            temtem._source.name +
+                            location._source.position.lng
+                        }
                         position={location._source.position}
                         icon={Icon(temtem._source.portrait)}
+                        ref={bindMarker}
                     >
                         <TemtemPopup
                             name={temtem._source.name}
@@ -70,7 +79,7 @@ class TemtemPopup extends Component {
                                         title={type.name}
                                         width={25}
                                         height={25}
-                                        src={type.icon}
+                                        src={`data:image/png;base64,${type.icon}`}
                                         loading="lazy"
                                     />
                                 ))}

@@ -1,5 +1,5 @@
 import HighlightOffIcon from '@mui/icons-material/HighlightOff';
-import { Typography } from '@mui/material';
+import { Grid, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import 'leaflet/dist/leaflet.css';
 import React, { useState } from 'react';
@@ -7,7 +7,7 @@ import { getTemtems } from '../backend/service';
 import Filters from './Filters';
 import Result from './Result';
 
-const Content = ({ temtems, setTemtems, map }) => {
+const Content = ({ temtems, setTemtems, map, markerRefs }) => {
     const nameDefault = '';
     const levelsDefault = [0, 100];
     const typesDefault = [];
@@ -19,7 +19,7 @@ const Content = ({ temtems, setTemtems, map }) => {
     const [loading, setLoading] = useState(false);
 
     const [name, setName] = useState(nameDefault);
-    const [levels, setLevels] = React.useState(levelsDefault);
+    const [levels, setLevels] = useState(levelsDefault);
     const [types, setTypes] = useState(typesDefault);
     const [tvs, setTvs] = useState(tvsDefault);
     const [gender, setGender] = useState(genderDefault);
@@ -68,6 +68,16 @@ const Content = ({ temtems, setTemtems, map }) => {
         }
     };
 
+    const restoreFilters = () => {
+        setName(nameDefault);
+        setLevels(levelsDefault);
+        setTypes(typesDefault);
+        setTvs(tvsDefault);
+        setGender(genderDefault);
+        setFrequency(frequencyDefault);
+        setFreeTem(freeTemDefault);
+    };
+
     const [filterByTvs, setFilterByTvs] = React.useState(false);
     const [filterByTypes, setFilterByTypes] = React.useState(false);
     const [filterByLevels, setFilterByLevels] = React.useState(false);
@@ -78,17 +88,15 @@ const Content = ({ temtems, setTemtems, map }) => {
     return (
         <Box sx={{ minHeight: '101vh' }}>
             {temtems.length > 0 && (
-                <Typography
-                    align="right"
-                    className="subtitle link"
-                    onClick={() => setTemtems([])}
-                >
-                    <HighlightOffIcon
-                        sx={{ marginTop: '6px', marginRight: '3px' }}
-                        className="subtitle"
-                    />
-                    Limpiar Temtems
-                </Typography>
+                <Grid xs={12} onClick={() => setTemtems([])}>
+                    <Typography className="subtitle link" align={'right'}>
+                        <HighlightOffIcon
+                            sx={{ marginTop: '6px', marginRight: '3px' }}
+                            className="subtitle"
+                        />
+                        Limpiar Temtems
+                    </Typography>
+                </Grid>
             )}
             <Filters
                 filterByFreeTem={filterByFreeTem}
@@ -120,7 +128,7 @@ const Content = ({ temtems, setTemtems, map }) => {
                 setFilterByGender={setFilterByGender}
                 loading={loading}
             />
-            <Result temtems={temtems} map={map} />
+            <Result temtems={temtems} map={map} markerRefs={markerRefs} />
         </Box>
     );
 };

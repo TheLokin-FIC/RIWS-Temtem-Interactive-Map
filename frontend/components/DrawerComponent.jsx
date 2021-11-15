@@ -3,12 +3,17 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { ButtonUnstyled } from '@mui/material';
 import { Box } from '@mui/system';
 import Image from 'next/image';
-import React, { useState } from 'react';
+import React from 'react';
 import Content from './Content';
 
-export default function Drawer({ temtems, setTemtems, map }) {
-    const [open, setOpen] = useState(true);
-
+export default function DrawerComponent({
+    temtems,
+    setTemtems,
+    map,
+    markerRefs,
+    open,
+    setOpen,
+}) {
     return (
         <Box className={'drawer ' + (!open ? 'close' : '')}>
             <ButtonUnstyled
@@ -33,6 +38,7 @@ export default function Drawer({ temtems, setTemtems, map }) {
                         temtems={temtems}
                         setTemtems={setTemtems}
                         map={map}
+                        markerRefs={markerRefs}
                     />
                 </Box>
             </Box>
