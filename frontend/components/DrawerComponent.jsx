@@ -3,12 +3,16 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { ButtonUnstyled } from '@mui/material';
 import { Box } from '@mui/system';
 import Image from 'next/image';
-import React, { useState } from 'react';
 import Content from './Content';
 
-export default function Drawer() {
-    const [open, setOpen] = useState(true);
-
+export default function DrawerComponent({
+    map,
+    markerRefs,
+    temtems,
+    setTemtems,
+    open,
+    setOpen,
+}) {
     return (
         <Box className={'drawer ' + (!open ? 'close' : '')}>
             <ButtonUnstyled
@@ -26,10 +30,22 @@ export default function Drawer() {
                 style={{ maxHeight: '100%', overflow: 'auto' }}
             >
                 <Box className="image">
-                    <Image src={'/images/logo.png'} width={512} height={80} />
+                    <Image
+                        alt="Temtem Interactive Map"
+                        width={512}
+                        height={80}
+                        title="Temtem Interactive Map"
+                        src={'/images/logo.png'}
+                        loading="lazy"
+                    />
                 </Box>
                 <Box className="container">
-                    <Content />
+                    <Content
+                        map={map}
+                        markerRefs={markerRefs}
+                        temtems={temtems}
+                        setTemtems={setTemtems}
+                    />
                 </Box>
             </Box>
         </Box>

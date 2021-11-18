@@ -11,8 +11,6 @@ from scrapy.utils.project import get_project_settings
 
 from scraper.spiders.wiki import WikiSpider
 
-settings = get_project_settings()
-
 
 def create_index(client):
     # Create an index in Elasticsearch if it is not already there
@@ -89,11 +87,11 @@ def create_index(client):
                         'position': {
                             'properties': {
                                 'lat': {
-                                    'type': 'long',
+                                    'type': 'double',
                                     'index': 'false'
                                 },
                                 'lng': {
-                                    'type': 'long',
+                                    'type': 'double',
                                     'index': 'false'
                                 }
                             }
@@ -109,7 +107,7 @@ def create_index(client):
 def get_dataset():
     # Run the crawler process if the data is not scraped yet
     if not os.path.exists(os.path.join('data', 'elasticsearch.json')):
-        process = CrawlerProcess(settings)
+        process = CrawlerProcess(get_project_settings())
         process.crawl(WikiSpider)
         process.start()
         process_dataset()
@@ -173,6 +171,7 @@ def process_dataset():
 
             if len(document['locations']) > 0:
                 elasticsearch.append(document)
+
         except KeyError:
             continue
 
@@ -196,7 +195,8 @@ def generate_actions(data):
 
 
 if __name__ == '__main__':
-    client = Elasticsearch(settings.get('ELASTICSEARCH_SERVER'))
+    client = Elasticsearch(os.environ.get(
+        'ELASTICSEARCH_SERVER', 'localhost:9200'))
     print('Creating an index...')
     create_index(client)
 

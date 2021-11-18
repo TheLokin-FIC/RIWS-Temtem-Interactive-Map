@@ -1,17 +1,17 @@
 import { Slider, Typography } from '@mui/material';
 import { Box } from '@mui/system';
-import React from 'react';
 
 const Frequency = ({ setFrequency, frequency }) => {
-    const handleChange = (event, newValue) => {
-        setFrequency(newValue);
-    };
     return (
         <Box className="frequency">
             <Slider
-                value={frequency}
-                onChange={handleChange}
                 className="slider"
+                value={frequency}
+                min={0}
+                max={100}
+                onChange={(_event, value) => {
+                    setFrequency(value);
+                }}
             />
             <Typography
                 className="subtitle"

@@ -3,7 +3,6 @@ import LoadingButton from '@mui/lab/LoadingButton';
 import { Grid, TextField } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { Box } from '@mui/system';
-import React from 'react';
 
 const CustomTextField = styled(TextField)({
     '& .MuiOutlinedInput-input': {
@@ -29,7 +28,7 @@ const CustomTextField = styled(TextField)({
     },
 });
 
-const Name = ({ getTemtems, loading, name, setName }) => {
+export default function Name({ name, setName, onClick, loading }) {
     return (
         <Box className="nameFilter">
             <Grid container spacing={2}>
@@ -46,7 +45,7 @@ const Name = ({ getTemtems, loading, name, setName }) => {
                     <LoadingButton
                         fullWidth
                         className="subtitle button"
-                        onClick={() => getTemtems()}
+                        onClick={onClick}
                         loading={loading}
                     >
                         <SearchIcon color="inherit" />
@@ -55,6 +54,4 @@ const Name = ({ getTemtems, loading, name, setName }) => {
             </Grid>
         </Box>
     );
-};
-
-export default Name;
+}

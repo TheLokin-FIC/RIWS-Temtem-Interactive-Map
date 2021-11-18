@@ -6,16 +6,19 @@ import {
     Grid,
     Typography,
 } from '@mui/material';
-import React from 'react';
 
-const AccordionComponent = ({ filterBy, setFilterBy, text, Component }) => {
-    const handleChange = () => (event, isExpanded) => {
-        setFilterBy(isExpanded);
-    };
+export default function AccordionComponent({
+    text,
+    details,
+    expanded,
+    setExpanded,
+}) {
     return (
         <Accordion
-            expanded={filterBy}
-            onChange={handleChange()}
+            expanded={expanded}
+            onChange={(_event, isExpanded) => {
+                setExpanded(isExpanded);
+            }}
             className="accordion"
         >
             <AccordionSummary>
@@ -30,13 +33,11 @@ const AccordionComponent = ({ filterBy, setFilterBy, text, Component }) => {
                         </Typography>
                     </Grid>
                     <Grid item xs={2}>
-                        <Checkbox checked={filterBy} className="checkbox" />
+                        <Checkbox checked={expanded} className="checkbox" />
                     </Grid>
                 </Grid>
             </AccordionSummary>
-            <AccordionDetails>{Component}</AccordionDetails>
+            <AccordionDetails>{details}</AccordionDetails>
         </Accordion>
     );
-};
-
-export default AccordionComponent;
+}

@@ -1,113 +1,113 @@
 import { Box } from '@mui/system';
-import React, { useState } from 'react';
-import { getTemtems } from '../backend/service';
-import Filters from './Filters';
+import { useState } from 'react';
+import { getTemtems } from '../api/service';
+import AccordionComponent from './AccordionComponent';
+import FreeTem from './filters/FreeTem';
+import Frequency from './filters/Frequency';
+import GenderRatio from './filters/GenderRatio';
+import Levels from './filters/Level';
+import Name from './filters/Name';
+import Tvs from './filters/TV';
+import Type from './filters/Type';
 import Result from './Result';
 
-const Content = () => {
-    const nameDefault = '';
-    const levelsDefault = [0, 100];
-    const typesDefault = [];
-    const tvsDefault = [];
-    const genderDefault = 50;
-    const frequencyDefault = 50;
-    const freeTemDefault = 0;
-
+export default function Content({ map, markerRefs, temtems, setTemtems }) {
     const [loading, setLoading] = useState(false);
 
-    const [name, setName] = useState(nameDefault);
-    const [temtems, setTemtems] = useState([]);
-    const [levels, setLevels] = React.useState(levelsDefault);
-    const [types, setTypes] = useState(typesDefault);
-    const [tvs, setTvs] = useState(tvsDefault);
-    const [gender, setGender] = useState(genderDefault);
-    const [frequency, setFrequency] = useState(frequencyDefault);
-    const [freeTem, setFreeTem] = useState(freeTemDefault);
+    const [name, setName] = useState('');
 
-    const getTemtemsAction = () => {
-        setLoading(true);
-        setTimeout(function () {
-            checkFilters();
-        }, 1000);
-        getTemtems({
-            name,
-            gender,
-            filterByGender,
-            levels,
-            types,
-            tvs,
-            frequency,
-            filterByFrequency,
-            freeTem,
-        }).then((response) => {
-            setTemtems(response);
-            setLoading(false);
-        });
-    };
+    const [types, setTypes] = useState([]);
+    const [expandedTypes, setExpandedTypes] = useState(false);
 
-    const checkFilters = () => {
-        if (!filterByGender) {
-            setGender(genderDefault);
-        }
-        if (!filterByFreeTem) {
-            setFreeTem(freeTemDefault);
-        }
-        if (!filterByLevels) {
-            setLevels(levelsDefault);
-        }
-        if (!filterByTvs) {
-            setTvs(tvsDefault);
-        }
-        if (!filterByTypes) {
-            setTypes(typesDefault);
-        }
-        if (!filterByFrequency) {
-            setFrequency(frequencyDefault);
-        }
-    };
+    const [genderRatio, setGenderRatio] = useState(50);
+    const [expandedGenderRatio, setExpandedGenderRatio] = useState(false);
 
-    const [filterByTvs, setFilterByTvs] = React.useState(false);
-    const [filterByTypes, setFilterByTypes] = React.useState(false);
-    const [filterByLevels, setFilterByLevels] = React.useState(false);
-    const [filterByGender, setFilterByGender] = React.useState(false);
-    const [filterByFrequency, setFilterByFrequency] = React.useState(false);
-    const [filterByFreeTem, setFilterByFreeTem] = React.useState(false);
+    const [TVs, setTVs] = useState([]);
+    const [expandedTVs, setExpandedTVs] = useState(false);
+
+    const [levels, setLevels] = useState([0, 100]);
+    const [expandedLevels, setExpandedLevels] = useState(false);
+
+    const [frequency, setFrequency] = useState(50);
+    const [expandedFrequency, setExpandedFrequency] = useState(false);
+
+    const [freeTem, setFreeTem] = useState(0);
+    const [expandedFreeTem, setExpandedFreeTem] = useState(false);
 
     return (
         <Box sx={{ minHeight: '101vh' }}>
-            <Filters
-                filterByFreeTem={filterByFreeTem}
-                setFilterByFreeTem={setFilterByFreeTem}
-                freeTem={freeTem}
-                setFreeTem={setFreeTem}
-                filterByFrequency={filterByFrequency}
-                setFilterByFrequency={setFilterByFrequency}
-                frequency={frequency}
-                setFrequency={setFrequency}
-                getTemtems={getTemtemsAction}
-                setGender={setGender}
-                gender={gender}
-                name={name}
-                setName={setName}
-                types={types}
-                setTypes={setTypes}
-                tvs={tvs}
-                setTvs={setTvs}
-                setLevels={setLevels}
-                levels={levels}
-                filterByTvs={filterByTvs}
-                setFilterByTvs={setFilterByTvs}
-                filterByTypes={filterByTypes}
-                setFilterByTypes={setFilterByTypes}
-                filterByLevels={filterByLevels}
-                setFilterByLevels={setFilterByLevels}
-                filterByGender={filterByGender}
-                setFilterByGender={setFilterByGender}
-                loading={loading}
-            />
-            <Result temtems={temtems} />
+            <Box>
+                <Name
+                    name={name}
+                    setName={setName}
+                    onClick={() => {
+                        setLoading(true);
+                        getTemtems(
+                            name !== '' ? name : undefined,
+                            expandedTypes ? types : undefined,
+                            expandedGenderRatio ? genderRatio : undefined,
+                            expandedTVs ? TVs : undefined,
+                            expandedLevels ? levels[0] : undefined,
+                            expandedLevels ? levels[1] : undefined,
+                            expandedFrequency ? frequency : undefined,
+                            expandedFreeTem ? freeTem : undefined
+                        ).then((temtems) => {
+                            setTemtems(temtems);
+                            setLoading(false);
+                        });
+                    }}
+                    loading={loading}
+                />
+                <AccordionComponent
+                    text={'Type'}
+                    details={<Type types={types} setTypes={setTypes} />}
+                    expanded={expandedTypes}
+                    setExpanded={setExpandedTypes}
+                />
+                <AccordionComponent
+                    text={'Gender Ratio'}
+                    details={
+                        <GenderRatio
+                            genderRatio={genderRatio}
+                            setGenderRatio={setGenderRatio}
+                        />
+                    }
+                    expanded={expandedGenderRatio}
+                    setExpanded={setExpandedGenderRatio}
+                />
+                <AccordionComponent
+                    text={'TV Yield'}
+                    details={<Tvs TVs={TVs} setTVs={setTVs} />}
+                    expanded={expandedTVs}
+                    setExpanded={setExpandedTVs}
+                />
+                <AccordionComponent
+                    text={'Level'}
+                    details={<Levels levels={levels} setLevels={setLevels} />}
+                    expanded={expandedLevels}
+                    setExpanded={setExpandedLevels}
+                />
+                <AccordionComponent
+                    text={'Frequency'}
+                    details={
+                        <Frequency
+                            frequency={frequency}
+                            setFrequency={setFrequency}
+                        />
+                    }
+                    expanded={expandedFrequency}
+                    setExpanded={setExpandedFrequency}
+                />
+                <AccordionComponent
+                    text={'FreeTem'}
+                    details={
+                        <FreeTem freeTem={freeTem} setFreeTem={setFreeTem} />
+                    }
+                    expanded={expandedFreeTem}
+                    setExpanded={setExpandedFreeTem}
+                />
+            </Box>
+            <Result map={map} markerRefs={markerRefs} temtems={temtems} />
         </Box>
     );
-};
-
-export default Content;
+}

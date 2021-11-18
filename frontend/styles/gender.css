@@ -1,18 +1,15 @@
-.gender .slider-gender {
-}
-
 .gender .MuiSlider-colorPrimary {
     color: rgb(var(--font_color));
 }
 
 .gender .MuiSlider-rail {
-    color: pink;
+    color: #fac;
     opacity: 1;
     height: 10px;
 }
 
 .gender .MuiSlider-track {
-    color: rgb(0, 153, 255);
+    color: #25f;
     height: 8px;
 }
 

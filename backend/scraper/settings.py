@@ -8,6 +8,3 @@ LOG_LEVEL = 'WARNING'
 ITEM_PIPELINES = {
     'scraper.pipelines.JsonPipeline': 1
 }
-
-# Elasticsearch settings for the project
-ELASTICSEARCH_SERVER = 'localhost:9200'

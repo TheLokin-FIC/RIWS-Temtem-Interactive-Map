@@ -11,7 +11,14 @@ GET /temtems/_search
     "query": {
         "bool": {
             "must": [
-                { "match": { "name": { "query": "chuve", "fuzziness": 2 } } }
+                {
+                    "match": {
+                        "name": {
+                            "query": "chuve",
+                            "fuzziness": 2
+                        }
+                    }
+                }
             ]
         }
     }
@@ -26,8 +33,16 @@ GET /temtems/_search
     "query": {
         "bool": {
             "must": [
-                { "match": { "types.name": "Wind type" } },
-                { "match": { "types.name": "Digital type" } }
+                {
+                    "match": {
+                        "types.name": "Wind type"
+                    }
+                },
+                {
+                    "match": {
+                        "types.name": "Digital type"
+                    }
+                }
             ]
         }
     }
@@ -42,7 +57,13 @@ GET /temtems/_search
     "query": {
         "bool": {
             "must": [
-                { "range": { "genderRatio": { "gte": 85 } } }
+                {
+                    "range": {
+                        "genderRatio": {
+                            "gte": 85
+                        }
+                    }
+                }
             ]
         }
     }
@@ -58,8 +79,20 @@ GET /temtems/_search
     "query": {
         "bool": {
             "must": [
-                { "range": { "TVs.HP": { "gt": 0 } } },
-                { "range": { "TVs.DEF": { "gt": 0 } } }
+                {
+                    "range": {
+                        "TVs.HP": {
+                            "gt": 0
+                        }
+                    }
+                },
+                {
+                    "range": {
+                        "TVs.DEF": {
+                            "gt": 0
+                        }
+                    }
+                }
             ]
         }
     }
@@ -75,14 +108,21 @@ GET /temtems/_search
             "query": {
                 "bool": {
                     "must": [
-                        { "range": { "locations.frequency": { "gte": 100 } } }
+                        {
+                            "range": {
+                                "locations.frequency": {
+                                    "gte": 100
+                                }
+                            }
+                        }
                     ]
                 }
             },
             "inner_hits": {
                 "_source": [
                     "locations.frequency"
-                ]
+                ],
+                "size": 100
             }
         }
     }
@@ -98,39 +138,21 @@ GET /temtems/_search
             "query": {
                 "bool": {
                     "must": [
-                        { "range": { "locations.freeTem": { "gte": 400 } } }
+                        {
+                            "range": {
+                                "locations.freeTem": {
+                                    "gte": 400
+                                }
+                            }
+                        }
                     ]
                 }
             },
             "inner_hits": {
                 "_source": [
                     "locations.freeTem"
-                ]
-            }
-        }
-    }
-}
-
-GET /temtems/_search
-{
-    "_source": false,
-    "size": 1,
-    "query": {
-        "nested": {
-            "path": "locations",
-            "query": {
-                "match_all" : { }
-            },
-            "inner_hits": {
-                "sort": [{
-                    "locations.freeTem": {
-                        "order": "desc"
-                    }
-                }],
-                
-                "_source": [
-                    "locations.freeTem"
-                ]
+                ],
+                "size": 100
             }
         }
     }
@@ -146,14 +168,51 @@ GET /temtems/_search
             "query": {
                 "bool": {
                     "must": [
-                        { "range": { "locations.minLevel": { "gte": 72 } } }
+                        {
+                            "range": {
+                                "locations.minLevel": {
+                                    "gte": 72
+                                }
+                            }
+                        }
                     ]
                 }
             },
             "inner_hits": {
                 "_source": [
                     "locations.minLevel"
-                ]
+                ],
+                "size": 100
+            }
+        }
+    }
+}
+
+GET /temtems/_search
+{
+    "_source": false,
+    "size": 200,
+    "query": {
+        "nested": {
+            "path": "locations",
+            "query": {
+                "bool": {
+                    "must": [
+                        {
+                            "range": {
+                                "locations.maxLevel": {
+                                    "lte": 25
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "inner_hits": {
+                "_source": [
+                    "locations.maxLevel"
+                ],
+                "size": 100
             }
         }
     }
@@ -172,13 +231,79 @@ GET /temtems/_search
     "query": {
         "bool": {
             "must": [
-                { "match": { "genderRatio": 0 } },
+                {
+                    "match": {
+                        "name": {
+                            "query": "chuve",
+                            "fuzziness": 2
+                        }
+                    }
+                },
+                {
+                    "match": {
+                        "types.name": "Digital type"
+                    }
+                },
+                {
+                    "match": {
+                        "types.name": "Wind type"
+                    }
+                },
+                {
+                    "range": {
+                        "genderRatio": {
+                            "gte": 0
+                        }
+                    }
+                },
+                {
+                    "range": {
+                        "TVs.HP": {
+                            "gt": 0
+                        }
+                    }
+                },
+                {
+                    "range": {
+                        "TVs.DEF": {
+                            "gt": 0
+                        }
+                    }
+                },
                 {
                     "nested": {
                         "path": "locations",
                         "query": {
                             "bool": {
                                 "must": [
+                                    {
+                                        "range": {
+                                            "locations.frequency": {
+                                                "gte": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "range": {
+                                            "locations.freeTem": {
+                                                "gte": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "range": {
+                                            "locations.minLevel": {
+                                                "gte": 40
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "range": {
+                                            "locations.maxLevel": {
+                                                "lte": 50
+                                            }
+                                        }
+                                    }
                                 ]
                             }
                         },
@@ -187,12 +312,34 @@ GET /temtems/_search
                                 "locations.frequency",
                                 "locations.freeTem",
                                 "locations.minLevel",
-                                "locations.maxLevel"
-                            ]
+                                "locations.maxLevel",
+                                "locations.position"
+                            ],
+                            "size": 100
                         }
                     }
                 }
             ]
+        }
+    }
+}
+
+GET /temtems/_search
+{
+    "_source": false,
+    "size": 0,
+    "aggs": {
+        "locations": {
+            "nested": {
+                "path": "locations"
+            },
+            "aggs": {
+                "maxFreeTem": {
+                    "max": {
+                        "field": "locations.freeTem"
+                    }
+                }
+            }
         }
     }
 }
