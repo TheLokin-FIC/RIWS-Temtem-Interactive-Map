@@ -40,7 +40,7 @@ To start an Elasticsearch container for development or testing.
 ```
 docker network create elastic
 docker pull docker.elastic.co/elasticsearch/elasticsearch:7.15.1
-docker run --name Elasticsearch --net elastic -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.15.1
+docker run --name Elasticsearch -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -e "http.cors.enabled=true" -e "http.cors.allow-origin=http://localhost:3000" docker.elastic.co/elasticsearch/elasticsearch:7.15.1
 ```
 
 To start Kibana and connect it to your Elasticsearch container, run the following commands in a terminal session.
