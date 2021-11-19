@@ -3,18 +3,18 @@ import { Box } from '@mui/system';
 import Image from 'next/image';
 
 const typesIcons = [
-    { name: 'Wind type', url: '/images/types/wind.png' },
-    { name: 'Water type', url: '/images/types/water.png' },
-    { name: 'Toxic type', url: '/images/types/toxic.png' },
     { name: 'Neutral type', url: '/images/types/neutral.png' },
-    { name: 'Nature type', url: '/images/types/nature.png' },
-    { name: 'Mental type', url: '/images/types/mental.png' },
-    { name: 'Melee type', url: '/images/types/melee.png' },
-    { name: 'Fire type', url: '/images/types/fire.png' },
-    { name: 'Electric type', url: '/images/types/electric.png' },
-    { name: 'Crystal type', url: '/images/types/crystal.png' },
-    { name: 'Digital type', url: '/images/types/digital.png' },
+    { name: 'Wind type', url: '/images/types/wind.png' },
     { name: 'Earth type', url: '/images/types/earth.png' },
+    { name: 'Water type', url: '/images/types/water.png' },
+    { name: 'Fire type', url: '/images/types/fire.png' },
+    { name: 'Nature type', url: '/images/types/nature.png' },
+    { name: 'Electric type', url: '/images/types/electric.png' },
+    { name: 'Mental type', url: '/images/types/mental.png' },
+    { name: 'Digital type', url: '/images/types/digital.png' },
+    { name: 'Melee type', url: '/images/types/melee.png' },
+    { name: 'Crystal type', url: '/images/types/crystal.png' },
+    { name: 'Toxic type', url: '/images/types/toxic.png' },
 ];
 
 export default function Type({ types, setTypes }) {

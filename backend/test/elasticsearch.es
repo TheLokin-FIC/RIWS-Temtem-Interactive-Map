@@ -119,10 +119,10 @@ GET /temtems/_search
                 }
             },
             "inner_hits": {
+                "size": 100,
                 "_source": [
                     "locations.frequency"
-                ],
-                "size": 100
+                ]
             }
         }
     }
@@ -171,7 +171,7 @@ GET /temtems/_search
                         {
                             "range": {
                                 "locations.minLevel": {
-                                    "gte": 72
+                                    "gte": 50
                                 }
                             }
                         }

@@ -3,13 +3,13 @@ import { Box } from '@mui/system';
 import Image from 'next/image';
 
 const TVsIcons = [
+    { name: 'HP', url: '/images/stats/HP.png' },
+    { name: 'STA', url: '/images/stats/STA.png' },
+    { name: 'SPD', url: '/images/stats/SPD.png' },
     { name: 'ATK', url: '/images/stats/ATK.png' },
     { name: 'DEF', url: '/images/stats/DEF.png' },
-    { name: 'HP', url: '/images/stats/HP.png' },
     { name: 'SPATK', url: '/images/stats/SPATK.png' },
-    { name: 'SPD', url: '/images/stats/SPD.png' },
     { name: 'SPDEF', url: '/images/stats/SPDEF.png' },
-    { name: 'STA', url: '/images/stats/STA.png' },
 ];
 
 export default function TVs({ setTVs, TVs }) {
