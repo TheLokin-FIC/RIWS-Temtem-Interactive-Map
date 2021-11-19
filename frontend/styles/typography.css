@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik');
+
+.title {
+    font-family: 'Rubik';
+    color: rgb(var(--font_color));
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    font-family: 'Rubik';
+    color: rgb(var(--font_color));
+    font-weight: 700;
+    font-size: medium;
+    letter-spacing: 1px;
+}
+
+.subsubtitle {
+    font-family: 'Rubik';
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: x-small;
+    letter-spacing: 1px;
+}
+
+.alert {
+    font-family: 'Rubik';
+    color: whitesmoke;
+    font-size: small;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.link {
+    cursor: pointer;
+    padding-bottom: 5px;
+    height: 30px;
+}
+
+.link:hover {
+    font-weight: 600;
+    text-decoration: underline;
+}

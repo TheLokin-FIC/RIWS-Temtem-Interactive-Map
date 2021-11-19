@@ -1,0 +1,6 @@
+.frequency {
+    margin-inline: 20px;
+}
+.frequency .slider {
+    color: rgb(var(--font_color)) !important;
+}

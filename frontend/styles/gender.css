@@ -1,0 +1,18 @@
+.gender .MuiSlider-colorPrimary {
+    color: rgb(var(--font_color));
+}
+
+.gender .MuiSlider-rail {
+    color: #fac;
+    opacity: 1;
+    height: 10px;
+}
+
+.gender .MuiSlider-track {
+    color: #25f;
+    height: 8px;
+}
+
+.gender .MuiSlider-mark {
+    background-color: transparent;
+}

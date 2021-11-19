@@ -1,0 +1,19 @@
+.portrait.background {
+    background: url('../public/images/portrait_background.png') no-repeat;
+    background-size: 100%;
+}
+
+.portrait:before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background: url('../public/images/portrait_border.png') no-repeat;
+    background-size: 100%;
+    z-index: 2;
+}
+
+.portrait img {
+    clip-path: polygon(51% 5%, 88% 28%, 89% 73%, 50% 92%, 14% 72%, 12% 29%);
+    z-index: 1;
+}

@@ -1,0 +1,31 @@
+.results {
+    border-top: 2px solid rgb(var(--font_color));
+    padding-top: 20px;
+}
+
+.results .result {
+    border-bottom: 2px inset rgb(var(--font_color));
+    padding-block: 20px;
+    align-items: center;
+}
+
+.results .before-list {
+    padding-bottom: 20px;
+    border-bottom: 2px inset rgb(var(--font_color));
+}
+
+.results .locations {
+    margin-top: 10px;
+}
+
+.results .location {
+    color: whitesmoke;
+    margin-top: 5px;
+    border-bottom: 0.5px solid rgb(var(--font_color));
+    border-top: 0.5px solid rgb(var(--font_color));
+    transition: 0.3s all;
+}
+
+.results .location:hover {
+    background-color: rgba(var(--font_color), 0.5);
+}

@@ -1,0 +1,20 @@
+.tvs {
+    display: flex;
+    justify-content: center;
+}
+
+.tvs .container-tv {
+    padding: 4px;
+    background-color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.tvs .selected {
+    background-color: rgba(253, 193, 81, 0.7);
+    transform: scale(1.1);
+}
+
+.tvs .container-tv:hover {
+    background-color: rgba(255, 228, 176, 0.7);
+}

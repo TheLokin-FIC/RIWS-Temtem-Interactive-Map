@@ -1,0 +1,8 @@
+.nameFilter {
+    margin-bottom: 20px;
+}
+
+.nameFilter .button {
+    border: 1px solid;
+    border-color: rgb(var(--font_color));
+}

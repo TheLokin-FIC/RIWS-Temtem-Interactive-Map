@@ -1,6 +1,6 @@
 <p align="center">
-  <img alt="Interactive Temtem Map" src="https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/63/Temtem_logo.png/revision/latest" />
-  <h1 align="center"><b>Interactive Temtem Map</b></h1>
+  <img alt="Temtem Interactive Map" src="https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/63/Temtem_logo.png/revision/latest" />
+  <h1 align="center"><b>Temtem Interactive Map</b></h1>
 </p>
 
 # Backend
@@ -30,7 +30,7 @@ docker pull docker.elastic.co/elasticsearch/elasticsearch:7.15.1
 To start a single-node Elasticsearch cluster for development or testing, specify single-node discovery to bypass the bootstrap checks.
 
 ```bash
-docker run --name Elasticsearch -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.15.1
+docker run --name Elasticsearch -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -e "http.cors.enabled=true" -e "http.cors.allow-origin=http://localhost:3000" docker.elastic.co/elasticsearch/elasticsearch:7.15.1
 ```
 
 ## Kibana
