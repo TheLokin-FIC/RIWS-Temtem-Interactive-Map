@@ -32,6 +32,7 @@ export default function Result({ map, markerRefs, temtems }) {
                                     align={'center'}
                                     className="portrait background"
                                     style={{
+                                        position: 'relative',
                                         display: 'inline-block',
                                         width: '30px',
                                         height: '30px',
