@@ -3,8 +3,7 @@
     "description": "Temtem Interactive Map",
     "version": "1.0.0",
     "repository": {
-        "type": "git",
-        "url": "git://github.com/TheLokin/Temtem-RIWS.git"
+        "type": "git"
     },
     "scripts": {
         "dev": "next dev",
